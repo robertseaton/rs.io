@@ -1,0 +1,71 @@
+## ROBERT P. SEATON
+## 618 South Berkley Avenue
+## Elmhurst, IL, 60126
+## (312) 576 4761
+
+# OVERVIEW
+    Programmer, fresh out of college, with 3 years of experience programming 
+    in Ruby and 1 year of C experience. More than 7 years of experience with
+    Linux systems and open source software.
+
+# EDUCATION
+    * College of DuPage, January 2010 - August 2011
+    * G.P.A.: 4.0/4.0
+    * ACT 33
+
+# EXPERIENCE
+
+## Summer of Code Student at Google
+## Summer 2011
+    Proposed and implemented “Plan 9 From Gentoo”, a Gentoo-based Linux
+    distribution which featured several novel userspace paradigms inspired
+    by the experimental Plan 9 From Bell Labs research operating system, 
+    including a Linux kernel modified to support native Plan 9 binaries.
+
+# SKILLS
+
+    * Extensive knowledge of Unix-based systems, primarily Linux, but also
+      have experience with OS X, FreeBSD, and Plan 9 From Bell Labs.
+
+    * Significant programming experience (more than one year) in C and Ruby.
+
+    * Familiar with website formatting and layout (HTML/CSS).
+
+    * Experienced with both Emacs and Eclipse.
+
+    * Several years experience with Unix-like toolchain and workflow (including
+      GNU Make, autoconf, gdb, GCC, Clang, ld, and Valgrind).
+
+    * Experience keeping code under a version-control system, primarily Git.
+
+    * Experienced with Linux kernel architecture and development.
+
+    * Skilled at both written and verbal communication.
+    
+# PAST & CURRENT PROGRAMMING PROJECTS
+
+    [nine]                   (https://github.com/robertseaton/nine)
+    A userspace, compatibility-layer that enables native binaries from Plan 9
+    From Bell Labs to run on top of an unmodified Linux kernel. Work on this
+    project stems from previous work on the Glendix set of kernel patches, 
+    which modify the Linux kernel to allow Plan 9 binaries to be executed.
+
+    [Slug]                   (https://github.com/robertseaton/slug)
+    A lightweight, scriptable BitTorrent client that allows power users to 
+    automate many common, but tedious tasks involved in the management of 
+    large numbers of torrents.
+
+    [Plan 9 From Gentoo]     (http://soc.dev.gentoo.org/~rps/plan9/)
+    Plan 9 From Gentoo is a Google Summer of Code 2011 project to overlay a Plan 
+    9-inspired userspace on top of a Gentoo base system. The project is inspired 
+    by and builds on the work of Plan 9 From Bell Labs.
+
+# ONLINE PRESENCE
+
+    * [GitHub]        (https://github.com/robertseaton)
+    * [LinkedIn]      (http://www.linkedin.com/profile/view?id=133946519) 
+    * [Hacker News]   (http://news.ycombinator.com/user?id=adbge)
+    * [StackOverflow] (http://stackoverflow.com/users/473827/rps)
+    * [OS Blog]       (http://os-blog.com/)
+
+

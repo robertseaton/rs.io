@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>The Un-debuggable Machine</title>
+  <meta name="author" content="Robert Seaton" />
+  <link rel="stylesheet" href="/css/main.css" type="text/css" />
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12517909-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+	
+<body>
+<div id="container">	
+<div id="wrap">
+  <ul id="rss">
+    <li class="rss"><a href="http://feeds.feedburner.com/rsio" title="Subscribe to the RSS feed">RSS</a></li>
+  </ul>
+  <div id="sidebar">
+    <div id="nav">
+    <h2>Navigation</h2>
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/articles.html">articles</a></li>
+    </ul>
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="https://github.com/robertseaton/slug">slug</a></li>
+      <li><a href="http://os-blog.com">OS Blog</a></li>
+    </ul>
+    <h2>Contact</h2>
+    <ul>
+      <li><a href="https://twitter.com/#!/robbseaton">@robbseaton</a></li>
+    </div>
+  </div>
+  <section id="post">
+  <article>
+    <header>
+      <h2><a href="/2011/10/22/the-un-debugable-machine.html">The Un-debuggable Machine</a></h2>
+      <p><time datetime="2011-10-22T00:00:00-04:00" pubdate="pubdate">October 22, 2011</time></p>
+    </header>
+    <p>I get along well with most pieces of technology (not counting <a href='http://rs.io/2011/10/19/i-hate-my-smartphone.html'>my smartphone</a>) and I make a capable troubleshooter, but there’s one piece of hardware where the slightest hiccup leaves me with a deep sense of foreboding.</p>
+
+<p>Maybe you’ve guessed it: the printer.</p>
+
+<h3 id='if_the_three_gorges_dam_is_a_marvel_of_modern_engineering_the_printer_has_to_be_one_of_its_blackest_marks'>If the Three Gorges Dam is a marvel of modern engineering, the printer has to be one of its blackest marks.</h3>
+
+<p>I’m getting ready to junk another printer, part of a long line of now defunct devices. I’ve heard a number of stories from fellow nerds about faithful desktops, aged more than ten or fifteen years, that they’ve had to either junk or relegate to the basement since their machine’s hardware, still in working order, is just too dated. My own desktop has lasted more than 5 years and I still use it every day.</p>
+
+<p>I have heard no such stories about printers, though, and I’ve never personally had one last more than two years. That alone leaves me feeling slightly uneasy about the devices, but what <em>really</em> frightens me about the printers I’ve owned, gentle reader, is that they are seemingly impervious to debugging attempts.</p>
+
+<p>When you first buy a printer, you’ve got the pain of the initial setup to deal with. A task that can prove to be no small feat if you’re dealing with anything other than mainstream hardware. What, you want hook up your fancy wifi-enabled printer so that it’s shared over a network served up by a custom-built BSD router and you want the ability to print from Windows, OSX, and Linux machines? You’re in for a world of hurt.</p>
+
+<h3 id='i_couldnt_figure_that_out_even_though_ive_made_it_through_a_number_of_gentoo_installs'>I couldn’t figure that out even though I’ve made it through a number of Gentoo installs.</h3>
+
+<p>Eventually, I gave up. I bought a standard router (well, kind of, it’s a Netgear WNR3500 running dd-wrt) and I was limited to printing from the Windows machines. By that point, though, the fight had been beaten out of me and I was happy to be able to print at all.</p>
+
+<p>Don’t have a disk drive and you’re planning on downloading the drivers? God help you, you’re well into the belly of the whale. I remember thinking: “Is this <em>really</em> the manufacturer’s site or just a clever attempt at serving up malware?” The site was that shady.</p>
+
+<p>Things worked okay for about six months, and by “okay”, I mean that every once in a while the print queue would block on some phantom task but, thanks to a trick learned long past from Microsoft support, it’s just a quick trip to services.msc, kill the printer spooler, and you’re ready to go. Until it all breaks down again, then rinse and repeat.</p>
+
+<p>Then, once that six month mark rolled around, printing quality started to degrade. The printed pages were still readable, but random lines would be half-italicized. I tried re-installing the printer drivers, re-aligning the print heads, everything. I read the suggestions in every E-how article I could find.</p>
+
+<p>Nothing fixed it. Eventually, I just gave up, again. The machine still printed okay, readable, at least, just slightly garbled. The printer had defeated me, master debugger, twice, as all its brethren had defeated me years prior.</p>
+
+<p>As of about a week ago, the machine has started to really go mad. Whole pages are lost or garbled, while others print fine. You might have to print a document five times to get one complete, legible copy of your work. Again, I haven’t got the first clue how to fix it.</p>
+
+<p>Suffice to say, I’ve had enough headaches debugging this machine. I’m just going to write it off as a lost cause, take it out to a field somewhere, and, well, <a href='http://www.youtube.com/watch?v=l0_S_EdZ_I8'>you know</a>. Then I’ll buy a new one and start the entire process over again.</p>
+
+<p>The sorry state of printer technology is baffling. I wonder: how do consumers manage to print anything at all? I can barely comprehend the suffering of the IT guy who is responsible for keeping an institution’s printers in working order. That surely must be the inner-most circle of Hell.</p>
+  </article>
+
+  <div id="related">
+    <h2> Related Posts </h2>
+    
+	  
+    
+	  
+    
+	  
+      <li class="posts"><a href="/2011/11/01/launching-os-blog.html">Launching OS Blog</a></li>
+	  
+    
+	  
+    
+  </div>
+</section>
+
+</div>
+<div id='footer'>
+    <p class='part-1'>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.</p> <p class='part-2'>All Rights Reserved. © 2011, Robert Seaton</p>
+  </div>
+</div>
+</body>
+</html>
