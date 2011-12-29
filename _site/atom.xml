@@ -4,7 +4,7 @@
   <title>rs.io</title>
   <link href="http://rs.io"/>
   <link type="application/atom+xml" rel="self" href="http://rs.io/atom.xml"/>
-  <updated>2011-11-10T18:32:04-05:00</updated>
+  <updated>2011-12-28T18:57:52-06:00</updated>
   <id>http://rs.io</id>
   <author>
     <name>Robert Seaton</name>
@@ -13,10 +13,28 @@
 
   
   <entry>
+    <id>http://rs.io/2011/12/28/lets-try-talking</id>
+    <link type="text/html" rel="alternate" href="http://rs.io/2011/12/28/lets-try-talking.html"/>
+    <title>Let's Try Talking</title>
+    <updated>2011-12-28T00:00:00-06:00</updated>
+    <author>
+      <name>Robert Seaton</name>
+      <uri>http://rs.io</uri>
+    </author>
+    <content type="html">&lt;p&gt;Lips move and sound happens, &lt;br /&gt; Words come together, sentences form, &lt;br /&gt; But communication never occurs, &lt;br /&gt; Nothing transfers. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;One party to another: &lt;br /&gt; Talking, waving, motioning, &lt;br /&gt; Eyes wide, mouth agape, &lt;br /&gt; Ears closed. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Want connection? Meet rejection! &lt;br /&gt; No true things are ever spoken. &lt;br /&gt; Feel some feelings, don&amp;#8217;t try sharing, &lt;br /&gt; Talk about the things you&amp;#8217;re wearing. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A whisper, scream, or in between, &lt;br /&gt; If what you&amp;#8217;re saying: &lt;em&gt;it&amp;#8217;s important!&lt;/em&gt; &lt;br /&gt; Just remember, they&amp;#8217;re only playing &amp;#8211; &lt;br /&gt; an expected part, one they&amp;#8217;re portraying. &lt;br /&gt;&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
     <id>http://rs.io/2011/11/01/launching-os-blog</id>
     <link type="text/html" rel="alternate" href="http://rs.io/2011/11/01/launching-os-blog.html"/>
     <title>Launching OS Blog</title>
-    <updated>2011-11-01T00:00:00-04:00</updated>
+    <updated>2011-11-01T00:00:00-05:00</updated>
     <author>
       <name>Robert Seaton</name>
       <uri>http://rs.io</uri>
@@ -41,7 +59,7 @@
     <id>http://rs.io/2011/10/22/the-un-debugable-machine</id>
     <link type="text/html" rel="alternate" href="http://rs.io/2011/10/22/the-un-debugable-machine.html"/>
     <title>The Un-debuggable Machine</title>
-    <updated>2011-10-22T00:00:00-04:00</updated>
+    <updated>2011-10-22T00:00:00-05:00</updated>
     <author>
       <name>Robert Seaton</name>
       <uri>http://rs.io</uri>
@@ -81,7 +99,7 @@
     <id>http://rs.io/2011/10/19/i-hate-my-smartphone</id>
     <link type="text/html" rel="alternate" href="http://rs.io/2011/10/19/i-hate-my-smartphone.html"/>
     <title>I Hate My Smartphone</title>
-    <updated>2011-10-19T00:00:00-04:00</updated>
+    <updated>2011-10-19T00:00:00-05:00</updated>
     <author>
       <name>Robert Seaton</name>
       <uri>http://rs.io</uri>
@@ -127,7 +145,7 @@
     <id>http://rs.io/2011/10/15/evolution-of-an-email-addict</id>
     <link type="text/html" rel="alternate" href="http://rs.io/2011/10/15/evolution-of-an-email-addict.html"/>
     <title>Evolution of an Email Addict</title>
-    <updated>2011-10-15T00:00:00-04:00</updated>
+    <updated>2011-10-15T00:00:00-05:00</updated>
     <author>
       <name>Robert Seaton</name>
       <uri>http://rs.io</uri>
@@ -171,7 +189,7 @@
     <id>http://rs.io/2011/10/14/why-you-should-start-blogging-again</id>
     <link type="text/html" rel="alternate" href="http://rs.io/2011/10/14/why-you-should-start-blogging-again.html"/>
     <title>Why You Should Start Blogging (Again)</title>
-    <updated>2011-10-14T00:00:00-04:00</updated>
+    <updated>2011-10-14T00:00:00-05:00</updated>
     <author>
       <name>Robert Seaton</name>
       <uri>http://rs.io</uri>
