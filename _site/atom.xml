@@ -4,13 +4,33 @@
   <title>rs.io</title>
   <link href="http://rs.io"/>
   <link type="application/atom+xml" rel="self" href="http://rs.io/atom.xml"/>
-  <updated>2011-12-28T18:57:52-06:00</updated>
+  <updated>2012-07-18T01:34:17-05:00</updated>
   <id>http://rs.io</id>
   <author>
     <name>Robert Seaton</name>
     <email>possesed@gmail.com</email>
   </author>
 
+  
+  <entry>
+    <id>http://rs.io/2012/07/18/weekend-moralist</id>
+    <link type="text/html" rel="alternate" href="http://rs.io/2012/07/18/weekend-moralist.html"/>
+    <title>Weekend Moralist</title>
+    <updated>2012-07-18T00:00:00-05:00</updated>
+    <author>
+      <name>Robert Seaton</name>
+      <uri>http://rs.io</uri>
+    </author>
+    <content type="html">&lt;p&gt;It&amp;#8217;s midnight. I&amp;#8217;m wide awake. I won&amp;#8217;t be sleeping tonight. I have the movie &lt;em&gt;Alien&lt;/em&gt; streaming on the television via the Boxee Box, but I haven&amp;#8217;t been paying any attention. I have only the vaguest notion of what&amp;#8217;s going on. I know they&amp;#8217;re on a spaceship and that they&amp;#8217;re being attacked by some parasitic life form. From the film&amp;#8217;s title and the creature&amp;#8217;s appearance, I gather (quite astutely) it&amp;#8217;s an alien.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m drinking coffee. The mug is off-white and curved, non-traditional. A sort of faux-retro look that could be described as &amp;#8220;modern.&amp;#8221; The irony does not fail to make an impression on me.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve just swallowed two round red pills of acetamo-something for a headache, which the coffee is exacerbating. I keep drinking it, regardless.&lt;/p&gt;
+
+&lt;p&gt;Whenever some woman &amp;#8211; it&amp;#8217;s always a woman &amp;#8211; tells me that she&amp;#8217;s addicted to caffeine or Facebook or shopping or reality television or one of a million other banal, modern vices, I visualize the word imbecile tattooed across her forehead. Our society glorifies addiction, impulsiveness, instant gratification, the one-click checkout. Temperance: a cardinal virtue? Nah, a relic of the Victorian era.&lt;/p&gt;
+
+&lt;p&gt;Our religions are no longer religion. Our religions are hobbies. Nietzsche had it wrong. God isn&amp;#8217;t dead. He&amp;#8217;s a dilettante, a dabbler, a weekend moralist.&lt;/p&gt;</content>
+  </entry>
   
   <entry>
     <id>http://rs.io/2011/12/28/lets-try-talking</id>

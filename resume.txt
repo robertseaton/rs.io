@@ -3,21 +3,19 @@
 ## Elmhurst, IL, 60126
 ## (312) 576 4761
 
-# OVERVIEW
-    Programmer, fresh out of college, with 3 years of experience programming 
-    in Ruby and 1 year of C experience. More than 7 years of experience with
-    Linux systems and open source software.
-
 # EDUCATION
     * College of DuPage, January 2010 - August 2011
     * G.P.A.: 4.0/4.0
-    * ACT 33
+    * Classes taken through Coursera:
+      - Machine Learning
+      - Automata
+      - Compilers
 
 # EXPERIENCE
 
 ## Summer of Code Student at Google
 ## Summer 2011
-    Proposed and implemented “Plan 9 From Gentoo”, a Gentoo-based Linux
+    Proposed and implemented "Plan 9 From Gentoo", a Gentoo-based Linux
     distribution which featured several novel userspace paradigms inspired
     by the experimental Plan 9 From Bell Labs research operating system, 
     including a Linux kernel modified to support native Plan 9 binaries.
@@ -38,17 +36,20 @@
 
     * Experience keeping code under a version-control system, primarily Git.
 
-    * Experienced with Linux kernel architecture and development.
-
     * Skilled at both written and verbal communication.
     
 # PAST & CURRENT PROGRAMMING PROJECTS
 
-    [nine]                   (https://github.com/robertseaton/nine)
-    A userspace, compatibility-layer that enables native binaries from Plan 9
-    From Bell Labs to run on top of an unmodified Linux kernel. Work on this
-    project stems from previous work on the Glendix set of kernel patches, 
-    which modify the Linux kernel to allow Plan 9 binaries to be executed.
+    [ffwd]                  (https://github.com/robertseaton/ffwd)
+    Media player. Built mostly to familiarize myself with the different video
+    decoding technologies available on Linux.
+
+    [gdn]                   (https://github.com/robertseaton/gdn)
+    A command line program to encode equations as Godel numbers and decode
+    Godel numbers into equations.
+
+    [rspell]                (https://github.com/robertseaton/rspell)
+    Very basic spell checking program.
 
     [Slug]                   (https://github.com/robertseaton/slug)
     A lightweight, scriptable BitTorrent client that allows power users to 
@@ -59,6 +60,12 @@
     Plan 9 From Gentoo is a Google Summer of Code 2011 project to overlay a Plan 
     9-inspired userspace on top of a Gentoo base system. The project is inspired 
     by and builds on the work of Plan 9 From Bell Labs.
+
+    [nine]                   (https://github.com/robertseaton/nine)
+    A userspace, compatibility-layer that enables native binaries from Plan 9
+    From Bell Labs to run on top of an unmodified Linux kernel. Work on this
+    project stems from previous work on the Glendix set of kernel patches, 
+    which modify the Linux kernel to allow Plan 9 binaries to be executed.
 
 # ONLINE PRESENCE
 
