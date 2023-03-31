@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E-mails on rs.io</title>
+    <link>https://rs.io/e-mails/</link>
+    <description>Recent content in E-mails on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Sep 2019 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/e-mails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>You are in a maze of twisty little passages, all alike</title>
+      <link>https://rs.io/e-mails/maze-of-twisty-little-passages/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/e-mails/maze-of-twisty-little-passages/</guid>
+      <description>The infinite monkey theorem states that a monkey hitting keys at random on a typewriter keyboard for an infinite amount of time will almost surely type any given text, such as the complete works of William Shakespeare.
+&amp;ndash;Wikipedia
+   The universe (which others call the Library) is composed of an indefinite and perhaps infinite number of hexagonal galleries, with vast air shafts between, surrounded by very low railings.</description>
+    </item>
+    
+  </channel>
+</rss>

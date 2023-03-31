@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.58.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Polya Urn Model Dissolves The Gender War &middot; rs.io</title>
+
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12517909-4"></script>
+<script src="https://unpkg.com/shufflejs@5.2.2/dist/shuffle.min.js"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-12517909-4', { 'optimize_id': 'GTM-KG9BTZJ'});
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk', { action: 'subscribe' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/hyde.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://rs.io/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="https://rs.io/favicon.png">
+
+  
+  <link href="https://rs.io/polya-urn-model-dissolves-gender-war/" rel="canonical" type="text/html" title="rs.io" />
+  <link href="https://rs.io/rails/polya-urn-model-dissolves-gender-war/index.txt.erb" rel="alternate" type="text/plain" title="rs.io" />
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://rs.io/guided-tour/"><h1>rs.io</h1></a>
+      <p class="lead">
+       like being punched in the brain 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li id="start-here"><a href="https://rs.io/guided-tour/">Start Here</a> </li>
+        <li><a href="https://rs.io/"> All Articles </a></li><li><a href="https://rs.io/contact/"> Contact </a></li>
+      </ul>
+    </nav>
+
+    <p></p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Polya Urn Model Dissolves The Gender War</h1>
+  <time datetime=2014-01-24T01:54:39Z class="post-date">Fri, Jan 24, 2014</time>
+  <blockquote>
+<p>Now listen, you queer, you stop calling me a crypto-Nazi or I’ll sock you in the goddamn face and you’ll stay plastered.</p>
+
+<p><span id="quote-attribute">—William Buckley<a href="#citation-1"><sup>1</sup></a></span></p>
+</blockquote>
+
+<p>I&#8217;m not sure whether the two sexes are about to stage World War III over gender issues or if I&#8217;m in some sort of gender bubble but, for whatever reason, I&#8217;ve been hearing about gender issues daily for the past six or so weeks and, as part of a gender, I have some thoughts on it. These thoughts revolve around the notion of boys clubs and general irritation at the idea that I&#8217;m somehow in the wrong for being a manly guy who likes to do manly things, and those manly things happen to be math and computers.</p>
+
+<p>You see, friend, I&#8217;m part of a number of male-dominated communities, of boys clubs, and &#8212; to my perpetual dismay &#8212; I find myself surrounded by discussions where some naive progressive yells something like, &#8220;Hey, look at all these men here. It&#8217;s all men. Where are the women? Therefore, sexism.&#8221; And I&#8217;m thinking something like, &#8220;Hey, fuck you. I&#8217;m not a fucking sexist. Take your agenda elsewhere and let me read about category theory in peace.&#8221;</p>
+
+<p>But then I had idea. What if boys clubs are like Polya&#8217;s urn? And, if you don&#8217;t know what Polya&#8217;s urn is, don&#8217;t worry, because I&#8217;m about to tell you. There&#8217;s this urn, right, a big fucking urn, and it&#8217;s got two balls in it, like one of those lottery contraptions, a blue one and a red one. Here&#8217;s the thing about this urn, though. When you draw a blue ball from it, you have to put two blue balls back in. When you draw a red ball, you put two red balls back in.</p>
+
+<p>Now, the notable thing about this urn is that small changes in initial conditions lead to big changes in the long run. If your first draw is blue, it&#8217;s pretty likely that all the subsequent draws will be blue, too.</p>
+
+<p>What if male-dominated sites like, let&#8217;s say Reddit, are like this? The Reddit founders were two men, Alexis Ohanian and Steve Huffman. Given that men are more likely to have male friends, they&#8217;re like the balls in Polya&#8217;s urn. They&#8217;re in the urn, convincing a friend to sign up is like picking a ball out of the urn and throwing two more back in, and Reddit&#8217;s current male-dominance is the long-run outcome of this sort of process. Men invite men, therefore men and not sexism. QED.</p>
+
+<p>Hey, look Ma! My model predicts boys clubs without positing sexism anywhere.</p>
+
+<p>Or, you know, there&#8217;s the whole compelling narrative that men and women have different preferences, with men more likely to be interested in <em>things</em>, like computers, and women more interested in <em>people</em>. Oh, and hey, before you go screaming &#8220;But that&#8217;s sexist. Men and women are the same in every way,&#8221; here&#8217;s some <a href="http://psycnet.apa.org/?&amp;fa=main.doiLanding&amp;doi=10.1037/a0017364">empirical validation with massive effective sizes.</a></p>
+
+<p><a name="citation-1"></a> 1. A Google search for both &#8220;quotes about men&#8221; and &#8220;quotes about women&#8221; return <a href="https://www.goodreads.com/quotes/tag/men">these</a> <a href="https://www.goodreads.com/quotes/tag/men">pages</a>. <em>Both</em> are filled with quotes about how great women are and what brutes men are.</p>
+
+</div>
+
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-12517909-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

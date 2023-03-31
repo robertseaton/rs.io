@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.58.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fixing &#34;FATAL:udev_loader.cc(38) Check failed: false.&#34; errors on NixOS &middot; rs.io</title>
+
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12517909-4"></script>
+<script src="https://unpkg.com/shufflejs@5.2.2/dist/shuffle.min.js"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-12517909-4', { 'optimize_id': 'GTM-KG9BTZJ'});
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk', { action: 'subscribe' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/hyde.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://rs.io/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="https://rs.io/favicon.png">
+
+  
+  <link href="https://rs.io/fix-fatal-udev-loader-cc-nixos/" rel="canonical" type="text/html" title="rs.io" />
+  <link href="https://rs.io/rails/fix-fatal-udev-loader-cc-nixos.txt.erb" rel="alternate" type="text/plain" title="rs.io" />
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://rs.io/guided-tour/"><h1>rs.io</h1></a>
+      <p class="lead">
+       like being punched in the brain 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li id="start-here"><a href="https://rs.io/guided-tour/">Start Here</a> </li>
+        <li><a href="https://rs.io/"> All Articles </a></li><li><a href="https://rs.io/contact/"> Contact </a></li>
+      </ul>
+    </nav>
+
+    <p></p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Fixing &#34;FATAL:udev_loader.cc(38) Check failed: false.&#34; errors on NixOS</h1>
+  <time datetime=2019-10-09T16:31:00-0500 class="post-date">Wed, Oct 9, 2019</time>
+  
+
+<p>This is a problem that I ran into while figuring out <a href="https://rs.io/pixelator-nixos/">how to get Pixelator
+running</a>&ndash;the issue is that electron apps expect to be linked against the old
+<code>libudev.so.0</code>, not the new <code>libudev.so.1</code>.</p>
+
+<p>The error itself looks like</p>
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">Start init.
+[1654:1009/144147.908343:FATAL:udev_loader.cc(38)] Check failed: false.
+#0 0x00000378afa7 &lt;unknown&gt;
+#1 0x0000037cb27b &lt;unknown&gt;
+#2 0x000001109cd3 &lt;unknown&gt;
+#3 0x000001109626 &lt;unknown&gt;
+#4 0x000001109d50 &lt;unknown&gt;
+#5 0x000003b68084 &lt;unknown&gt;
+#6 0x0000037a2370 &lt;unknown&gt;
+#7 0x00000376facd &lt;unknown&gt;
+#8 0x00000376fde8 &lt;unknown&gt;
+#9 0x000003770486 &lt;unknown&gt;
+#10 0x000003725fd9 &lt;unknown&gt;
+#11 0x00000376f7f7 &lt;unknown&gt;
+#12 0x000003777dde &lt;unknown&gt;
+#13 0x000000d3a5a5 &lt;unknown&gt;
+#14 0x000000d3a753 &lt;unknown&gt;
+#15 0x00000377bd47 &lt;unknown&gt;
+#16 0x00000377a383 &lt;unknown&gt;
+#17 0x7fc748e13ef7 start_thread
+#18 0x7fc74720622f __GI___clone
+
+fish: “./pixelator” terminated by signal SIGABRT (Abort)</code></pre></div>
+<p>Luckily, there is a stub package we can use as a work around&ndash;</p>
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">* nixpkgs.libudev0-shim (libudev0-shim)
+    Shim to preserve libudev.so.0 compatibility</code></pre></div>
+<h2 id="how-to-use-libudev0-shim">How to use libudev0-shim</h2>
+
+<p>The trick is to modify your built binary so that its <code>LD_LIBRARY_PATH</code> includes
+<code>libudev0-shim</code>. This is done via <code>makeWrapper</code>, which wraps the binary with the
+customized path.</p>
+
+<p>Here&rsquo;s an example:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-nix" data-lang="nix"><span class="k">with</span> <span class="kn">import</span> <span class="sr">&lt;nixpkgs&gt;</span> <span class="p">{};</span>
+
+<span class="k">let</span>
+  <span class="n">autopatchelf</span> <span class="o">=</span> <span class="kn">import</span> <span class="sr">../default.nix</span><span class="p">;</span>
+<span class="k">in</span>
+<span class="n">stdenv</span><span class="o">.</span><span class="n">mkDerivation</span> <span class="p">{</span>
+  <span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;pixelator&#34;</span><span class="p">;</span>
+  <span class="n">src</span> <span class="o">=</span> <span class="sr">~/downloads/pixelator-1.0.5-linux-x64.zip</span><span class="p">;</span>
+  <span class="n">nativeBuildInputs</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">libudev0-shim</span>
+    <span class="n">udev</span>
+    <span class="n">dpkg</span>
+    <span class="n">autopatchelf</span>
+    <span class="n">unzip</span>
+    <span class="n">zlib</span>
+    <span class="n">harfbuzz</span>
+    <span class="n">freetype</span>
+<span class="hl">    <span class="n">makeWrapper</span>
+</span><span class="p">];</span>
+  <span class="n">libs</span> <span class="o">=</span> <span class="n">stdenv</span><span class="o">.</span><span class="n">lib</span><span class="o">.</span><span class="n">makeLibraryPath</span> <span class="p">[</span>
+    <span class="n">glibc</span>
+    <span class="n">libgcc</span>
+    <span class="n">gcc-unwrapped</span>
+    <span class="n">gtk2-x11</span>
+    <span class="n">zlib</span>
+    <span class="n">gnome2</span><span class="o">.</span><span class="n">pango</span>
+    <span class="n">atk</span>
+    <span class="n">cairo</span>
+    <span class="n">gdk_pixbuf</span>
+    <span class="n">glib</span>
+    <span class="n">fontconfig</span>
+    <span class="n">freetype</span>
+    <span class="n">dbus_daemon</span><span class="o">.</span><span class="n">lib</span>
+    <span class="n">dbus</span><span class="o">.</span><span class="n">lib</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libX11</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libxcb</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libXi</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libXcursor</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libXdamage</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libXrandr</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libXcomposite</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libXext</span>
+    <span class="n">nix</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libXfixes</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libXrender</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libXtst</span>
+    <span class="n">xlibs</span><span class="o">.</span><span class="n">libXScrnSaver</span>
+    <span class="n">gnome2</span><span class="o">.</span><span class="n">GConf</span><span class="o">.</span><span class="n">out</span>
+    <span class="n">nss</span><span class="o">.</span><span class="n">out</span>
+    <span class="n">alsaLib</span><span class="o">.</span><span class="n">out</span>
+    <span class="n">nspr</span><span class="o">.</span><span class="n">out</span>
+    <span class="n">cups</span><span class="o">.</span><span class="n">lib</span>
+    <span class="n">xorg_sys_opengl</span><span class="o">.</span><span class="n">out</span>
+    <span class="n">expat</span><span class="o">.</span><span class="n">out</span>
+    <span class="n">harfbuzz</span><span class="o">.</span><span class="n">out</span>
+    <span class="n">libudev0-shim</span>
+<span class="p">];</span>
+  <span class="n">installPhase</span> <span class="o">=</span> <span class="s1">&#39;&#39;
+</span><span class="s1">    chmod +xX pixelator
+</span><span class="s1">    chmod +xX _pixelator_cmd.exe
+</span><span class="s1">    mkdir -p $out/bin
+</span><span class="s1">    mv * $out
+</span><span class="s1">    autopatchelf $out
+</span><span class="s1">
+</span><span class="s1">    ln -s $out/pixelator $out/bin/pixelator
+</span><span class="s1">    ln -s $out/_pixelator_cmd.exe $out/bin/_pixelator_cmd.exe
+</span><span class="s1">  &#39;&#39;</span><span class="p">;</span>
+<span class="hl">  <span class="n">preFixup</span> <span class="o">=</span> <span class="k">let</span>
+</span><span class="hl">    <span class="n">runtimeLibs</span> <span class="o">=</span> <span class="n">lib</span><span class="o">.</span><span class="n">makeLibraryPath</span> <span class="p">[</span> <span class="n">libudev0-shim</span> <span class="p">];</span>
+</span><span class="hl">  <span class="k">in</span> <span class="s1">&#39;&#39;
+</span></span><span class="hl"><span class="s1">  wrapProgram &#34;$out/pixelator&#34; --prefix LD_LIBRARY_PATH : </span><span class="si">${</span><span class="n">runtimeLibs</span><span class="si">}</span><span class="s1">
+</span></span><span class="hl"><span class="s1">  &#39;&#39;</span><span class="p">;</span>
+</span>  <span class="n">dontStrip</span> <span class="o">=</span> <span class="no">true</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<p>The highlighted bits are what you need. Notice the wrapping is done during the
+<code>preFixup</code> phase build phase, so after the binary has been built etc.</p>
+
+<h2 id="further-reading">Further Reading</h2>
+
+<p>For more examples of usage of <code>libudev0-shim</code>, <a href="https://github.com/search?p=3&amp;q=libudev0-shim+extension%253Anix&amp;type=Code">try this GitHub custom
+search.</a></p>
+
+</div>
+
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-12517909-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

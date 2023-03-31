@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Money on rs.io</title>
+    <link>https://rs.io/posts/</link>
+    <description>Recent content in Money on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Aug 2020 15:25:41 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Books on probabilistic programming</title>
+      <link>https://rs.io/probabilistic-programming-books/</link>
+      <pubDate>Thu, 10 Oct 2019 10:43:00 -0500</pubDate>
+      
+      <guid>https://rs.io/probabilistic-programming-books/</guid>
+      <description>Model-Based Machine Learning  For more than ten years we have been working on such a software framework at Microsoft Research, called Infer.</description>
+    </item>
+    
+    <item>
+      <title>Fixing &#34;FATAL:udev_loader.cc(38) Check failed: false.&#34; errors on NixOS</title>
+      <link>https://rs.io/fix-fatal-udev-loader-cc-nixos/</link>
+      <pubDate>Wed, 09 Oct 2019 16:31:00 -0500</pubDate>
+      
+      <guid>https://rs.io/fix-fatal-udev-loader-cc-nixos/</guid>
+      <description>This is a problem that I ran into while figuring out how to get Pixelator running&amp;ndash;the issue is that electron apps expect to be linked against the old libudev.</description>
+    </item>
+    
+    <item>
+      <title>How to Install Pixelator on NixOS</title>
+      <link>https://rs.io/pixelator-nixos/</link>
+      <pubDate>Wed, 09 Oct 2019 15:57:00 -0500</pubDate>
+      
+      <guid>https://rs.io/pixelator-nixos/</guid>
+      <description>Download Pixelator. Clone my fork of nix-patchtools. Modify examples/pixelator.</description>
+    </item>
+    
+    <item>
+      <title>How to Look up a URL&#39;s PageRank with Ruby &#43; Open PageRank&#39;s API</title>
+      <link>https://rs.io/ruby-openpagerank-api-example/</link>
+      <pubDate>Thu, 03 Oct 2019 14:24:00 -0500</pubDate>
+      
+      <guid>https://rs.io/ruby-openpagerank-api-example/</guid>
+      <description>DomCom&amp;rsquo;s Open PageRank is a free alternative to Google&amp;rsquo;s PageRank and includes a public API.</description>
+    </item>
+    
+    <item>
+      <title>Black progress</title>
+      <link>https://rs.io/black-progress/</link>
+      <pubDate>Wed, 02 Oct 2019 16:25:00 -0500</pubDate>
+      
+      <guid>https://rs.io/black-progress/</guid>
+      <description>From 2001 to 2017, the incarceration rate for black men declined by 34 percent.</description>
+    </item>
+    
+    <item>
+      <title>Tall trees</title>
+      <link>https://rs.io/tall-trees/</link>
+      <pubDate>Wed, 02 Oct 2019 16:09:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tall-trees/</guid>
+      <description>Researchers Discover the Tallest Known Tree in the Amazon
+88.5 meters, or over 290 feet</description>
+    </item>
+    
+    <item>
+      <title>As hedge fund grandma used to say</title>
+      <link>https://rs.io/folksy-wall-street-wisdom/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/folksy-wall-street-wisdom/</guid>
+      <description>A truism at the commodities hedge fund I used to work at was the &amp;ldquo;the Saudis are always lying&amp;rdquo; along with &amp;ldquo;never be long a country&amp;rsquo;s currency if they have their own word for afternoon nap&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Clowns to the left of me, secret police to the right</title>
+      <link>https://rs.io/underachievers-secret-police/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/underachievers-secret-police/</guid>
+      <description>We find that low‐achieving officers were stuck within the regime hierarchy, threatened with discharge, and thus more likely to join the secret police for future benefits.</description>
+    </item>
+    
+    <item>
+      <title>Communists have the best transit</title>
+      <link>https://rs.io/cheap-transit-beijing/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/cheap-transit-beijing/</guid>
+      <description>Subways in Beijing are roughly 55 cents, only about 1/5th the level of NYC.</description>
+    </item>
+    
+    <item>
+      <title>Diversity riddle</title>
+      <link>https://rs.io/diversity-riddle/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/diversity-riddle/</guid>
+      <description>Between 2013 and 2016, 90% of Oracle’s hires were people of color.</description>
+    </item>
+    
+    <item>
+      <title>How to make rent in the Bay Area</title>
+      <link>https://rs.io/led-brain-hacking/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/led-brain-hacking/</guid>
+      <description>I‘m using near infrared as a brain hack, by shining a cheap 850nm LED light on my forehead.</description>
+    </item>
+    
+    <item>
+      <title>money &#43; fire = VC</title>
+      <link>https://rs.io/vc-negative-returns/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/vc-negative-returns/</guid>
+      <description>Venture capital (VC) has delivered poor returns for more than a decade.</description>
+    </item>
+    
+    <item>
+      <title>Mushrooms &amp; civilization</title>
+      <link>https://rs.io/mushrooms-civilization/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/mushrooms-civilization/</guid>
+      <description>Psilocybin mushrooms occur in higher concentrations around human settlements than in &amp;ldquo;wild nature&amp;rdquo; (still today).</description>
+    </item>
+    
+    <item>
+      <title>Why shouldn&#39;t I have my own water fountain?</title>
+      <link>https://rs.io/clarence-thomas-integration/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/clarence-thomas-integration/</guid>
+      <description>If anything, Thomas believes that the state should—where it can, within the law—support the separation of the races.</description>
+    </item>
+    
+    <item>
+      <title>Would you hire Elon Musk?</title>
+      <link>https://rs.io/job-market-for-founders/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/job-market-for-founders/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;We find that former founders receive fewer callbacks than non-founders; however,
+all founders are not disadvantaged similarly. &lt;strong&gt;Former founders of successful
+ventures receive even fewer callbacks than former founders of failed ventures.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tristanbotelho.com/files/BotelhoChang2019%5FFounderExperienceLaborMarkets.pdf&#34;&gt;&amp;ndash;The Effect of Founder Experience on Labor Market Outcomes: A Field Experiment&lt;/a&gt;
+  (emphasis mine)&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>nginx &#43; Rails (puma) on NixOS</title>
+      <link>https://rs.io/rails-nginx-nixos/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/rails-nginx-nixos/</guid>
+      <description>&lt;p&gt;Not too much on the web about how to set this up, so here&amp;rsquo;s an example.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to: Generate Rails-Compatible html.erb with Hugo</title>
+      <link>https://rs.io/rails-hugo/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/rails-hugo/</guid>
+      <description>Here&amp;rsquo;s how this site is currently generated:
+  This works really great but, thing is, I&amp;rsquo;ve been experimenting with Rails and I discovered a feature I gotta have: split, the hacker-friendly A/B framework.</description>
+    </item>
+    
+    <item>
+      <title>How to: GPU-Accelerated R/Keras on NixOS (via Docker)</title>
+      <link>https://rs.io/cuda-r-keras-nixos/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/cuda-r-keras-nixos/</guid>
+      <description>&lt;p&gt;I spent a weekend trying to get R, Keras, and CUDA to play nice together on
+NixOS. I suspect this&amp;rsquo;ll be the task I&amp;rsquo;m assigned on my first day in Hell.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Links for June</title>
+      <link>https://rs.io/links-for-june/</link>
+      <pubDate>Fri, 07 Jun 2019 02:47:00 +0000</pubDate>
+      
+      <guid>https://rs.io/links-for-june/</guid>
+      <description>In favour of about one citizen in five hundred, who, by education or practice in scribbling, has acquired a tolerable style as to grammar and construction, so as to bear printing; or who is possessed of a press and a few types.</description>
+    </item>
+    
+    <item>
+      <title>“The Ask” is an Entrepreneur’s Core Skill</title>
+      <link>https://rs.io/entrepreneurs-core-skill.html</link>
+      <pubDate>Mon, 06 May 2019 13:30:00 +0000</pubDate>
+      
+      <guid>https://rs.io/entrepreneurs-core-skill.html</guid>
+      <description>&lt;div id=&#34;outline-container-org0fadbee&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;org0fadbee&#34;&gt;
++ Other Notes on Entrepreneurial Expertise
+    &lt;/h2&gt;
+
+&lt;div id=&#34;text-org0fadbee&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+I&amp;#8217;ve been going through the second edition of the &lt;a href=&#34;https://amzn.to/2GTREGS&#34;&gt;&lt;i&gt;Cambridge Handbook of Expertise&lt;/i&gt;&lt;/a&gt; after reading the first years ago, and was delighted to find the new edition has a chapter on excellence among entrepreneurs.
+&lt;/p&gt;
+
+&lt;p&gt;
+Some highlights:
+&lt;/p&gt;
+
+&lt;/div&gt;
+    &lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

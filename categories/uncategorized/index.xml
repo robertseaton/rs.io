@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncategorized on rs.io</title>
+    <link>https://rs.io/categories/uncategorized/</link>
+    <description>Recent content in Uncategorized on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Jul 2014 03:46:39 +0000</lastBuildDate>
+    
+	<atom:link href="https://rs.io/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fixing VirtIO Code 39</title>
+      <link>https://rs.io/fixing-virtio-code-39/</link>
+      <pubDate>Sun, 20 Jul 2014 03:46:39 +0000</pubDate>
+      
+      <guid>https://rs.io/fixing-virtio-code-39/</guid>
+      <description>I&amp;#8217;m recording this here in case anyone else is unfortunate enough to encounter this Code 39 message, and so that she can avoid wasting several hours of her life attempting to fix it, by instead Googling it and reading this.
+Alas, it&amp;#8217;s too late for me.
+If you&amp;#8217;re attempting to install Red Hat&amp;#8217;s VirtIO drivers onto a virtualized Windows box, and the whole thing seems to go okay, but then you receive the message &amp;#8220;Windows cannot load the device driver for this hardware.</description>
+    </item>
+    
+    <item>
+      <title>Tiger Petting, Not That Dangerous</title>
+      <link>https://rs.io/tiger-petting-not-dangerous/</link>
+      <pubDate>Wed, 25 Jun 2014 03:07:42 +0000</pubDate>
+      
+      <guid>https://rs.io/tiger-petting-not-dangerous/</guid>
+      <description>I was not designed to be forced.
+—Henry David Thoreau, On the Duty of Civil Disobedience
+ I&amp;#8217;m going to run for president, and I&amp;#8217;ve found my platform. (Note that this post follows in the very very long tradition of guy complaining on a blog.)
+New York bureaucrats (I prefer the more technical term, &amp;#8220;human trash&amp;#8221;) have passed a bill banning &amp;#8220;hugging, patting, or otherwise touching tigers at fairs or circuses.</description>
+    </item>
+    
+    <item>
+      <title>Results From The First Split Test</title>
+      <link>https://rs.io/results-first-split-test/</link>
+      <pubDate>Tue, 24 Jun 2014 02:53:35 +0000</pubDate>
+      
+      <guid>https://rs.io/results-first-split-test/</guid>
+      <description>Measuring gives you a leg up on experts who are too good to measure.
+—Walter Bright
+ If you&amp;#8217;ve been following along via email (and if not, you should be: subscribe here), you understand that my current philosophy of site growth is to focus on long-term readers. Social traffic is easy to obtain, but oh-so-fleeting. By concentrating on returning visitors, I can build a sort of relationship with you, the gentle reader, and focus on consistent, steady growth, instead of the occasional dizzying flurry of activity when something takes off on Reddit.</description>
+    </item>
+    
+    <item>
+      <title>How the 2013 Boston Marathon Bombings Affected This Year’s Attendance</title>
+      <link>https://rs.io/2013-boston-marathon-bombings-affected-years-attendance/</link>
+      <pubDate>Tue, 10 Jun 2014 02:29:45 +0000</pubDate>
+      
+      <guid>https://rs.io/2013-boston-marathon-bombings-affected-years-attendance/</guid>
+      <description>A year ago, I logged a prediction (at 60% confidence) that this year&amp;#8217;s Boston Marathon attendance would be lower than the previous year&amp;#8217;s as a result of the 2013 bombings.
+Well, the numbers are in, and I wasn&amp;#8217;t even close: Last year, 26839 people entered the race. This year? 35671 runners, about 33% growth. (In hindsight, what was I even thinking?)
+I wanted to quantify just what sort of effect the bombings had on attendance, so I gathered all the data that&amp;#8217;s readily available online, and plotted it:</description>
+    </item>
+    
+    <item>
+      <title>100&#43; Interesting Data Sets for Statistics</title>
+      <link>https://rs.io/100-interesting-data-sets-for-statistics/</link>
+      <pubDate>Thu, 29 May 2014 22:48:43 +0000</pubDate>
+      
+      <guid>https://rs.io/100-interesting-data-sets-for-statistics/</guid>
+      <description>If we have data, let’s look at data. If all we have are opinions, let’s go with mine.
+—Jim Barksdale
+ I&amp;#8217;m not too fond of the phrase &amp;#8220;information age.&amp;#8221; It sounds like someone sat down and was like, &amp;#8220;Hey, there&amp;#8217;s a ton of information today&amp;#8230; what should we call it? How about the information age?&amp;#8221;
+First of all, that&amp;#8217;s just lazy and, second of all, it doesn&amp;#8217;t capture how overwhelming it all is, the sort of angst and helplessness you feel when confronted with&amp;#8230; everything.</description>
+    </item>
+    
+    <item>
+      <title>Surprisingly Dangerous Jobs In America</title>
+      <link>https://rs.io/surprisingly-dangerous-jobs-in-america/</link>
+      <pubDate>Fri, 16 May 2014 22:44:06 +0000</pubDate>
+      
+      <guid>https://rs.io/surprisingly-dangerous-jobs-in-america/</guid>
+      <description>You can&amp;#8217;t avoid danger.
+—Jeannette Walls, Half Broke Horses
+Yeah, you can. Don&amp;#8217;t get one of these jobs, for instance.
+—me
+ David Henderson has rightly earned the title contrarian with his latest post which, to kick off National Police Week, points out that it&amp;#8217;s more dangerous to be a farmer than a policeman &amp;#8212; &amp;#8220;For every 100,000 police, the annual fatality rate is 20. For every 100,000 farmers, it is 40% higher, at 28.</description>
+    </item>
+    
+    <item>
+      <title>What I’m Watching</title>
+      <link>https://rs.io/im-watching/</link>
+      <pubDate>Sat, 26 Apr 2014 22:21:55 +0000</pubDate>
+      
+      <guid>https://rs.io/im-watching/</guid>
+      <description>From most recommended to least (roughly):
+ The movie Manufacturing Consent details Noam Chomsky&amp;#8217;s criticism of the media, covering Indonesia&amp;#8217;s invasion of East Timor and media bias generally. Highly recommended. Much more balanced than his written work.
+ &amp;#8220;NSA operation ORCHESTRA: Annual Status Report:&amp;#8221; A FOSDEM talk of the form if-I-were-the-NSA-here&amp;#8217;s-how-I&amp;#8217;d-do-it. Foresees the heartbleed bug.
+ Alan Kay talks about The Inner Game of Tennis and quieting the ego in pursuit of learning.</description>
+    </item>
+    
+    <item>
+      <title>Hard Books Are Overrated</title>
+      <link>https://rs.io/hard-books-overrated/</link>
+      <pubDate>Tue, 22 Apr 2014 22:13:26 +0000</pubDate>
+      
+      <guid>https://rs.io/hard-books-overrated/</guid>
+      <description>Hot air balloons take people on adventures. Books do, too.   Widely used calculus books must be mediocre.
+— W. Rudin
+ I&amp;#8217;ve noticed a phenomenon, especially in mathematics, where anyone asking for book recommendations invariably is recommended the least-gentle-but-still-reasonable textbook imaginable. A high school student might ask for an introduction to calculus and someone will tell them to read Principles of Mathematical Analysis. Looking for an introduction to programming?</description>
+    </item>
+    
+    <item>
+      <title>Response to BasicBookReader</title>
+      <link>https://rs.io/response-basicbookreader/</link>
+      <pubDate>Mon, 14 Apr 2014 21:38:19 +0000</pubDate>
+      
+      <guid>https://rs.io/response-basicbookreader/</guid>
+      <description>How can e-readers be improved? This is a response to Austin G. Walters BasicBookReader project.
+Features For Authors Better feedback for authors. When seeking feedback on a draft of something, authors want analytics. Where does someone stop reading? If someone puts down your book at a certain page, that&amp;#8217;s a page that ought to be rewritten. You&amp;#8217;ve bored them enough that they&amp;#8217;ve decided to stop reading.
+After all, an author &amp;#8212; at least of fiction &amp;#8212; is aiming at creating an addicting product.</description>
+    </item>
+    
+    <item>
+      <title>Too Smart To Understand</title>
+      <link>https://rs.io/too-smart-to-understand/</link>
+      <pubDate>Fri, 11 Apr 2014 21:31:45 +0000</pubDate>
+      
+      <guid>https://rs.io/too-smart-to-understand/</guid>
+      <description>Here is a meme I would very much like to see die forever. I&amp;#8217;ll be reading book reviews and come across people gushing about how great the book was &amp;#8212; and they know it&amp;#8217;s great because they couldn&amp;#8217;t understand any of it.
+ In &amp;#8220;Greatly Exaggerated&amp;#8221; he is so fucking smart that I couldn&amp;#8217;t even read the essay, because I am not, and never will be, his intellectual equal.
+—from a review of A Supposedly Fun Thing I&amp;#8217;ll Never Do Again: Essays and Arguments</description>
+    </item>
+    
+    <item>
+      <title>Anki Tips: What I Learned Making 10,000 Flashcards</title>
+      <link>https://rs.io/anki-tips/</link>
+      <pubDate>Sat, 05 Apr 2014 20:57:14 +0000</pubDate>
+      
+      <guid>https://rs.io/anki-tips/</guid>
+      <description>If you don&amp;#8217;t know what Anki or spaced repetition is, start by reading gwern&amp;#8217;s excellent introduction.
+This month, I created my ten thousandth virtual flashcard. When I started using Anki, I worried that I&amp;#8217;d do the wrong thing, but decided that the only way to acquire Anki expertise was to make a lot of mistakes.
+Here&amp;#8217;s how my Anki usage has evolved.
+Why questions Cards that answer the question &amp;#8220;Why?</description>
+    </item>
+    
+    <item>
+      <title>Red Pill Rhetoric: Swallowing the Red Pill Isn’t</title>
+      <link>https://rs.io/red-pill-rhetoric-swallowing-red-pill-isnt/</link>
+      <pubDate>Tue, 11 Mar 2014 22:09:08 +0000</pubDate>
+      
+      <guid>https://rs.io/red-pill-rhetoric-swallowing-red-pill-isnt/</guid>
+      <description>You take the blue pill, the story ends. You wake up in your bed and believe whatever you want to believe. You take the red pill, you stay in wonderland, and I show you how deep the rabbit hole goes
+—Morpheus, The Matrix
+ Ted is 23, fictional, and one night stays up late browsing the web. He starts on Wikipedia, finds himself reading the page on the 9&amp;frasl;11 terrorist attacks, follows the links to conspiracy theorists, and eventually lands on YouTube.</description>
+    </item>
+    
+    <item>
+      <title>Fox News Versus MSNBC: Who’s More Opinionated?</title>
+      <link>https://rs.io/fox-news-versus-msnbc-whos-opinionated/</link>
+      <pubDate>Mon, 10 Mar 2014 22:02:52 +0000</pubDate>
+      
+      <guid>https://rs.io/fox-news-versus-msnbc-whos-opinionated/</guid>
+      <description>Listening to the internet, you&amp;#8217;d think that Fox News is some sort of liberal boogeyman &amp;#8212; the lowest of the low that is modern journalism. From the top comment on the Reddit thread, &amp;#8220;Republicans of reddit, what&amp;#8217;s your opinion on Fox News?&amp;#8221;
+ I&amp;#8217;m a registered Republican, from the midwest, and a military officer. Obviously it&amp;#8217;s the only thing I watch, right? Fox News is an embarrassment.
+ But what about, you know, facts and stuff?</description>
+    </item>
+    
+    <item>
+      <title>Software For Writers: Tools To Improve Your Writing</title>
+      <link>https://rs.io/software-writers-tools-improve-writing/</link>
+      <pubDate>Fri, 07 Mar 2014 20:33:02 +0000</pubDate>
+      
+      <guid>https://rs.io/software-writers-tools-improve-writing/</guid>
+      <description>There are two types of writer &amp;#8212; the snobs and the engineers. The engineers believe that crafting the right sentence is a rule-based affair. &amp;#8220;Be brief. Avoid adverbs.&amp;#8221;
+The snob turns up his nose at rules. Rules, he says, are for the amateur. The English language is not about rules &amp;#8212; great writers break them all, and those who preach about rules don&amp;#8217;t even follow their own.
+I don&amp;#8217;t like the snobs.</description>
+    </item>
+    
+    <item>
+      <title>Does the internet lie? (Hint: Yes.)</title>
+      <link>https://rs.io/does-the-internet-lie/</link>
+      <pubDate>Fri, 28 Feb 2014 17:44:02 +0000</pubDate>
+      
+      <guid>https://rs.io/does-the-internet-lie/</guid>
+      <description>Yesterday, I saw someone spin this very plausible theory about why it&amp;#8217;s so repellent when someone brags about their IQ on the internet. (For the record, each time I&amp;#8217;ve been tested I&amp;#8217;ve been told that I&amp;#8217;m &amp;#8220;off the charts&amp;#8221; and &amp;#8220;almost certainly the smartest man that has ever lived&amp;#8221; &amp;#8212; their words, not mine.)
+It went something like, &amp;#8220;Well, people who brag about their IQ on the internet are narcissists, who have nothing worth bragging about except their intelligence.</description>
+    </item>
+    
+    <item>
+      <title>Overcoming Writer’s Block: Narrow To Generate Ideas</title>
+      <link>https://rs.io/overcoming-writers-block-narrow-generate-ideas/</link>
+      <pubDate>Thu, 27 Feb 2014 17:39:33 +0000</pubDate>
+      
+      <guid>https://rs.io/overcoming-writers-block-narrow-generate-ideas/</guid>
+      <description>Heuristic: Focus on concrete categories when generating ideas.
+The brain is a stupid lump of fat. I sometimes say to it, &amp;#8220;Brain, what ought I write about today?&amp;#8221; and Brain goes, &amp;#8220;Dunno, boss,&amp;#8221; and then shuts off &amp;#8212; starts humming some melody and wondering if anything has been posted to The n-Category Cafe lately. It&amp;#8217;s like I&amp;#8217;m on vacation in the Sahara, and Brain is driving, and I get out of the car to pee, and then Brain just takes off, leaving me twice deserted.</description>
+    </item>
+    
+    <item>
+      <title>Online Community Building: Why Communities Decay</title>
+      <link>https://rs.io/online-community-building/</link>
+      <pubDate>Wed, 26 Feb 2014 16:11:02 +0000</pubDate>
+      
+      <guid>https://rs.io/online-community-building/</guid>
+      <description>The first day of September 1993 was the beginning of an eternal September, a calendar month whose days stretched to infinity. Prior to this infamous day, there would be an influx of noobs onto Usenet each September. These were the arriving college freshman. They were not legion. They were few enough that they could be corralled and assimilated by Usenet veterans.
+September 1993, however, was different. It was the day the gates of hell were thrown open and never-ending torrent of demonspawn descended on Usenet &amp;#8212; like locusts, they devoured the community.</description>
+    </item>
+    
+    <item>
+      <title>4chan Is What Free Speech On The Internet Looks Like</title>
+      <link>https://rs.io/4chan-is-free-speech-on-the-internet/</link>
+      <pubDate>Wed, 29 Jan 2014 02:31:28 +0000</pubDate>
+      
+      <guid>https://rs.io/4chan-is-free-speech-on-the-internet/</guid>
+      <description>Meditation: If there are true things that no one is allowed to say, how will you know them?
+ Where there are humans,
+You&amp;#8217;ll find flies,
+And Buddhas.
+ —Kobayashi Issa
+Friend, I have a confession. I like 4chan. Whenever I see someone call 4chan the cesspool of the internet or disgusting or whatever, I shake with excitement. I&amp;#8217;ve found the King of Fools! At long last, I can kill him and the Fool people will scatter forever.</description>
+    </item>
+    
+    <item>
+      <title>Does race exist?</title>
+      <link>https://rs.io/does-race-exist/</link>
+      <pubDate>Fri, 24 Jan 2014 02:07:52 +0000</pubDate>
+      
+      <guid>https://rs.io/does-race-exist/</guid>
+      <description>No one in her left brain could reject reductionism.
+—Douglas Hofstadter
+ Dear friend,
+I read your recent response on edge.org, arguing that the concept of race ought to be retired. Race, you argued, has no place in science, being a messy concept with no clear genetic basis. You said things like &amp;#8212; I&amp;#8217;m paraphrasing here &amp;#8211;, &amp;#8220;the apparent homogeneity of races is a product of the environmental factors, not genetic determinism and DNA.</description>
+    </item>
+    
+    <item>
+      <title>Could OSX’s Spotlight Suck More? Doubt It</title>
+      <link>https://rs.io/spotlight-sucks/</link>
+      <pubDate>Sun, 05 Jan 2014 03:04:57 +0000</pubDate>
+      
+      <guid>https://rs.io/spotlight-sucks/</guid>
+      <description>There was a post about a week ago about how new computer science students don&amp;#8217;t get the Unix philosophy and the power (and great responsibility) of the command line. I don&amp;#8217;t know these people. Most of my dev time is between Emacs, a terminal, and a web browser.
+But during this discussion, or maybe in the article itself, there was an argument along the lines of: kids don&amp;#8217;t need to learn how to use find or locate when they have Spotlight, and I nodded along, swallowing this like so much bad medicine.</description>
+    </item>
+    
+  </channel>
+</rss>

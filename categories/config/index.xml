@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>config on rs.io</title>
+    <link>https://rs.io/categories/config/</link>
+    <description>Recent content in config on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://rs.io/categories/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Emacs</title>
+      <link>https://rs.io/julia-emacs/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 -0600</pubDate>
+      
+      <guid>https://rs.io/julia-emacs/</guid>
+      <description>The path from concept to product is an annealing process.</description>
+    </item>
+    
+  </channel>
+</rss>

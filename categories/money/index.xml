@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>money on rs.io</title>
+    <link>https://rs.io/categories/money/</link>
+    <description>Recent content in money on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Oct 2019 21:09:47 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/categories/money/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://rs.io/posts/money/</link>
+      <pubDate>Wed, 09 Oct 2019 21:09:47 -0500</pubDate>
+      
+      <guid>https://rs.io/posts/money/</guid>
+      <description>What&amp;rsquo;s the most someone will spend on a book, a normal book?</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://rs.io/money/</link>
+      <pubDate>Wed, 09 Oct 2019 20:57:48 -0500</pubDate>
+      
+      <guid>https://rs.io/money/</guid>
+      <description>What&amp;rsquo;s the most someone will spend on a book, a normal book?</description>
+    </item>
+    
+  </channel>
+</rss>

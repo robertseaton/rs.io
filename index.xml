@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rs.io</title>
+    <link>https://rs.io/</link>
+    <description>Recent content on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Oct 2019 10:43:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/index.xml" rel="self" type="application/rss+xml" />
+	<item>
+      <title>Books on probabilistic programming</title>
+      <link>https://rs.io/probabilistic-programming-books/</link>
+      <pubDate>Thu, 10 Oct 2019 10:43:00 -0500</pubDate>
+      
+      <guid>https://rs.io/probabilistic-programming-books/</guid>
+      <description>
+
+&lt;h2 id=&#34;model-based-machine-learning&#34;&gt;&lt;a href=&#34;http://www.mbmlbook.com/Introduction.html&#34;&gt;&lt;em&gt;Model-Based Machine Learning&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For more than ten years we have been working on such a software framework at
+Microsoft Research, called Infer.NET [Minka et al., 2014].&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;bayesian-data-analysis-using-probabilistic-programs-statistics-as-pottery&#34;&gt;&lt;a href=&#34;https://mhtess.github.io/bdappl/&#34;&gt;&lt;em&gt;Bayesian Data Analysis using Probabilistic Programs&amp;ndash;Statistics as pottery&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Learning statistics is like learning pottery. With pottery, you can learn how to
+make different shapes (e.g. a bowl, a vase, a spoon) without understanding
+general principles. The other way is to learn the basic strokes of forming
+pottery (e.g. how to mold a curved surface, a flat surface, long pointy
+things). In this course, we are going to learn the basic strokes of statistics,
+and compose those strokes to make shapes you’ve seen before (e.g. a t-test),
+some shapes you’ve probably never seen before, and develop ideas how you would
+make new shapes if you needed to. We won’t learn what tests apply to what data
+types but instead foster the ability to reason through data analysis. We will do
+this through the lens of Bayesian statistics, though the basic ideas will aid
+your understanding of classical (frequentist) statistics as well.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;probabilistic-models-of-cognition&#34;&gt;&lt;a href=&#34;https://probmods.org/&#34;&gt;&lt;em&gt;Probabilistic Models of Cognition&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This book explores the probabilistic approach to cognitive science, which models
+learning and reasoning as inference in complex probabilistic models. We examine
+how a broad range of empirical phenomena, including intuitive physics, concept
+learning, causal reasoning, social cognition, and language understanding, can be
+modeled using probabilistic programs (using the WebPPL language).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;the-design-and-implementation-of-probabilistic-programming-languages&#34;&gt;&lt;a href=&#34;http://dippl.org/&#34;&gt;&lt;em&gt;The Design and Implementation of Probabilistic Programming Languages&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This book explains how to implement PPLs by lightweight embedding into a host
+language. We illustrate this by designing and implementing WebPPL, a small PPL
+embedded in Javascript. We show how to implement several algorithms for
+universal probabilistic inference, including priority-based enumeration with
+caching, particle filtering, and Markov chain Monte Carlo. We use program
+transformations to expose the information required by these algorithms,
+including continuations and stack addresses. We illustrate these ideas with
+examples drawn from semantic parsing, natural language pragmatics, and
+procedural graphics.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;an-introduction-to-probabilistic-programming&#34;&gt;&lt;a href=&#34;https://arxiv.org/pdf/1809.10756.pdf&#34;&gt;&lt;em&gt;An Introduction to Probabilistic Programming&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This document is designed to be a first-year graduate-level introduction to probabilistic programming. It not only provides a thorough
+background for anyone wishing to use a probabilistic programming
+system, but also introduces the techniques needed to design and build
+these systems. It is aimed at people who have an undergraduate-level
+understanding of either or, ideally, both probabilistic machine learning
+and programming languages.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;bayesian-methods-for-hackers&#34;&gt;&lt;a href=&#34;https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/&#34;&gt;&lt;em&gt;Bayesian Methods for Hackers&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Bayesian Methods for Hackers is designed as a introduction to Bayesian inference
+from a computational/understanding-first, and mathematics-second, point of
+view. Of course as an introductory book, we can only leave it at that: an
+introductory book. For the mathematically trained, they may cure the curiosity
+this text generates with other texts designed with mathematical analysis in
+mind. For the enthusiast with less mathematical-background, or one who is not
+interested in the mathematics but simply the practice of Bayesian methods, this
+text should be sufficient and entertaining.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;practical-probabilistic-programming&#34;&gt;&lt;a href=&#34;https://www.amazon.com/Practical-Probabilistic-Programming-Avi-Pfeffer/dp/1617292338/ref=as%5Fli%5Fss%5Ftl?ie=UTF8&amp;amp;linkCode=ll1&amp;amp;tag=rsio0c-20&amp;amp;linkId=52a33cd4560a7734d498429277b7579b&amp;amp;language=en%5FUS&#34;&gt;&lt;em&gt;Practical Probabilistic Programming&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Practical Probabilistic Programming introduces the working programmer to
+probabilistic programming. In it, you&amp;rsquo;ll learn how to use the PP paradigm to
+model application domains and then express those probabilistic models in
+code. Although PP can seem abstract, in this book you&amp;rsquo;ll immediately work on
+practical examples, like using the Figaro language to build a spam filter and
+applying Bayesian and Markov networks, to diagnose computer system data problems
+and recover digital images.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;stan-a-probabilistic-programming-language&#34;&gt;&lt;a href=&#34;https://www.osti.gov/servlets/purl/1430202&#34;&gt;&lt;em&gt;Stan: A Probabilistic Programming Language&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;probabilistic-programming-in-python-using-pymc3&#34;&gt;&lt;a href=&#34;https://peerj.com/articles/cs-55/?utm%5Fcontent=buffer79887&amp;amp;utm%5Fmedium=TrendMD&amp;amp;utm%5Fsource=TrendMD&amp;amp;utm%5Fcampaign=PeerJ%5FTrendMD%5F1&#34;&gt;&lt;em&gt;Probabilistic programming in Python using PyMC3&lt;/em&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;bonus-video-a-personal-viewpoint-on-probabilistic-programming&#34;&gt;Bonus video: &lt;a href=&#34;https://www.youtube.com/watch?v=TFXcVlKqPlM&#34;&gt;A Personal Viewpoint on Probabilistic Programming&lt;/a&gt;&lt;/h2&gt;
+</description>
+    </item>
+    <item>
+      <title>Fixing &#34;FATAL:udev_loader.cc(38) Check failed: false.&#34; errors on NixOS</title>
+      <link>https://rs.io/fix-fatal-udev-loader-cc-nixos/</link>
+      <pubDate>Wed, 09 Oct 2019 16:31:00 -0500</pubDate>
+      
+      <guid>https://rs.io/fix-fatal-udev-loader-cc-nixos/</guid>
+      <description>
+
+&lt;p&gt;This is a problem that I ran into while figuring out &lt;a href=&#34;https://rs.io/pixelator-nixos/&#34;&gt;how to get Pixelator
+running&lt;/a&gt;&amp;ndash;the issue is that electron apps expect to be linked against the old
+&lt;code&gt;libudev.so.0&lt;/code&gt;, not the new &lt;code&gt;libudev.so.1&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The error itself looks like&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;Start init.
+[1654:1009/144147.908343:FATAL:udev_loader.cc(38)] Check failed: false.
+#0 0x00000378afa7 &amp;lt;unknown&amp;gt;
+#1 0x0000037cb27b &amp;lt;unknown&amp;gt;
+#2 0x000001109cd3 &amp;lt;unknown&amp;gt;
+#3 0x000001109626 &amp;lt;unknown&amp;gt;
+#4 0x000001109d50 &amp;lt;unknown&amp;gt;
+#5 0x000003b68084 &amp;lt;unknown&amp;gt;
+#6 0x0000037a2370 &amp;lt;unknown&amp;gt;
+#7 0x00000376facd &amp;lt;unknown&amp;gt;
+#8 0x00000376fde8 &amp;lt;unknown&amp;gt;
+#9 0x000003770486 &amp;lt;unknown&amp;gt;
+#10 0x000003725fd9 &amp;lt;unknown&amp;gt;
+#11 0x00000376f7f7 &amp;lt;unknown&amp;gt;
+#12 0x000003777dde &amp;lt;unknown&amp;gt;
+#13 0x000000d3a5a5 &amp;lt;unknown&amp;gt;
+#14 0x000000d3a753 &amp;lt;unknown&amp;gt;
+#15 0x00000377bd47 &amp;lt;unknown&amp;gt;
+#16 0x00000377a383 &amp;lt;unknown&amp;gt;
+#17 0x7fc748e13ef7 start_thread
+#18 0x7fc74720622f __GI___clone
+
+fish: “./pixelator” terminated by signal SIGABRT (Abort)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Luckily, there is a stub package we can use as a work around&amp;ndash;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;* nixpkgs.libudev0-shim (libudev0-shim)
+    Shim to preserve libudev.so.0 compatibility&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;how-to-use-libudev0-shim&#34;&gt;How to use libudev0-shim&lt;/h2&gt;
+
+&lt;p&gt;The trick is to modify your built binary so that its &lt;code&gt;LD_LIBRARY_PATH&lt;/code&gt; includes
+&lt;code&gt;libudev0-shim&lt;/code&gt;. This is done via &lt;code&gt;makeWrapper&lt;/code&gt;, which wraps the binary with the
+customized path.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s an example:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nix&#34; data-lang=&#34;nix&#34;&gt;&lt;span class=&#34;k&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;sr&#34;&gt;&amp;lt;nixpkgs&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{};&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;let&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;autopatchelf&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;sr&#34;&gt;../default.nix&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;in&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;stdenv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mkDerivation&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;pixelator&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;src&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sr&#34;&gt;~/downloads/pixelator-1.0.5-linux-x64.zip&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;nativeBuildInputs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;libudev0-shim&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;udev&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;dpkg&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;autopatchelf&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;unzip&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;zlib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;harfbuzz&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;freetype&lt;/span&gt;
+&lt;span class=&#34;hl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;makeWrapper&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;libs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;stdenv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lib&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;makeLibraryPath&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;glibc&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;libgcc&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;gcc-unwrapped&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;gtk2-x11&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;zlib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;gnome2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pango&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;atk&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;cairo&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;gdk_pixbuf&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;glib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;fontconfig&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;freetype&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;dbus_daemon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;dbus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libX11&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libxcb&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXi&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXcursor&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXdamage&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXrandr&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXcomposite&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXext&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;nix&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXfixes&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXrender&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXtst&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXScrnSaver&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;gnome2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;GConf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;nss&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;alsaLib&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;nspr&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;cups&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xorg_sys_opengl&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;expat&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;harfbuzz&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;libudev0-shim&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;installPhase&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    chmod +xX pixelator
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    chmod +xX _pixelator_cmd.exe
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    mkdir -p $out/bin
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    mv * $out
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    autopatchelf $out
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    ln -s $out/pixelator $out/bin/pixelator
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    ln -s $out/_pixelator_cmd.exe $out/bin/_pixelator_cmd.exe
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;  &amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;hl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;preFixup&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;let&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;runtimeLibs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;lib&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;makeLibraryPath&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;libudev0-shim&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;  wrapProgram &amp;#34;$out/pixelator&amp;#34; --prefix LD_LIBRARY_PATH : &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;runtimeLibs&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;  &amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;dontStrip&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The highlighted bits are what you need. Notice the wrapping is done during the
+&lt;code&gt;preFixup&lt;/code&gt; phase build phase, so after the binary has been built etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
+
+&lt;p&gt;For more examples of usage of &lt;code&gt;libudev0-shim&lt;/code&gt;, &lt;a href=&#34;https://github.com/search?p=3&amp;amp;q=libudev0-shim+extension%253Anix&amp;amp;type=Code&#34;&gt;try this GitHub custom
+search.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>How to Install Pixelator on NixOS</title>
+      <link>https://rs.io/pixelator-nixos/</link>
+      <pubDate>Wed, 09 Oct 2019 15:57:00 -0500</pubDate>
+      
+      <guid>https://rs.io/pixelator-nixos/</guid>
+      <description>
+
+&lt;ol&gt;
+&lt;li&gt;Download &lt;a href=&#34;http://pixelatorapp.com/&#34;&gt;Pixelator&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Clone &lt;a href=&#34;https://github.com/robertseaton/nix-patchtools&#34;&gt;my fork of nix-patchtools&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Modify &lt;code&gt;examples/pixelator.nix&lt;/code&gt; with the appropriate path to your &lt;code&gt;pixelator-1.0.5-linux-x64.zip&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--listend--&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nix&#34; data-lang=&#34;nix&#34;&gt;&lt;span class=&#34;k&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;sr&#34;&gt;&amp;lt;nixpkgs&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{};&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;let&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;autopatchelf&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;sr&#34;&gt;../default.nix&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;in&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;stdenv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mkDerivation&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;pixelator&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;hl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;src&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sr&#34;&gt;~/downloads/pixelator-1.0.5-linux-x64.zip&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;nativeBuildInputs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;libudev0-shim&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;udev&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;dpkg&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;autopatchelf&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;unzip&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;zlib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;harfbuzz&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;freetype&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;makeWrapper&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;libs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;stdenv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lib&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;makeLibraryPath&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;glibc&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;libgcc&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;gcc-unwrapped&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;gtk2-x11&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;zlib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;gnome2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pango&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;atk&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;cairo&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;gdk_pixbuf&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;glib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;fontconfig&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;freetype&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;dbus_daemon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;dbus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libX11&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libxcb&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXi&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXcursor&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXdamage&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXrandr&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXcomposite&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXext&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;nix&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXfixes&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXrender&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXtst&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xlibs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;libXScrnSaver&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;gnome2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;GConf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;nss&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;alsaLib&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;nspr&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;cups&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lib&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;xorg_sys_opengl&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;expat&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;harfbuzz&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;libudev0-shim&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;installPhase&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    chmod +xX pixelator
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    chmod +xX _pixelator_cmd.exe
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    mkdir -p $out/bin
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    mv * $out
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    autopatchelf $out
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    ln -s $out/pixelator $out/bin/pixelator
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;    ln -s $out/_pixelator_cmd.exe $out/bin/_pixelator_cmd.exe
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;  &amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;preFixup&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;let&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;runtimeLibs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;lib&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;makeLibraryPath&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;libudev0-shim&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;  wrapProgram &amp;#34;$out/pixelator&amp;#34; --prefix LD_LIBRARY_PATH : &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;runtimeLibs&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;  &amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;dontStrip&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;building-it&#34;&gt;Building it&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;$ cd nix-patchtools/examples
+$ nix-build pixelator.nix&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The output will be something like,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;/nix/store/j89yqn3zhpz2r9jwrng45yl09arxq4h0-pixelator&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;installing-it&#34;&gt;Installing it&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;nix-env -i /nix/store/j89yqn3zhpz2r9jwrng45yl09arxq4h0-pixelator&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;running-it&#34;&gt;Running it&lt;/h2&gt;
+
+&lt;p&gt;Pixelator expects the &lt;code&gt;pixelator&lt;/code&gt; and &lt;code&gt;_pixelator_cmd.exe&lt;/code&gt; binaries to be in the
+directory that you launch it from. You can solve that via&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;$ mkdir -p ~/scratch/pixelator
+$ cd ~/scratch/pixelator
+$ ln -s /nix/store/ksxwcam55sl20bpv39lj1244n5kvcnq9-pixelator/_pixelator_cmd.exe .
+$ ln -s /nix/store/ksxwcam55sl20bpv39lj1244n5kvcnq9-pixelator/pixelator pixelator&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;success&#34;&gt;Success!&lt;/h2&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://rs.io/ox-hugo/2019-10-09T15:52:16-05:00%20-%20Pixelator.png&#34;/&gt; 
+&lt;/figure&gt;
+
+</description>
+    </item>
+    <item>
+      <title>How to Look up a URL&#39;s PageRank with Ruby &#43; Open PageRank&#39;s API</title>
+      <link>https://rs.io/ruby-openpagerank-api-example/</link>
+      <pubDate>Thu, 03 Oct 2019 14:24:00 -0500</pubDate>
+      
+      <guid>https://rs.io/ruby-openpagerank-api-example/</guid>
+      <description>
+
+&lt;p&gt;DomCom&amp;rsquo;s &lt;a href=&#34;https://www.domcop.com/openpagerank/what-is-openpagerank&#34;&gt;Open PageRank&lt;/a&gt; is a free alternative to Google&amp;rsquo;s &lt;a href=&#34;https://en.wikipedia.org/wiki/PageRank&#34;&gt;PageRank&lt;/a&gt; and includes a
+public API. All you gotta do before you can use it is fill out &lt;a href=&#34;https://www.domcop.com/openpagerank/auth/signup&#34;&gt;this form&lt;/a&gt; and
+they&amp;rsquo;ll email you an access key.&lt;/p&gt;
+
+&lt;p&gt;The limits are generous:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Based on our current limits you can get the PageRank data for 4.3 million domains every single day for a single API Key. If you need more data simply contact us and we will increase the limit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;4.3 million&amp;hellip; yeah, that should about cover it.&lt;/p&gt;
+
+&lt;h2 id=&#34;using-it&#34;&gt;Using it&lt;/h2&gt;
+
+&lt;p&gt;The example in &lt;a href=&#34;https://www.domcop.com/openpagerank/documentation&#34;&gt;their API docs&lt;/a&gt; is written in PHP. I&amp;rsquo;ve translated it here into
+Ruby, took a bit of fiddling.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;nb&#34;&gt;require&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;net/http&amp;#39;&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;require&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;active_support/all&amp;#39;&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;uri&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;URI&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;parse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://openpagerank.com/api/v1.0/getPageRank&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;uri&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;query&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;rs.io&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;example.com&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;to_query&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;domains&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;req&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;Net&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;HTTP&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Get&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;new&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;uri&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;req&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;API-OPR&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;YOUR_SECRET_KEY&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;res&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;Net&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;HTTP&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;start&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;uri&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;uri&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;use_ssl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kp&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;http&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;|&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;http&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;request&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;req&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;result&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;JSON&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;parse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;res&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;puts&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;JSON&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pretty_generate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;result&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Swap
+&lt;code&gt;YOUR_SECRET_KEY&lt;/code&gt; for your actual key and replace the array &lt;code&gt;[&amp;quot;rs.io&amp;quot;,
+&amp;quot;example.com&amp;quot;]&lt;/code&gt; with whatever URLs you want to look up, max 100 in a single
+request like this.&lt;/p&gt;
+
+&lt;p&gt;You should get something like,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+  &amp;#34;status_code&amp;#34;: 200,
+  &amp;#34;response&amp;#34;: [
+    {
+      &amp;#34;status_code&amp;#34;: 200,
+      &amp;#34;error&amp;#34;: &amp;#34;&amp;#34;,
+      &amp;#34;page_rank_integer&amp;#34;: 4,
+      &amp;#34;page_rank_decimal&amp;#34;: 4.32,
+      &amp;#34;rank&amp;#34;: &amp;#34;1443770&amp;#34;,
+      &amp;#34;domain&amp;#34;: &amp;#34;rs.io&amp;#34;
+    },
+    {
+      &amp;#34;status_code&amp;#34;: 200,
+      &amp;#34;error&amp;#34;: &amp;#34;&amp;#34;,
+      &amp;#34;page_rank_integer&amp;#34;: 8,
+      &amp;#34;page_rank_decimal&amp;#34;: 7.88,
+      &amp;#34;rank&amp;#34;: &amp;#34;193&amp;#34;,
+      &amp;#34;domain&amp;#34;: &amp;#34;example.com&amp;#34;
+    }
+  ],
+  &amp;#34;last_updated&amp;#34;: &amp;#34;16th Aug 2019&amp;#34;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The metrics are calculated from &lt;a href=&#34;https://commoncrawl.org/&#34;&gt;Common Crawl&amp;rsquo;s &amp;ldquo;open repository of web
+ crawl data that can be accessed and analyzed by anyone&amp;rdquo;&lt;/a&gt;&amp;ndash;very cool!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Black progress</title>
+      <link>https://rs.io/black-progress/</link>
+      <pubDate>Wed, 02 Oct 2019 16:25:00 -0500</pubDate>
+      
+      <guid>https://rs.io/black-progress/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;From 2001 to 2017, the incarceration rate for black men declined by 34 percent.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--quoteend--&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Between 2001 and 2017, the birth rate for black women aged 15–19 declined by 63
+percent. In fact, the black teenage birth rate in 2017 was lower than the white
+teenage rate as recently as 2002.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--quoteend--&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In 2017, black female life expectancy was 78.5 years, up from 75.1 years
+in 2000. Life expectancy for black men increased from 68.2 to 71.9 years over
+the same timespan.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--quoteend--&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;2018 census data showed that 37 percent of black Americans aged 25–34 had some
+kind of college degree. If black America were its own country, that would place
+it in between Germany (31 percent) and Spain (43 percent) in terms of
+educational attainment. What’s more, the economist Raj Chetty has found that
+black women, though less likely to attend college than white women, are now more
+likely to attend college than white men from similar socioeconomic backgrounds.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--quoteend--&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Federal Reserve recently reported that over 60 percent of blacks at every
+level of educational attainment say they’re doing better financially than their
+parents—a higher percentage than either whites or Hispanics.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--quoteend--&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Chetty has
+found that black women now go on to earn slightly higher incomes than white
+women from similar socioeconomic backgrounds.&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash;from &lt;a href=&#34;https://quillette.com/2019/09/28/the-case-for-black-optimism/&#34;&gt;The Case for Black Optimism&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    <item>
+      <title>Tall trees</title>
+      <link>https://rs.io/tall-trees/</link>
+      <pubDate>Wed, 02 Oct 2019 16:09:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tall-trees/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.smithsonianmag.com/science-nature/researchers-discover-tallest-known-tree-amazon-180973227/&#34;&gt;Researchers Discover the Tallest Known Tree in the Amazon&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;88.5 meters, or over 290 feet&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=21139616&#34;&gt;This tree is not as tall as the tallest tree in the bay area! There is a 328-foot redwood tree in Big Basin.&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--quoteend--&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Amazing a tree that tall can get things from the root that high. Unless the tops work differently?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--quoteend--&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Redwoods depend on the humidity and fog from the pacific coast to get water to
+its highest parts and to keep it from drying out.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.fs.fed.us/psw/publications/documents/psw%5Fgtr238/psw%5Fgtr238%5F273.pdf&#34;&gt;Foliar Uptake of Fog in the Coast Redwood Ecosystem: a Novel Drought-Alleviation
+Strategy Shared by Most Redwood Forest Plant&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>As hedge fund grandma used to say</title>
+      <link>https://rs.io/folksy-wall-street-wisdom/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/folksy-wall-street-wisdom/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=21063284&#34;&gt;A truism at the commodities hedge fund I used to work at was the &amp;ldquo;the Saudis are always lying&amp;rdquo; along with &amp;ldquo;never be long a country&amp;rsquo;s currency if they have their own word for afternoon nap&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Related:&lt;/strong&gt; &lt;a href=&#34;https://marginalrevolution.com/marginalrevolution/2014/11/the-reversal-of-the-latitude-income-correlation.html&#34;&gt;GDP per capita increases with distance from the equator and it does so moving both North and South&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Air conditioning was a most important invention for us, perhaps one of the
+signal inventions of history. It changed the nature of civilization by making
+development possible in the tropics. Without air conditioning you can work only
+in the cool early-morning hours or at dusk. The first thing I did upon becoming
+prime minister was to install air conditioners in buildings where the civil
+service worked. This was key to public efficiency.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.vox.com/2015/3/23/8278085/singapore-lee-kuan-yew-air-conditioning&#34;&gt;&amp;ndash;Lee Kuan Yew, Singapore&amp;rsquo;s founding father&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    <item>
+      <title>Clowns to the left of me, secret police to the right</title>
+      <link>https://rs.io/underachievers-secret-police/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/underachievers-secret-police/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;We find that low‐achieving officers were stuck within the regime hierarchy,
+threatened with discharge, and thus more likely to join the secret police for
+future benefits. The study demonstrates how state bureaucracies breed mundane
+career concerns that produce willing enforcers and cement violent regimes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12475&#34;&gt;&amp;ndash;Why Underachievers Dominate Secret Police Organizations: Evidence from
+Autocratic Argentina&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I had this math teacher who&amp;rsquo;d staple McDonald&amp;rsquo;s job applications to flunked
+tests&amp;ndash;you fucked up big time Mrs. McCarthy! Those dudes are gestapo now!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Communists have the best transit</title>
+      <link>https://rs.io/cheap-transit-beijing/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/cheap-transit-beijing/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Subways in Beijing are roughly 55 cents, only about 1/5th the level of NYC. That
+means that if you priced the 4 billion annual subway trips in Beijing at NYC
+subway prices, revenue would rise from about $2 billion to $10 billion. That’s
+why comparisons of US and Chinese GDPs at market exchange rates are utterly
+meaningless. America is much richer, even in PPP terms, but the market price gap
+wildly overstates the actual difference. China’s total GDP in terms of actual
+output is obviously higher than the US. (BTW, Beijing’s subways are also far
+nicer than in New York.)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.themoneyillusion.com/some-thoughts-on-ppp-in-china-the-us-and-japan/&#34;&gt;&amp;ndash;Scott Sumner&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    <item>
+      <title>Diversity riddle</title>
+      <link>https://rs.io/diversity-riddle/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/diversity-riddle/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.forbes.com/sites/morgansimon/2019/01/28/what-might-racism-cost-oracle-400m/#281eb81a119f&#34;&gt;Between 2013 and 2016, 90% of Oracle’s hires were people of color. While in some
+communities this fact might be celebrated, there’s a catch — they were all
+Asian, and still underpaid compared to their white counterparts, according to a lawsuit filed this week by the US Department of Labor.&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Uhm, someone better alert Professor Singer that his &lt;a href=&#34;https://bigthink.com/scotty-hendricks/seven-thought-experiments-thatll-make-you-question-everything&#34;&gt;thought experiments&lt;/a&gt; are
+leaking into reality&amp;ndash;I&amp;rsquo;d do it but I gotta notify &lt;a href=&#34;http://www.scp-wiki.net/about-the-scp-foundation&#34;&gt;the proper authorities&lt;/a&gt; first.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>How to make rent in the Bay Area</title>
+      <link>https://rs.io/led-brain-hacking/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/led-brain-hacking/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=21042018&#34;&gt;I‘m using near infrared as a brain hack, by shining a cheap 850nm LED light on
+my forehead. This has, over the last 2 years, enabled me to code for weeks on
+end, for 12+ hours a day, with only minor cognitive decline. It’s not something
+I really want to do, but sometimes it’s useful.&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    <item>
+      <title>money &#43; fire = VC</title>
+      <link>https://rs.io/vc-negative-returns/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/vc-negative-returns/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Venture capital (VC) has delivered poor returns for more than a decade. VC returns haven’t significantly outperformed the public market since the late 1990s, and, &lt;strong&gt;since 1997, less cash has been returned to investors than has been invested in VC&lt;/strong&gt;. Speculation among industry insiders is that the VC model is broken, despite occasional high-profile successes like Groupon, Zynga, LinkedIn, and Facebook in recent years.&lt;/p&gt;
+
+&lt;p&gt;The Kauffman Foundation investment team analyzed our twenty-year history of
+venture investing experience in nearly 100 VC funds with some of the most
+notable and exclusive partnership “brands” and concluded that the Limited
+Partner (LP) investment model is broken1. Limited Partners—foundations,
+endowments, and state pension fund—invest too much capital in underperforming
+venture capital funds on frequently mis-aligned terms. Our research suggests
+that investors like us succumb time and again to narrative fallacies, a
+well-studied behavioral finance bias.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract%5Fid=2053258&#34;&gt;&amp;ndash;We Have Met the Enemy…and He is Us: Lessons from Twenty Years of the Kauffman
+Foundation&amp;rsquo;s Investments in Venture Capital Funds and the Triumph of Hope Over
+Experience&lt;/a&gt; (emphasis mine)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    <item>
+      <title>Mushrooms &amp; civilization</title>
+      <link>https://rs.io/mushrooms-civilization/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/mushrooms-civilization/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=21043774&#34;&gt;Psilocybin mushrooms occur in higher concentrations around human settlements
+than in &amp;ldquo;wild nature&amp;rdquo; (still today).&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Why shouldn&#39;t I have my own water fountain?</title>
+      <link>https://rs.io/clarence-thomas-integration/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/clarence-thomas-integration/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;If anything, Thomas believes that the state should—where it can, within the
+law—support the separation of the races. Looking back on his education, in an
+all-black environment, Thomas has admitted to wanting to “turn back the clock”
+to a time “when we had our own schools.” Much of his jurisprudence is devoted to
+undoing the “grand experiment” of which he believes himself to be a victim. As
+he made clear in 1986, “I have been the guinea pig for many social experiments
+on social minorities. To all who would continue these experiments, I say please
+‘no more.’”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.newyorker.com/culture/essay/clarence-thomass-radical-vision-of-race&#34;&gt;&amp;ndash;Clarence Thomas’s Radical Vision of Race&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That&amp;rsquo;s, ahem, &lt;em&gt;Supreme Court Justice&lt;/em&gt; Clarence Thomas, by the way.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Would you hire Elon Musk?</title>
+      <link>https://rs.io/job-market-for-founders/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/job-market-for-founders/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;We find that former founders receive fewer callbacks than non-founders; however,
+all founders are not disadvantaged similarly. &lt;strong&gt;Former founders of successful
+ventures receive even fewer callbacks than former founders of failed ventures.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tristanbotelho.com/files/BotelhoChang2019%5FFounderExperienceLaborMarkets.pdf&#34;&gt;&amp;ndash;The Effect of Founder Experience on Labor Market Outcomes: A Field Experiment&lt;/a&gt;
+  (emphasis mine)&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>nginx &#43; Rails (puma) on NixOS</title>
+      <link>https://rs.io/rails-nginx-nixos/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/rails-nginx-nixos/</guid>
+      <description>&lt;p&gt;Not too much on the web about how to set this up, so here&amp;rsquo;s an example.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nginx&lt;/code&gt; serves static content for example.com and
+rs.io and passes not-static-content requests made to rs.io to
+&lt;code&gt;127.0.0.:3000&lt;/code&gt;&amp;ndash;which, in this case, is Rails and &lt;code&gt;puma&lt;/code&gt;, who then handle
+rendering it dynamically.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nix&#34; data-lang=&#34;nix&#34;&gt;&lt;span class=&#34;n&#34;&gt;services&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nginx&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;enable&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;upstreams&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rails&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;servers&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;127.0.0.1:3000&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{};&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;virtualHosts&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;example.com&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;root&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/var/www/example&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;forceSSL&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;enableACME&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;extraConfig&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;		  rewrite ^(/.*)\.html(\?.*)?$ $1$2 permanent;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;		  try_files $uri.html $uri/ $uri =404;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;		  &amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;virtualHosts&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;www.rs.io&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;root&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/var/www/rs.io&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;extraConfig&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39; return 301 https://rs.io$request_uri; &amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;virtualHosts&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;rs.io&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;root&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/var/www/rs.io&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;enableACME&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;locations&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;extraConfig&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;			       &amp;lt;&amp;lt; excerpted block &amp;gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;			       &amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;extraConfig&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;		  index index.html;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;		  try_files $uri $uri/ =404;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;		  &amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This block is what goes at the highlighted line (I excerpted it so things would
+display a little nicer):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;k&#34;&gt;proxy_set_header&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;X-Forwarded-For&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$proxy_add_x_forwarded_for&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;proxy_set_header&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;Host&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$http_host&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;(-f&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$request_filename&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;kn&#34;&gt;break&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;(-f&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$request_filename/index.html&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;kn&#34;&gt;rewrite&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;(.*)&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$1/index.html&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;break&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;(-f&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$request_filename.html&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;kn&#34;&gt;rewrite&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;(.*)&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$1.html&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;break&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;(!-f&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$request_filename&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;kn&#34;&gt;proxy_pass&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;http://rails&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;kn&#34;&gt;break&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;There is more detail on how this bit works &lt;a href=&#34;https://github.com/puma/puma/blob/master/docs/nginx.md&#34;&gt;here&lt;/a&gt;, where I adopted it from.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to: Generate Rails-Compatible html.erb with Hugo</title>
+      <link>https://rs.io/rails-hugo/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/rails-hugo/</guid>
+      <description>
+
+&lt;p&gt;Here&amp;rsquo;s how this site is currently generated:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://rs.io/ox-hugo/dot_site_generation1.png&#34;/&gt; 
+&lt;/figure&gt;
+
+
+&lt;p&gt;This works really great but, thing is, I&amp;rsquo;ve been experimenting with Rails and
+I discovered a feature I gotta have: &lt;a href=&#34;https://github.com/splitrb/split&#34;&gt;split, the hacker-friendly A/B
+framework&lt;/a&gt;. Flexible content experiments? Drop in your own algorithms?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I need it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Except running an experiment in split requires embedding code in a
+page&amp;rsquo;s view, you know, &lt;em&gt;dynamically&lt;/em&gt;, and all this Hugo output is static. What
+to do?&lt;/p&gt;
+
+&lt;p&gt;Turns out, we can teach Hugo to generate Rails compatible &lt;code&gt;html.erb&lt;/code&gt;
+templates. All we gotta do is define a &lt;a href=&#34;https://gohugo.io/templates/output-formats/&#34;&gt;custom output format&lt;/a&gt; for &lt;code&gt;html.erb&lt;/code&gt; and
+Hugo will turn &lt;code&gt;.md&lt;/code&gt; files into that, too.&lt;/p&gt;
+
+&lt;p&gt;The new pipeline will be like this:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://rs.io/ox-hugo/dot_site_generation2.png&#34;/&gt; 
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;configuring-hugo-to-generate-html-dot-erb&#34;&gt;Configuring Hugo to generate html.erb&lt;/h2&gt;
+
+&lt;p&gt;Here&amp;rsquo;s what my initial data looked like&amp;ndash;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rps@neptune ~/s/rs.io-next&amp;gt; tree content
+content
+├── email
+│   ├── credit-cards.md
+│   ├── finding-info.md
+│   ├── health-tip.md
+│   ├── lies.md
+│   ├── reboot.md
+│   └── welcome.md
+└── posts
+    ├── about.md
+    ├── book.md
+    ├── cuda-r-keras-nixos.md
+    ├── pepe-data.md
+    ├── rails-static-hugo.md
+    ├── rare-pepes.md
+    └── start-here.md
+
+2 directories, 13 files&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here&amp;rsquo;s what I&amp;rsquo;ve added to my &lt;code&gt;config.toml&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;nx&#34;&gt;uglyURLs&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+
+&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mediaTypes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mediaTypes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;text/x-html-erb&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;suffixes&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;html.erb&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+
+&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;outputFormats&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;outputFormats&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;HTML&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;noUgly&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;outputFormats&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ERB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;mediaType&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;text/x-html-erb&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;isHTML&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;hugo&amp;#34;&lt;/span&gt;
+
+&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;outputs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;page&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;HTML&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;ERB&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code&gt;uglyURLs&lt;/code&gt; code is necessary so that we don&amp;rsquo;t generate a bunch of
+&lt;code&gt;filename/index.html.erb&lt;/code&gt; when what we want is &lt;code&gt;filename.html.erb&lt;/code&gt; to copy into
+Rails.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;path = &amp;quot;hugo&amp;quot;&lt;/code&gt; line sets it so that our erb files will be saved to &lt;code&gt;public/hugo&lt;/code&gt; and not mixed in with everything else.&lt;/p&gt;
+
+&lt;p&gt;Next you&amp;rsquo;ll need to create &lt;code&gt;html.erb&lt;/code&gt; versions of some of the templates in
+your theme directory.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;$ ls themes/hyde/layouts/_default/*html.erb
+
+themes/hyde/layouts/_default/baseof.html.erb
+themes/hyde/layouts/_default/list.html.erb
+themes/hyde/layouts/_default/single.html.erb&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;These are what I needed; they&amp;rsquo;re exact copies of the &lt;code&gt;.html&lt;/code&gt; versions. Hugo will
+use these templates to generate &lt;code&gt;html.erb&lt;/code&gt; files. Eventually you&amp;rsquo;ll probably
+wish to modify them to not add Hugo&amp;rsquo;s header / footer / etc code, that way you
+can have Rails manage that for you.&lt;/p&gt;
+
+&lt;p&gt;Now it should work. If yours isn&amp;rsquo;t, I found this &lt;a href=&#34;https://jfm.carcosa.net/blog/computing/hugo-gopher/&#34;&gt;tutorial on building a custom
+output format for Gopher&lt;/a&gt; useful in figuring out how they work.&lt;/p&gt;
+
+&lt;h2 id=&#34;it-lives-it-lives&#34;&gt;It lives, it lives!&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rps@neptune ~/s/rs.io-next&amp;gt; hugo
+
+                   | EN
++------------------+-----+
+  Pages            |  27
+  Paginator pages  |   0
+  Non-page files   |   0
+  Static files     | 580
+  Processed images |   0
+  Aliases          |   1
+  Sitemaps         |   1
+  Cleaned          |   0
+
+Total in 99 ms&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here is what &lt;code&gt;public/hugo&lt;/code&gt; looks like now&amp;ndash;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rps@neptune ~/s/rs.io-next&amp;gt; tree public/hugo
+public/hugo
+├── email
+│   ├── credit-cards.html.erb
+│   ├── finding-info.html.erb
+│   ├── health-tip.html.erb
+│   ├── lies.html.erb
+│   ├── reboot.html.erb
+│   └── welcome.html.erb
+└── posts
+    ├── book.html.erb
+    └── cuda-r-keras-nixos.html.erb
+
+2 directories, 8 files&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Look at all those sweet, sweet erb files!&lt;/p&gt;
+
+&lt;p&gt;Now, in your Rails app, create the folder &lt;code&gt;app/views/pages&lt;/code&gt; and &lt;code&gt;cp -r public/hugo/*&lt;/code&gt;
+to it, looking something like&amp;ndash;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;/home/rps/src/rs.io-rails/app/views/
+├── layouts
+│   ├── application.html.erb
+│   ├── mailer.html.erb
+│   └── mailer.text.erb
+└── pages
+    ├── email
+    │   ├── credit-cards.html.erb
+    │   ├── finding-info.html.erb
+    │   ├── health-tip.html.erb
+    │   ├── lies.html.erb
+    │   ├── reboot.html.erb
+    │   └── welcome.html.erb
+    └── posts
+        ├── book.html.erb
+        └── cuda-r-keras-nixos.html.erb
+
+4 directories, 11 files&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then, to your Gemfile add &lt;code&gt;high_voltage&lt;/code&gt;. It generates static pages and will
+manage the copied &lt;code&gt;html.erb&lt;/code&gt; files for us. You&amp;rsquo;ll need to create the
+initializer, too.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# config/initializers/high_voltage.rb&lt;/span&gt;
+&lt;span class=&#34;no&#34;&gt;HighVoltage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;configure&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;|&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;route_drawer&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;HighVoltage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;RouteDrawers&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Root&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Without it, all the erb files imported from Hugo will be at
+&lt;code&gt;http://localhost:3000/pages/&amp;lt;filename&amp;gt;&lt;/code&gt;. The above removes &lt;code&gt;/pages/&lt;/code&gt; from the
+URL, otherwise your links will likely to be off in your Hugo-gen&amp;rsquo;d &lt;code&gt;.erb&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Rails should now be serving your Hugo imports. For example
+&lt;code&gt;app/views/pages/posts/cuda-r-keras-nixos.html.erb&lt;/code&gt; will be at
+&lt;code&gt;http://localhost:3000/posts/cuda-r-keras-nixos&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;tidying-up&#34;&gt;Tidying up&lt;/h2&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve got it working, you&amp;rsquo;re going to want to go back and remove
+&lt;code&gt;public/hugo&lt;/code&gt; and replace it with a symbolic link to &lt;code&gt;app/views/pages&lt;/code&gt; so that
+Rails&amp;rsquo; folder is automatically updated whenever you trigger a regen with Hugo,
+i.e.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;ln -s /home/rps/src/rs.io-rails/app/views/pages/ /home/rps/src/rs.io-next/public/hugo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You&amp;rsquo;ll also want to move and link the static assets from your &lt;code&gt;$HUGO_APP/public&lt;/code&gt; folder into
+&lt;code&gt;$RAILS_APP/public&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;$ mv $HUGO_APP/public/css $RAILS_APP/public/
+$ ln -s $RAILS_APP/public/css $HUGO_APP/public/css&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Rinse &amp;amp; repeat for the other static folders.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>How to: GPU-Accelerated R/Keras on NixOS (via Docker)</title>
+      <link>https://rs.io/cuda-r-keras-nixos/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/cuda-r-keras-nixos/</guid>
+      <description>&lt;p&gt;I spent a weekend trying to get R, Keras, and CUDA to play nice together on
+NixOS. I suspect this&amp;rsquo;ll be the task I&amp;rsquo;m assigned on my first day in Hell.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve
+given up on managing it natively with a &lt;code&gt;shell.nix&lt;/code&gt; and am now using a Docker image combined with nVidia&amp;rsquo;s docker wrapper.&lt;/p&gt;
+
+&lt;p&gt;Before now, I&amp;rsquo;d dismissed Docker as
+&amp;ldquo;probable fad, soon irrelevant,&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; so this is my
+first experience with it.&lt;/p&gt;
+
+&lt;p&gt;Enabling Docker with the nvidia wrapper took adding this to my &lt;code&gt;configuration .nix&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nix&#34; data-lang=&#34;nix&#34;&gt;&lt;span class=&#34;n&#34;&gt;virtualisation&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;docker&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;enable&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;virtualisation&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;docker&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;enableNvidia&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;hardware&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;opengl&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;driSupport32Bit&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I ended up cycling through a few different Docker images before &lt;code&gt;rocker/ml-gpu&lt;/code&gt; finally worked.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;sudo nvidia-docker run --gpus all --rm -v ~/:/home/rps -ti rocker/ml-gpu /bin/bash&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The bit here, &lt;code&gt;~-v /:/home/rps&lt;/code&gt;, mounts my home directory into the Docker
+container, making it the least painful Linux file-sharing experience I&amp;rsquo;ve ever
+had, excepting &lt;em&gt;maybe&lt;/em&gt; &lt;code&gt;sshfs&lt;/code&gt;. I&amp;rsquo;m impressed; maybe this containerization thing
+isn&amp;rsquo;t so bad. This feature allowed me to easily access my training data / emacs config from inside the
+container.&lt;/p&gt;
+
+&lt;h2 id=&#34;fixing-pillow-png-errors&#34;&gt;Fixing Pillow PNG errors&lt;/h2&gt;
+
+&lt;p&gt;Unfortunately even the Dockerized setup isn&amp;rsquo;t quite right out the box; it ships
+an older version of Pillow that produces errors like &lt;code&gt;StopIteration: &#39;PngStream&#39;
+object has no attribute &#39;chunk_bBPn&#39;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To fix, just install an up-to-date version into the Docker
+container using:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fish&#34; data-lang=&#34;fish&#34;&gt;pip --upgrade pillow&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;how-to-check-if-keras-and-r-are-using-the-gpu&#34;&gt;How to check if Keras &amp;amp; R are using the GPU&lt;/h2&gt;
+
+&lt;p&gt;Your environment ought to be working now. You can confirm that R/Keras is picking
+up your GPU via&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;kn&#34;&gt;library&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;keras&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+k&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;backend&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+sess &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; k&lt;span class=&#34;o&#34;&gt;$&lt;/span&gt;get_session&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+sess&lt;span class=&#34;o&#34;&gt;$&lt;/span&gt;list_devices&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can also use
+&lt;code&gt;nvidia-smi&lt;/code&gt; to check the GPU&amp;rsquo;s load when you&amp;rsquo;re, say, training a model. It&amp;rsquo;s sorta like &lt;code&gt;top&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:fn-1&#34;&gt;Also in this category: everything that comes out of the JavaScript community, all AWS technologies beside EC2, Kubernetes and whatever new meaning &amp;ldquo;devOps&amp;rdquo; has this week and, finally, PulseAudio, whose decade-plus reign of terror can be understood only as divine trial. Just as the Lord tested Jonah with the whale, he tests me with PulseAudio, and just as the Lord commanded the whale to vomit Jonah onto land, he will command the Linux community to vomit PulseAudio onto &lt;code&gt;/dev/null&lt;/code&gt;. Amen.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fn-1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Top Places to Buy Cheap Houses in USA, 2019</title>
+      <link>https://rs.io/places-to-buy-cheap-houses/</link>
+      <pubDate>Sat, 22 Jun 2019 01:44:00 +0000</pubDate>
+      
+      <guid>https://rs.io/places-to-buy-cheap-houses/</guid>
+      <description>&lt;p&gt;Houses in this country can be had for far cheaper than almost anyone realizes.&lt;/p&gt;
+
+&lt;p&gt;My favorite such example comes from Upstate NY native Christopher Baus: &lt;a href=&#34;https://baus.net/4000-dollar-house/&#34;&gt;&amp;#8220;The house I was born in sold for $4000.&amp;#8221;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The house my parents owned when I was born recently sold for $4000. I&amp;#8217;m not omitting a zero or two. That&amp;#8217;s about the price of a used 2001 Honda Civic with 150,000 miles – maybe the Honda is worth a bit more. My parents sold the house for $12,000 (three zeros) in the &amp;#8217;70s. Times have been tough for as long as I can remember my hometown of Jamestown (about 60 miles from Buffalo), NY, but I still found this surprising.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That was 6 years ago but Jamestown&amp;#8217;s real estate market hasn&amp;#8217;t changed much since: Zillow lists 264 properties that have recently sold for less than $15,000. For example, &lt;a href=&#34;https://www.zillow.com/homes/recently_sold/house_type/29889219_zpid/0-15000_price/0-58_mp/42.149214,-79.162073,42.034951,-79.315195_rect/12_zm/&#34;&gt;here&amp;#8217;s one that went for $6,500 and appears liveable&lt;/a&gt;, and there are similar listings currently for sale, like &lt;a href=&#34;https://www.zillow.com/homes/for_sale/house_type/29890917_zpid/0-15000_price/0-58_mp/42.148768,-79.161902,42.034504,-79.315024_rect/12_zm/0_mmm/&#34;&gt;this one for $10,000.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Jamestown, NY, then is certainly &lt;em&gt;a&lt;/em&gt; place to buy cheap houses but is it the best place? Perhaps we can do better.&lt;/p&gt;
+
+&lt;div id=&#34;outline-container-org89bf29d&#34; class=&#34;outline-2&#34;&gt;
+  &lt;h2 id=&#34;org89bf29d&#34;&gt;
+    Defining the &amp;#8220;Cheap&amp;#8221; in &amp;#8220;Cheap Houses&amp;#8221;
+  &lt;/h2&gt;
+  
+  &lt;div id=&#34;text-org89bf29d&#34; class=&#34;outline-text-2&#34;&gt;
+    &lt;p&gt;
+      Deciding which home is cheapest is surprisingly nuanced. Consider, which of these is the best deal?
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      The house with the…
+    &lt;/p&gt;
+    
+    &lt;ul class=&#34;org-ul&#34;&gt;
+      &lt;li&gt;
+        lowest initial purchase price.
+      &lt;/li&gt;
+      &lt;li&gt;
+        lowest total cost of ownership, i.e. an aggregate of the initial price, lifetime repairs, property taxes, and other expenses.
+      &lt;/li&gt;
+      &lt;li&gt;
+        best ratio between price and its cost-to-replace.
+      &lt;/li&gt;
+      &lt;li&gt;
+        lowest ratio of price to the area&amp;#8217;s median income. Zillow takes this tact in &lt;a href=&#34;https://www.zillow.com/research/most-affordable-markets-homes-18906/&#34;&gt;their &amp;#8220;affordability&amp;#8221; ranking&lt;/a&gt;, a metric they define as the &amp;#8220;share of median income that residents pay for a 30-year fixed mortgage on a typical home.&amp;#8221;
+      &lt;/li&gt;
+      &lt;li&gt;
+        largest price gap between it and an average of what similar houses have sold for.
+      &lt;/li&gt;
+      &lt;li&gt;
+        largest return on investment at re-sale.
+      &lt;/li&gt;
+      &lt;li&gt;
+        largest return on investment, when rented out.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    
+    &lt;p&gt;
+      Trick question, sorta. Which is optimal depends crucially on the preferences of the would-be buyer (a point I make in more detail in my &lt;a href=&#34;https://rs.io/the-best-place-to-buy-land-for-homesteading/&#34;&gt;guide to the best place to buy homesteading land&lt;/a&gt;.) This article, then, is necessarily opinionated as I have my own prejudices here. I&amp;#8217;ll share one of my strongest with you:
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      I hate ranking housing by its profitability as an investment. &amp;#8220;Housing as investment&amp;#8221; is an altogether monstrous idea. Cultures that believe in it end up enacting policies that artificially inflate existing home prices, much to the detriment of everyone else. &lt;a href=&#34;https://www.strongtowns.org/journal/2018/7/3/how-zoning-is-holding-your-neighborhood-back&#34;&gt;Examples of such policies&lt;/a&gt; include restrictions on building and bans on everything-but-single-family-homes. The result is the creation of a system that exerts python-like constriction on the American dream, suffocating it through the gradual replacement of the self-sufficient home-owning class with a desperate renter-class forced to funnel their wages to rent-seeking parasites. At best. At worst it ends in dystopias like the Bay Area, where &lt;a href=&#34;https://www.businessinsider.com/san-francisco-human-poop-problem-2019-4&#34;&gt;shitting on the street is permitted&lt;/a&gt; and building a patio isn&amp;#8217;t.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Plus, it&amp;#8217;s just too damn hard. Such measurements depend crucially on forecasting the future and accurate estimation of the preferences of other people, tasks that posses a recursive difficulty reminiscent of an Escher-painting. They&amp;#8217;re always tougher than you expect.
+    &lt;/p&gt;
+    
+    &lt;div class=&#34;figure&#34;&gt;
+      &lt;p&gt;
+        &lt;img src=&#34;https://rs.io/wp-content/uploads/2019/06/escher-drawing-hands.jpg&#34; alt=&#34;escher-drawing-hands.jpg&#34; /&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;p&gt;
+      No thanks!
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      We&amp;#8217;ll be better served by taking the simplest metrics and then gradually adding complexity from there. Let&amp;#8217;s try that. Let&amp;#8217;s start with the easiest thing that could work.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;outline-container-org5127b35&#34; class=&#34;outline-2&#34;&gt;
+  &lt;h2 id=&#34;org5127b35&#34;&gt;
+    Regions With the Lowest Median Purchase Price
+  &lt;/h2&gt;
+  
+  &lt;div id=&#34;text-org5127b35&#34; class=&#34;outline-text-2&#34;&gt;
+    &lt;p&gt;
+      Zillow publishes &lt;a href=&#34;https://www.zillow.com/research/data/&#34;&gt;quite a bit of economic housing market data&lt;/a&gt;. One of their available measures is the &amp;#8220;Zillow Home Value Index (ZHVI): A smoothed, seasonally adjusted measure of the median estimated home value across a given region and housing type.&amp;#8221; It&amp;#8217;s straightforward to extract a ranking of regions by median home price from this data, so that&amp;#8217;s what I tried first.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      [table id=6 /]
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Measured this way, Danville, IL ends up as the #1 cheapest place to buy a house. Coincidentally, it&amp;#8217;s about an hour drive from me and I&amp;#8217;ve visited a few times, so I&amp;#8217;ll give you my impression of the place.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Location-wise, the most interesting thing about the town is its proximity to Indiana. It&amp;#8217;s right on the Illinois side of the state&amp;#8217;s border. At first I thought this might explain its cheapness: given that taxation is significantly higher on the Illinois side, maybe Danville&amp;#8217;s residents are all moving to Indiana and selling their houses for cheap on the way out. I plugged Danville into the government&amp;#8217;s &lt;a href=&#34;https://flowsmapper.geo.census.gov/map.html&#34;&gt;Census Flows Mapper&lt;/a&gt; to check.
+    &lt;/p&gt;
+    
+    &lt;div class=&#34;figure&#34;&gt;
+      &lt;p&gt;
+        &lt;img src=&#34;https://rs.io/wp-content/uploads/2019/06/danville-il-to-indiana-migration-map.png&#34; alt=&#34;danville-il-to-indiana-migration-map.png&#34; /&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;p&gt;
+      Nope! The result is the opposite of what I anticipated. There are more people from Indiana moving to Danville than the reverse.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div id=&#34;outline-container-org4bfd752&#34; class=&#34;outline-3&#34;&gt;
+    &lt;h3 id=&#34;org4bfd752&#34;&gt;
+      Is this ranking any good? How does Danville, IL compare to Jamestown, NY?
+    &lt;/h3&gt;
+    &lt;div id=&#34;text-org4bfd752&#34; class=&#34;outline-text-3&#34;&gt;
+      &lt;p&gt;
+        Our first attempt has Jamestown at #4. Promising! But is Danville &lt;i&gt;really&lt;/i&gt; cheaper?
+      &lt;/p&gt;
+      &lt;p&gt;
+        A Zillow search for houses under $15,000 returns 224 results for Danville, IL. Jamestown NY meanwhile has ~17% more such listings, at 264, even though Danville is larger by about 2,000 residents. On the one hand, this is the opposite of what we should anticipate. On the other, from browsing Danville&amp;#8217;s Zillow results, its real estate market certainly appears comparable to Jamestown&amp;#8217;s. Both &lt;i&gt;cheap&lt;/i&gt;.
+      &lt;/p&gt;
+      &lt;p&gt;
+        So should you move to Danville? Probably not. It&amp;#8217;s the only place in rural Illinois where I&amp;#8217;ve gotten the sort of vague unease I associate with crime-infested urban neighborhoods. Here it appears my gut was unfortunately right: &lt;a href=&#34;https://www.neighborhoodscout.com/il/danville/crime&#34;&gt;&amp;#8220;Danville has one of the highest crime rates in America compared to all communities of all sizes.&amp;#8221;&lt;/a&gt; This is significantly worse than the earlier example of Jamestown where crime, though elevated, is not nearly so bad.
+      &lt;/p&gt;
+      &lt;p&gt;
+        We can do better.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;outline-container-orgc695462&#34; class=&#34;outline-2&#34;&gt;
+  &lt;h2 id=&#34;orgc695462&#34;&gt;
+    Leaving &amp;#8220;Median&amp;#8221; Behind
+  &lt;/h2&gt;
+  
+  &lt;div id=&#34;text-orgc695462&#34; class=&#34;outline-text-2&#34;&gt;
+    &lt;p&gt;
+      If you are interested in a cheap house, you presumably have no intention of paying that area&amp;#8217;s median price–you want a deal–so why create a median-based ranking?
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Zillow can again help us out here. Their data helpfully splits each market into thirds: a top tier, middle tier, and bottom tier. Instead of considering the market as a whole, we can narrow our analysis to median prices for &amp;#8220;bottom tier&amp;#8221; houses, i.e. the cheapest third of that region&amp;#8217;s market.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      [table id=7 /]
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Restricting ourselves this way, we&amp;#8217;re sort of following the adage that advises one to buy the worst house in the best neighborhood. Like with any popular wisdom, though, there&amp;#8217;s also a cliche that implies the opposite. One may prefer to be the &amp;#8220;biggest fish in a small pond.&amp;#8221;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      If we can invert our proverb, maybe we ought to invert our data too? Let&amp;#8217;s re-run the numbers above for the &amp;#8220;top tier&amp;#8221; third of the market instead of the bottom tier and find out.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Doing so, we&amp;#8217;re answering a new question, &amp;#8220;Where is it cheapest to have a nicer house than your neighbors, to not just keep up with the Joneses but &lt;i&gt;be&lt;/i&gt; the Joneses?&amp;#8221;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      [table id=8 /]
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;outline-container-orga8e01fd&#34; class=&#34;outline-2&#34;&gt;
+  &lt;h2 id=&#34;orga8e01fd&#34;&gt;
+    The Most Bang For Your Buck
+  &lt;/h2&gt;
+  
+  &lt;div id=&#34;text-orga8e01fd&#34; class=&#34;outline-text-2&#34;&gt;
+    &lt;p&gt;
+      According to the US Census, the size of the median house varies regionally. They&amp;#8217;re largest in the Northeast and smallest in the Midwest, 2,336 sq ft vs 2,001. The gap between rural and city houses is even larger with, surprisingly, houses inside &amp;#8220;Metropolitan Statistical Areas&amp;#8221; larger than those that aren&amp;#8217;t.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      This is a potential source of bias in our rankings: maybe some regions are doing well because they&amp;#8217;ve mostly small houses.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Depending on your preferences, this may or may not be a problem. Would you rather buy the absolute cheapest house you can find or the most house for your dollar? The rankings above optimize for the first, the absolute cheapest house you can find.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      What if you want the most bang for your buck, though, even if that means you have to shell out a few more bucks? We can answer this second question by ranking regions based on housing&amp;#8217;s price per sq ft instead of its purchase price, like so:
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      [table id=9 /]
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      There&amp;#8217;s Jamestown again, at #6!
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      What do these numbers mean? They&amp;#8217;re easier to make sense of with some context: On average, building a new home costs about $150/sq ft but this number varies significantly with region, i.e. costs are an enviable $80/sq ft in Oklahoma, the state boasting the cheapest home construction.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      This means that, in many regions, houses can be had for significantly less than it would cost to re-build them. Compared to $17/ sq ft, assembling a new house of the same size would cost you almost 5x as much, at a minimum. That&amp;#8217;s like an 80% discount! What a steal!
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      This ranking is still imperfect, though. It&amp;#8217;s biased toward large houses, because the marginal cost of a sq ft of house decreases as the size of the house increases. This makes sense when you think about it: fixed costs, like utility hook ups and permitting, are identical but contribute more to the average cost per sq ft of a small house than a large one. The bigger the house, the more sq ft there are to dilute these expenses.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Here&amp;#8217;s a graph of that relationship between price per sq ft versus # of sq ft that was &lt;a href=&#34;http://globaldecision.com/price-per-square-foot-distorted.html&#34;&gt;shared by globaldecision.com&lt;/a&gt;. As you can see, as the sq ft of a house increases (the y axis) the price per sq ft goes down (the x axis).
+    &lt;/p&gt;
+    
+    &lt;div class=&#34;figure&#34;&gt;
+      &lt;p&gt;
+        &lt;img class=&#34;aligncenter&#34; src=&#34;https://rs.io/wp-content/uploads/2019/06/price-per-sqft-vs-sqft-graph.jpg&#34; alt=&#34;price-per-sqft-vs-sqft-graph.jpg&#34; /&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;p&gt;
+      Can we do better? Yeah, probably, but it&amp;#8217;d be a lot more work now that we&amp;#8217;ve exhausted the simplest analyses. Next, it&amp;#8217;d make the most sense to go more fine grained and evaluate specific houses instead of whole regions, maybe by training a predictive model to estimate prices and then using it to identify mispricings.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Except I&amp;#8217;ve &lt;a href=&#34;https://rs.io/cheap-houses/great-internet/index.html&#34;&gt;already built something like that elsewhere&lt;/a&gt;.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;outline-container-org7c6a5af&#34; class=&#34;outline-2&#34;&gt;
+  &lt;h2 id=&#34;org7c6a5af&#34;&gt;
+    Further Reading
+  &lt;/h2&gt;
+  
+  &lt;div id=&#34;text-org7c6a5af&#34; class=&#34;outline-text-2&#34;&gt;
+    &lt;ul class=&#34;org-ul&#34;&gt;
+      &lt;li&gt;
+        I&amp;#8217;ve written software that can help you discover cheap houses. &lt;a href=&#34;https://rs.io/cheap-houses/great-internet/index.html&#34;&gt;Check it out.&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        If you&amp;#8217;re interested in purchasing raw land, you&amp;#8217;ll benefit from reading my &lt;a href=&#34;https://rs.io/the-best-place-to-buy-land-for-homesteading/&#34;&gt;guide to selecting homesteading land.&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;a href=&#34;https://nation.maps.arcgis.com/apps/Cascade/index.html?appid=de7f932e3a1d494f9c9d9a67fb0de646&#34;&gt;&amp;#8220;How Many Years of Life Does That House Cost?&amp;#8221;&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;a href=&#34;https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html&#34;&gt;The New York Times has an excellent &amp;#8220;rent versus buy&amp;#8221; calculator.&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Rural Areas with Good Internet Speeds (for Streaming, Gaming, Remote Work)</title>
+      <link>https://rs.io/rural-areas-with-good-internet/</link>
+      <pubDate>Fri, 21 Jun 2019 18:24:00 +0000</pubDate>
+      
+      <guid>https://rs.io/rural-areas-with-good-internet/</guid>
+      <description>&lt;p&gt;Ever wonder how remote you can go without sacrificing internet connectivity?&lt;/p&gt;
+
+&lt;p&gt;A couple months back, I mashed together some publicly available federal data to answer just that. By cross-referencing the &lt;a href=&#34;https://www.fcc.gov/general/explanation-broadband-deployment-data&#34;&gt;FCC&amp;#8217;s broadband deployment data&lt;/a&gt; against &lt;a href=&#34;https://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/&#34;&gt;county level statistics for population density&lt;/a&gt;, I generated a ranking of counties with symmetric gigabit fiber sorted by remoteness.&lt;/p&gt;
+
+&lt;p&gt;The winner?&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s a tie actually. Carter County, Montana and Kenedy County, Texas. The dataset calculates a population density of 0.3 people per square mile for both.&lt;/p&gt;
+
+&lt;p&gt;Or so I thought, until I realized I could cheat and look up more precise numbers on Wikipedia to break the tie. Drum roll, please…&lt;/p&gt;
+
+&lt;div id=&#34;outline-container-org08198d6&#34; class=&#34;outline-2&#34;&gt;
+  &lt;h2 id=&#34;org08198d6&#34;&gt;
+    The results
+  &lt;/h2&gt;
+  
+  &lt;div id=&#34;text-org08198d6&#34; class=&#34;outline-text-2&#34;&gt;
+    &lt;p&gt;
+      Kenedy County Texas is #1! With a mere 416 people populating almost 2,000 square miles, they somehow manage to have gigabit fiber available through &lt;a href=&#34;http://www.vtx1.net/&#34;&gt;VTX Communications.&lt;/a&gt;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;a href=&#34;http://www.rangeweb.net/residential/high-speed-internet/&#34;&gt;Range Telephone Cooperative&lt;/a&gt; in Carter County Montana is #2, with ~1,100 people on ~3,300 square miles.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      The final ranking ended up with more than 2600 entries, unfortunately, so it&amp;#8217;s kind of overwhelming but I&amp;#8217;ve reproduced it in the table below. You can also &lt;a href=&#34;https://rs.io/wp-content/uploads/2019/06/rural_broadband_by_county_density.csv&#34;&gt;download the data set by clicking here&lt;/a&gt;.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      [table id=2 /]
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Again, you can &lt;a href=&#34;https://rs.io/wp-content/uploads/2019/06/rural_broadband_by_county_density.csv&#34;&gt;download the data set by clicking here&lt;/a&gt;.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Whenever you&amp;#8217;re done gorging yourself on the heady rush that is sorted data, I&amp;#8217;ll talk specifics about a couple of especially promising rural areas with good internet&amp;#8230;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;outline-container-org95687b8&#34; class=&#34;outline-2&#34;&gt;
+  &lt;h2 id=&#34;org95687b8&#34;&gt;
+    EPB in Tennessee
+  &lt;/h2&gt;
+  
+  &lt;p&gt;
+    &lt;img class=&#34;aligncenter size-full wp-image-309&#34; src=&#34;https://rs.io/wp-content/uploads/2019/06/2019-06-21T160544-0500-Chattanooga-Gig-Your-Gig-is-Here-Mozilla-Firefox.png&#34; alt=&#34;&#34; width=&#34;977&#34; height=&#34;302&#34; srcset=&#34;https://rs.io/wp-content/uploads/2019/06/2019-06-21T160544-0500-Chattanooga-Gig-Your-Gig-is-Here-Mozilla-Firefox.png 977w, https://rs.io/wp-content/uploads/2019/06/2019-06-21T160544-0500-Chattanooga-Gig-Your-Gig-is-Here-Mozilla-Firefox-300x93.png 300w, https://rs.io/wp-content/uploads/2019/06/2019-06-21T160544-0500-Chattanooga-Gig-Your-Gig-is-Here-Mozilla-Firefox-768x237.png 768w&#34; sizes=&#34;(max-width: 977px) 100vw, 977px&#34; /&gt;
+  &lt;/p&gt;
+  
+  &lt;div id=&#34;text-org95687b8&#34; class=&#34;outline-text-2&#34;&gt;
+    &lt;p&gt;
+      Chattanooga has been &lt;a href=&#34;http://chattanoogagig.com/&#34;&gt;branding itself as &amp;#8220;the Gig city,&amp;#8221;&lt;/a&gt; ever since its regional electrical company, &lt;a href=&#34;https://epb.com/&#34;&gt;EPB&lt;/a&gt;, ran gigabit fiber to its customer base in 2010. This created the US&amp;#8217;s largest fiber grid, spanning ~600 square miles. Meaning, don&amp;#8217;t let the word &amp;#8220;city&amp;#8221; here turn you off. Sure, it covers Chattanooga, but their network extends out into the country and even across state lines into neighboring Georgia. (&lt;a href=&#34;https://epb.com/outage-map&#34;&gt;This&lt;/a&gt; is the &lt;a href=&#34;https://epb.com/outage-map&#34;&gt;map of their entire coverage area&lt;/a&gt;.)
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Now, it&amp;#8217;s pretty damn cool that they serve all of this territory symmetric gigabit but it&amp;#8217;s cooler still that they do it at a cost to subscribers of less than $70/month. The craziest thing, though, is what EPB did to their grid in 2015: they upgraded Chattanooga from &amp;#8220;the Gig city&amp;#8221; to &amp;#8220;the 10 Gig city,&amp;#8221; along with the rest of their network.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;b&gt;That&amp;#8217;s right. EPB will sell you a symmetric 10Gb/s internet pipe and they&amp;#8217;ll run it way out into the country.&lt;/b&gt; It&amp;#8217;s $300/mo but, hey, they&amp;#8217;re the only residential provider offering it in the United States &lt;i&gt;at all&lt;/i&gt;. The rest of the country&amp;#8217;s &lt;i&gt;best&lt;/i&gt; is a tenth the speed.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Insane. EPB and the rest of you crazy bastards in Tennessee, I salute you. Can&amp;#8217;t wait to hear about what y&amp;#8217;all come up with next.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;outline-container-orgc3d3b18&#34; class=&#34;outline-2&#34;&gt;
+  &lt;h2 id=&#34;orgc3d3b18&#34;&gt;
+    Missouri&amp;#8217;s Co-Mo.net
+  &lt;/h2&gt;
+  
+  &lt;p&gt;
+    &lt;img class=&#34;aligncenter size-full wp-image-313&#34; src=&#34;https://rs.io/wp-content/uploads/2019/06/net-cables.jpg&#34; alt=&#34;&#34; width=&#34;660&#34; height=&#34;355&#34; srcset=&#34;https://rs.io/wp-content/uploads/2019/06/net-cables.jpg 660w, https://rs.io/wp-content/uploads/2019/06/net-cables-300x161.jpg 300w&#34; sizes=&#34;(max-width: 660px) 100vw, 660px&#34; /&gt;
+  &lt;/p&gt;
+  
+  &lt;div id=&#34;text-orgc3d3b18&#34; class=&#34;outline-text-2&#34;&gt;
+    &lt;p&gt;
+      I initially stumbled onto EPB while looking for raw land without building codes that was also served gigabit fiber. The bit of EPB&amp;#8217;s grid that ventures into Sequatchie County, TN, is just such a region. Unfortunately, it&amp;#8217;s the bourgeois expensive area known as &amp;#8220;Signal Mountain.&amp;#8221; Folk are asking for 10 grand/acre, which is &lt;i&gt;hefty&lt;/i&gt; for Appalachia. Too rich for me. I had to expand my search.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      The result: Morgan County, MO, and their ISP, &lt;a href=&#34;https://www.co-mo.net/residential/internet-for-residential/&#34;&gt;Co-Mo.net&lt;/a&gt;. Co-Mo actually covers more than just Morgan county but what&amp;#8217;s cool about Morgan county is that it&amp;#8217;s blissfully free of building codes, as long as your property isn&amp;#8217;t on the lake. Plus, if you own more than 5 acres, you can choose to waive even septic permitting and compost your own waste, like via a humanure system.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      It&amp;#8217;s more rural than EPB and it&amp;#8217;s &lt;i&gt;cheap&lt;/i&gt;, too. You can sometimes find parcels for $1500/acre. (Most of the cheapest listings are in the neighborhood called Ivy Bend and I&amp;#8217;ve heard from locals that this area is sort of sketchy. I&amp;#8217;m not sure whether they mean &amp;#8220;weird and poor neighbors&amp;#8221; sketchy or &amp;#8220;theft and violent crime&amp;#8221; sketchy. It&amp;#8217;s no real problem either way, as I pretty frequently see cheap acreage for sale in the &amp;#8220;nicer&amp;#8221;, Eastern part of the county too.)
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      I&amp;#8217;ve written before, too, about the particular promise of the Ozarks for homesteading, like in &lt;a href=&#34;https://rs.io/the-best-place-to-buy-land-for-homesteading/&#34;&gt;my guide on selecting the best place to buy homesteading land&lt;/a&gt;.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;outline-container-org2e9baa0&#34; class=&#34;outline-2&#34;&gt;
+  &lt;h2 id=&#34;org2e9baa0&#34;&gt;
+    How to Find More Rural Areas With Good Internet
+  &lt;/h2&gt;
+  
+  &lt;p&gt;
+    &lt;img class=&#34;aligncenter size-full wp-image-311&#34; src=&#34;https://rs.io/wp-content/uploads/2019/06/how-to-find-more-rurals-areas-with-great-internet.jpg&#34; alt=&#34;&#34; width=&#34;660&#34; height=&#34;436&#34; srcset=&#34;https://rs.io/wp-content/uploads/2019/06/how-to-find-more-rurals-areas-with-great-internet.jpg 660w, https://rs.io/wp-content/uploads/2019/06/how-to-find-more-rurals-areas-with-great-internet-300x198.jpg 300w&#34; sizes=&#34;(max-width: 660px) 100vw, 660px&#34; /&gt;
+  &lt;/p&gt;
+  
+  &lt;div id=&#34;text-org2e9baa0&#34; class=&#34;outline-text-2&#34;&gt;
+    &lt;p&gt;
+      If none of the above are what you&amp;#8217;re looking for, the next thing you&amp;#8217;ll want to do is scroll through &lt;a href=&#34;https://muninetworks.org/content/rural-cooperatives-page&#34;&gt;this list of rural internet cooperatives&lt;/a&gt; and make a list of the companies operating in your preferred region. Then, Google each cooperative from your list and make notes on things like:
+    &lt;/p&gt;
+    
+    &lt;ul class=&#34;org-ul&#34;&gt;
+      &lt;li&gt;
+        Extent of service area
+      &lt;/li&gt;
+      &lt;li&gt;
+        Status of current project. Is the grid running and complete? Partially online and still expanding? Not up yet and under construction? Only just announced?
+      &lt;/li&gt;
+      &lt;li&gt;
+        Price, speed.
+      &lt;/li&gt;
+      &lt;li&gt;
+        If you&amp;#8217;re planning on developing raw land, be sure you determine what is required to hook a new parcel to the co-op&amp;#8217;s grid. Sometimes it&amp;#8217;s impossible or tens of thousands of dollars. Don&amp;#8217;t get burned!
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    
+    &lt;p&gt;
+      A similar tact you can try, if you&amp;#8217;re unable to find anything in your area that way, is to start your initial list by Googling &amp;#8220;&lt;your state&gt; internet cooperative&amp;#8221; and then digging more into whatever that search finds.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Finally, be sure to check out my &lt;a href=&#34;https://rs.io/cheap-houses/great-internet/index.html&#34;&gt;Cheap Houses, Great Internet page&lt;/a&gt;. It may have what you&amp;#8217;re looking for, too.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

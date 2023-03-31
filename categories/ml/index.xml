@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ml on rs.io</title>
+    <link>https://rs.io/categories/ml/</link>
+    <description>Recent content in ml on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Oct 2019 10:43:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/categories/ml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Books on probabilistic programming</title>
+      <link>https://rs.io/probabilistic-programming-books/</link>
+      <pubDate>Thu, 10 Oct 2019 10:43:00 -0500</pubDate>
+      
+      <guid>https://rs.io/probabilistic-programming-books/</guid>
+      <description>Model-Based Machine Learning  For more than ten years we have been working on such a software framework at Microsoft Research, called Infer.</description>
+    </item>
+    
+  </channel>
+</rss>

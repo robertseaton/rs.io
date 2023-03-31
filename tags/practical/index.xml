@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>practical on rs.io</title>
+    <link>https://rs.io/tags/practical/</link>
+    <description>Recent content in practical on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 May 2014 22:33:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://rs.io/tags/practical/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Unreasonable Effectiveness of Checklists</title>
+      <link>https://rs.io/unreasonable-effectiveness-of-checklists/</link>
+      <pubDate>Mon, 12 May 2014 22:33:35 +0000</pubDate>
+      
+      <guid>https://rs.io/unreasonable-effectiveness-of-checklists/</guid>
+      <description>Dr. Peter Provonost had a problem. People were dying and &amp;#8212; to borrow a line from Fight Club &amp;#8212; not in the Sylvia Plath, Tibetan Buddhist, we&amp;#8217;re-all-dying-so-get-used-to-it sense of the word.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>investing on rs.io</title>
+    <link>https://rs.io/tags/investing/</link>
+    <description>Recent content in investing on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Oct 2019 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/tags/investing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>money &#43; fire = VC</title>
+      <link>https://rs.io/vc-negative-returns/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/vc-negative-returns/</guid>
+      <description>Venture capital (VC) has delivered poor returns for more than a decade.</description>
+    </item>
+    
+  </channel>
+</rss>

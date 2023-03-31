@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on rs.io</title>
+    <link>https://rs.io/tags/</link>
+    <description>Recent content in Tags on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Oct 2019 10:43:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>books</title>
+      <link>https://rs.io/tags/books/</link>
+      <pubDate>Thu, 10 Oct 2019 10:43:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>toread</title>
+      <link>https://rs.io/tags/toread/</link>
+      <pubDate>Thu, 10 Oct 2019 10:43:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/toread/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>howto</title>
+      <link>https://rs.io/tags/howto/</link>
+      <pubDate>Wed, 09 Oct 2019 15:57:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nixos</title>
+      <link>https://rs.io/tags/nixos/</link>
+      <pubDate>Wed, 09 Oct 2019 15:57:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/nixos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>race</title>
+      <link>https://rs.io/tags/race/</link>
+      <pubDate>Wed, 02 Oct 2019 16:25:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/race/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>china</title>
+      <link>https://rs.io/tags/china/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/china/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investing</title>
+      <link>https://rs.io/tags/investing/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/investing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>money</title>
+      <link>https://rs.io/tags/money/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/money/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper</title>
+      <link>https://rs.io/tags/paper/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>surprising</title>
+      <link>https://rs.io/tags/surprising/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/surprising/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ml</title>
+      <link>https://rs.io/tags/ml/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>https://rs.io/tags/rails/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>things-i&#39;ll-regret-writing</title>
+      <link>https://rs.io/tags/things-ill-regret-writing/</link>
+      <pubDate>Wed, 25 Jun 2014 03:07:42 +0000</pubDate>
+      
+      <guid>https://rs.io/tags/things-ill-regret-writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>practical</title>
+      <link>https://rs.io/tags/practical/</link>
+      <pubDate>Mon, 12 May 2014 22:33:35 +0000</pubDate>
+      
+      <guid>https://rs.io/tags/practical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gender</title>
+      <link>https://rs.io/tags/gender/</link>
+      <pubDate>Wed, 25 Sep 2013 00:05:21 +0000</pubDate>
+      
+      <guid>https://rs.io/tags/gender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>veganism</title>
+      <link>https://rs.io/tags/veganism/</link>
+      <pubDate>Wed, 25 Sep 2013 00:05:21 +0000</pubDate>
+      
+      <guid>https://rs.io/tags/veganism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quotes</title>
+      <link>https://rs.io/tags/quotes/</link>
+      <pubDate>Thu, 19 Sep 2013 19:07:50 +0000</pubDate>
+      
+      <guid>https://rs.io/tags/quotes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

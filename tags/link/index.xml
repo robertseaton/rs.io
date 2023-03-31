@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Link on rs.io</title>
+    <link>https://rs.io/tags/link/</link>
+    <description>Recent content in Link on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Sep 2019 23:44:20 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/tags/link/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://rs.io/atom/civilized-mushies/</link>
+      <pubDate>Tue, 24 Sep 2019 23:44:20 -0500</pubDate>
+      
+      <guid>https://rs.io/atom/civilized-mushies/</guid>
+      <description>Psilocybin mushrooms occur in higher concentrations around human settlements than in &amp;ldquo;wild nature&amp;rdquo; (still today).</description>
+    </item>
+    
+    <item>
+      <title>Civilization &amp; Psilocybin</title>
+      <link>https://rs.io/shorts/civilized-mushies/</link>
+      <pubDate>Tue, 24 Sep 2019 23:43:33 -0500</pubDate>
+      
+      <guid>https://rs.io/shorts/civilized-mushies/</guid>
+      <description>Psilocybin mushrooms occur in higher concentrations around human settlements than in &amp;ldquo;wild nature&amp;rdquo; (still today).</description>
+    </item>
+    
+  </channel>
+</rss>

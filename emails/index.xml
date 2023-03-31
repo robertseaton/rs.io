@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emails on rs.io</title>
+    <link>https://rs.io/emails/</link>
+    <description>Recent content in Emails on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Sep 2019 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/emails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Libgen</title>
+      <link>https://rs.io/emails/libgen/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/emails/libgen/</guid>
+      <description>Hi, hey, hello! robb from rs.io here. I&amp;rsquo;m sending you this e-mail because you signed up for it.</description>
+    </item>
+    
+    <item>
+      <title>Lies</title>
+      <link>https://rs.io/emails/lies/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/emails/lies/</guid>
+      <description>What&amp;rsquo;s up!? This is robb from rs.io, and I&amp;rsquo;m sending you this e-mail because you signed up for it.</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://rs.io/emails/welcome/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/emails/welcome/</guid>
+      <description>I have done some informal polling and found that only those in the very tippy top percentile Wonderfulness, the very-official-psychological-category-that-I&amp;rsquo;m-definitely-not-making-up-right-now, ever make it here.</description>
+    </item>
+    
+  </channel>
+</rss>

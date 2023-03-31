@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>race on rs.io</title>
+    <link>https://rs.io/tags/race/</link>
+    <description>Recent content in race on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Oct 2019 16:25:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/tags/race/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Black progress</title>
+      <link>https://rs.io/black-progress/</link>
+      <pubDate>Wed, 02 Oct 2019 16:25:00 -0500</pubDate>
+      
+      <guid>https://rs.io/black-progress/</guid>
+      <description>From 2001 to 2017, the incarceration rate for black men declined by 34 percent.</description>
+    </item>
+    
+    <item>
+      <title>Diversity riddle</title>
+      <link>https://rs.io/diversity-riddle/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/diversity-riddle/</guid>
+      <description>Between 2013 and 2016, 90% of Oracle’s hires were people of color.</description>
+    </item>
+    
+    <item>
+      <title>Why shouldn&#39;t I have my own water fountain?</title>
+      <link>https://rs.io/clarence-thomas-integration/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/clarence-thomas-integration/</guid>
+      <description>If anything, Thomas believes that the state should—where it can, within the law—support the separation of the races.</description>
+    </item>
+    
+  </channel>
+</rss>

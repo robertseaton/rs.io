@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Location on rs.io</title>
+    <link>https://rs.io/categories/location/</link>
+    <description>Recent content in Location on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Jun 2019 01:44:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rs.io/categories/location/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Top Places to Buy Cheap Houses in USA, 2019</title>
+      <link>https://rs.io/places-to-buy-cheap-houses/</link>
+      <pubDate>Sat, 22 Jun 2019 01:44:00 +0000</pubDate>
+      
+      <guid>https://rs.io/places-to-buy-cheap-houses/</guid>
+      <description>Houses in this country can be had for far cheaper than almost anyone realizes. My favorite such example comes from Upstate NY native Christopher Baus: &amp;#8220;The house I was born in sold for $4000.&amp;#8221;
+ The house my parents owned when I was born recently sold for $4000. I&amp;#8217;m not omitting a zero or two. That&amp;#8217;s about the price of a used 2001 Honda Civic with 150,000 miles – maybe the Honda is worth a bit more.</description>
+    </item>
+    
+    <item>
+      <title>Rural Areas with Good Internet Speeds (for Streaming, Gaming, Remote Work)</title>
+      <link>https://rs.io/rural-areas-with-good-internet/</link>
+      <pubDate>Fri, 21 Jun 2019 18:24:00 +0000</pubDate>
+      
+      <guid>https://rs.io/rural-areas-with-good-internet/</guid>
+      <description>Ever wonder how remote you can go without sacrificing internet connectivity? A couple months back, while working on what eventually evolved into my &amp;#8220;cheap houses, great internet&amp;#8221; discovery service, I mashed together some publicly available federal data to answer just that. By cross-referencing the FCC&amp;#8217;s broadband deployment data against county level statistics for population density, I generated a ranking of counties with symmetric gigabit fiber sorted by remoteness.
+The winner?</description>
+    </item>
+    
+    <item>
+      <title>Where is Homeschooling Most Popular? States By the Numbers</title>
+      <link>https://rs.io/where-is-homeschooling-most-popular-states-by-the-numbers/</link>
+      <pubDate>Wed, 24 Apr 2019 21:10:30 +0000</pubDate>
+      
+      <guid>https://rs.io/where-is-homeschooling-most-popular-states-by-the-numbers/</guid>
+      <description>Surprisingly, no one has published homeschooling rates per capita for different states, so I&amp;#8217;ve mashed together some census data to figure that out. Unfortunately, only about half of the states publish how many homeschoolers there are in their state.
+Initially I tried using an estimate for the other states but the results didn&amp;#8217;t feel plausible, so I&amp;#8217;ve decided to stick with the states I have actual data for.
+[table id=1 /]</description>
+    </item>
+    
+  </channel>
+</rss>

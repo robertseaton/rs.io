@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.58.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Results From The First Split Test &middot; rs.io</title>
+
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12517909-4"></script>
+<script src="https://unpkg.com/shufflejs@5.2.2/dist/shuffle.min.js"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-12517909-4', { 'optimize_id': 'GTM-KG9BTZJ'});
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk', { action: 'subscribe' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/hyde.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://rs.io/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="https://rs.io/favicon.png">
+
+  
+  <link href="https://rs.io/rails/results-first-split-test/index.txt.erb" rel="alternate" type="text/plain" title="rs.io" />
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://rs.io/guided-tour/"><h1>rs.io</h1></a>
+      <p class="lead">
+       like being punched in the brain 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li id="start-here"><a href="https://rs.io/guided-tour/">Start Here</a> </li>
+        <li><a href="https://rs.io/"> All Articles </a></li><li><a href="https://rs.io/contact/"> Contact </a></li>
+      </ul>
+    </nav>
+
+    <p></p>
+  </div>
+</aside>
+
+    <main class="content container">
+      <div class="post">
+  <h1>Results From The First Split Test</h1>
+  <time datetime=2014-06-24T02:53:35Z class="post-date">Tue, Jun 24, 2014</time>
+  
+
+<blockquote>
+<p>Measuring gives you a leg up on experts who are too good to measure.</p>
+
+<p><span id="quote-attribute">—Walter Bright</span></p>
+</blockquote>
+
+<p>If you&#8217;ve been following along via email (and if not, you should be: <a href="http://eepurl.com/Ufpgr">subscribe here</a>), you understand that my current philosophy of site growth is to focus on long-term readers. Social traffic is easy to obtain, but oh-so-fleeting. By concentrating on returning visitors, I can build a sort of relationship with you, the gentle reader, and focus on consistent, steady growth, instead of the occasional dizzying flurry of activity when something takes off on Reddit. (Plus <a href="https://rs.io/online-community-building/">repeated interaction makes people nicer</a>.)</p>
+
+<p>Not that there&#8217;s anything wrong with these flurries of social traffic. They&#8217;re sort of like steroid injections. They keep the site strong but, at anything except the most unreasonable levels of abuse (<a href="https://rs.io/mike-tyson-steroids/">Mike Tyson anyone?</a>), the bulk of performance is the result of typical training activities.</p>
+
+<p>Or something. Not my best metaphor ever.</p>
+
+<p>As I see it, there are two ways that readers consistently engage with a site&#8217;s content: via an email subscription or an RSS feed. Well, okay, maybe two was a lie. I bet there are at least six: Those two just mentioned, people who follow the site via Twitter, those depraved individuals who have adopted the strategy of visit-once-in-a-while-and-refresh, and so on.</p>
+
+<p>But primarily, there are the two means: RSS and email. And people, thus far anyways, engage a lot more with email than with RSS, plus some dozen-ish other benefits: Much better analytics, I can make emails a bit more personal, I can assume that email subscribers have a bit better idea of who I am and what I&#8217;m about, and so on. RSS feeds are more limited.</p>
+
+<p>So, in pursuit of this goal of converting strangers into friends, I&#8217;m running a series of split (&#8220;AB&#8221;) tests to see whether different site changes improve the rate at which people subscribe via email. The basic idea: some people see one version of the site, other people see another. After I&#8217;ve gathered enough data, I should have a pretty rigorous idea about which is better.</p>
+
+<p>And, given that we&#8217;re all good empiricists here (as I <a href="https://rs.io/surprisingly-dangerous-jobs-in-america/">mentioned before</a>), with a firm belief in the virtue of actually, you know, testing our beliefs, AB testing is like the bare minimum we ought to be doing in order to persuade ourselves that we&#8217;re not fit to be crowned the king of hypocrites.</p>
+
+<h2 id="the-first-test">The First Test</h2>
+
+<p>The popular wisdom, that I&#8217;ve had shunted into my brain via <a href="http://www.kalzumeus.com/category/podcasts/">Patrick McKenzie&#8217;s podcasts</a> (recommended) is that you ought to trade an incentive for someone&#8217;s email. I figure there are two ways to frame it: one is sorta predatory, like putting some cheese beneath a box propped up by a stick and catching an angry badger, or the more noble way of thinking about it, which is as a free exchange of value between parties. You receive updates and other valuables, I get an email address.</p>
+
+<p>Or maybe it&#8217;s more like when your mom would promise a trip to the toy store if you&#8217;d just swallow some damn cold medicine.</p>
+
+<p>So, anyways, on the heels of the success of the <a href="https://rs.io/100-interesting-data-sets-for-statistics/">100+ Interesting Data Sets For Statistics post</a>, which is the most popular thing I&#8217;ve yet to write, I figured, hey, maybe the bad drawings resonated with people. I will promise people some more of those if they sign up.</p>
+
+<p>And, off I went, spending way too much time figuring out how to set up a split test with Jekyll, and debugging some not-quite-right analytics code. (The bug boiled down to forgetting to copy and paste my user ID. Whoops. I look forward to the day that we obsolete humans.)</p>
+
+<p>And, finally, ladies and gentleman of the jury (but, judging by the site analytics, mostly gentleman), I got to the point where users would see either exhibit A or exhibit B.</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/09/ab-test-number-1.png"><img class="aligncenter size-full wp-image-539" src="https://rs.io/wp-content/uploads/2014/09/ab-test-number-1.png" alt="ab-test-number-1" width="427" height="534" srcset="https://rs.io/wp-content/uploads/2014/09/ab-test-number-1.png 427w, https://rs.io/wp-content/uploads/2014/09/ab-test-number-1-239x300.png 239w" sizes="(max-width: 427px) 100vw, 427px" /></a></p>
+
+<h2 id="results">Results</h2>
+
+<p>So, what happened?</p>
+
+<p>First, I gained a more intuitive appreciation of the phenomenon where, when studying small effects, you need a lot of data to figure anything out. Over the past two weeks, about 15,000 unique visitors viewed each option, which still wasn&#8217;t enough to reach statistical significance.</p>
+
+<p>I terminated the test anyways. With 43 subscribes to exhibit A and 35 to exhibit B, promising people bonus drawings increased conversions by about 23%, probably. <a href="http://getdatadriven.com/ab-significance-test">This calculator</a> spits out a confidence value of 82% and, given that our prior belief says that promising people stuff = more conversions, we can be a little more confident than that.</p>
+
+<p>So I&#8217;m convinced. On to the next set of tests!</p>
+
+<h2 id="further-reading">Further Reading</h2>
+
+<ul>
+<li>You, (yeah, <em>you</em>) should <a href="http://eepurl.com/Ufpgr">subscribe via email right now</a>.</li>
+<li>I once wrote <a href="https://rs.io/online-community-building/">a post on the decay of online communities</a>, which hints at why its important for a set to have a stable set of regulars that engage with each other.</li>
+<li>To the extent that I&#8217;m not stumbling around in the dark here, it&#8217;s from what I&#8217;ve learned via <a href="http://www.kalzumeus.com/category/ab-testing/">Patrick McKenzie&#8217;s writings on AB testing</a>.</li>
+</ul>
+
+</div>
+
+
+      <div class="simple-subscription-form">
+  <form action="http://mercury.rs.io:3000/subscribers" method="post">
+    <h2 style="color:white;">You've read this far⁠—want more?</h2>
+    <p>Subscribe and I'll e-mail you updates along with the ideas that I don't
+    share anywhere else.</p>
+    <div class="form-row" style="margin-bottom:20px;">
+      <div class="col-8">
+	<input name="subscriber[email]" id="email" class="form-control"
+	       placeholder="E-mail Address" required>
+
+      </div>
+      <div class="col-4 subscribe">
+	<button class="btn btn-dark form-control"
+	style="font-weight:700;">Go</button>
+      </div>
+      <input type="hidden" name="recaptcha_token" id="recaptchaResponse">
+    </div>
+    
+    
+				    </form>
+            <div class="recaptcha-disclaimer"><p><em>This site is protected by reCAPTCHA and the Google
+    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+    <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p></em></div>
+</div>
+
+
+    </main>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-12517909-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

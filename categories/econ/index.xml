@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>econ on rs.io</title>
+    <link>https://rs.io/categories/econ/</link>
+    <description>Recent content in econ on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Jun 2014 03:09:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://rs.io/categories/econ/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pareto Principle Examples and History</title>
+      <link>https://rs.io/pareto-principle-examples-history/</link>
+      <pubDate>Mon, 30 Jun 2014 03:09:49 +0000</pubDate>
+      
+      <guid>https://rs.io/pareto-principle-examples-history/</guid>
+      <description>Economics consists of theoretical laws which nobody has verified and of empirical laws which nobody can explain.</description>
+    </item>
+    
+    <item>
+      <title>Worldbuilding, Worldbuilders, and Mathematics</title>
+      <link>https://rs.io/worldbuilding-worldbuilders-mathematics/</link>
+      <pubDate>Fri, 28 Feb 2014 17:53:07 +0000</pubDate>
+      
+      <guid>https://rs.io/worldbuilding-worldbuilders-mathematics/</guid>
+      <description>This week, I was introduced to the hobby of worldbuilding &amp;#8212; inventing imaginary places, making maps, elaborating histories.</description>
+    </item>
+    
+    <item>
+      <title>The Life Satisfaction of Economists</title>
+      <link>https://rs.io/life-satisfaction-of-economists/</link>
+      <pubDate>Fri, 06 Dec 2013 18:44:04 +0000</pubDate>
+      
+      <guid>https://rs.io/life-satisfaction-of-economists/</guid>
+      <description>Tyler Cowen has written a post on a paper about the life satisfaction of economists.</description>
+    </item>
+    
+    <item>
+      <title>The Terrible Future Isn’t: Drone Delivery Edition</title>
+      <link>https://rs.io/drone-delivery/</link>
+      <pubDate>Mon, 02 Dec 2013 04:49:11 +0000</pubDate>
+      
+      <guid>https://rs.io/drone-delivery/</guid>
+      <description>Last night, Amazon&amp;#8217;s CEO Jeff Bezos appeared on 60 Minutes and spoke about the possibility of using drones to deliver small packages (&amp;#8220;drone delivery&amp;#8220;).</description>
+    </item>
+    
+    <item>
+      <title>Criticism of Economics</title>
+      <link>https://rs.io/criticism-of-economics/</link>
+      <pubDate>Fri, 29 Nov 2013 04:16:06 +0000</pubDate>
+      
+      <guid>https://rs.io/criticism-of-economics/</guid>
+      <description>I don&amp;#8217;t have the requisite expertise to lay out compelling criticism of economics as a whole, and I suspect such an endeavor would be profitless (heh).</description>
+    </item>
+    
+  </channel>
+</rss>

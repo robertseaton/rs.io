@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>math on rs.io</title>
+    <link>https://rs.io/categories/math/</link>
+    <description>Recent content in math on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Apr 2014 22:23:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://rs.io/categories/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why Category Theory Matters</title>
+      <link>https://rs.io/why-category-theory-matters/</link>
+      <pubDate>Wed, 30 Apr 2014 22:23:08 +0000</pubDate>
+      
+      <guid>https://rs.io/why-category-theory-matters/</guid>
+      <description>I hope most mathematicians continue to fear and despise category theory, so I can continue to maintain a certain advantage over them.</description>
+    </item>
+    
+    <item>
+      <title>Math Jokes</title>
+      <link>https://rs.io/math-jokes/</link>
+      <pubDate>Thu, 17 Apr 2014 22:11:20 +0000</pubDate>
+      
+      <guid>https://rs.io/math-jokes/</guid>
+      <description>The AMS has a 2005 paper &amp;#8220;Foolproof: A Sampling of Mathematical Folk Humor&amp;#8221; which is &amp;#8212; delightfully &amp;#8212; filled with math jokes.</description>
+    </item>
+    
+    <item>
+      <title>Proofs In Math: What’s The Point?</title>
+      <link>https://rs.io/proofs-math-whats-point/</link>
+      <pubDate>Wed, 09 Apr 2014 21:14:29 +0000</pubDate>
+      
+      <guid>https://rs.io/proofs-math-whats-point/</guid>
+      <description>Tyler Cowen pointed me to an article on automated theorem proving.</description>
+    </item>
+    
+    <item>
+      <title>The Stable Marriage Problem Explained</title>
+      <link>https://rs.io/stable-marriage-problem-explained/</link>
+      <pubDate>Sat, 15 Mar 2014 03:16:04 +0000</pubDate>
+      
+      <guid>https://rs.io/stable-marriage-problem-explained/</guid>
+      <description>You are out in a thunderstorm. You look up, at the rolling thunderheads painting the sky, and wonder, &amp;#8220;Why am I here?</description>
+    </item>
+    
+    <item>
+      <title>The Boy Girl Paradox Explained</title>
+      <link>https://rs.io/the-boy-girl-paradox-explained/</link>
+      <pubDate>Wed, 05 Mar 2014 18:35:04 +0000</pubDate>
+      
+      <guid>https://rs.io/the-boy-girl-paradox-explained/</guid>
+      <description>Probability theory is notorious for violating human intuition. Consider the Boy Girl Paradox:</description>
+    </item>
+    
+    <item>
+      <title>The Secretary Problem Explained: Dating Mathematically</title>
+      <link>https://rs.io/the-secretary-problem-explained-dating/</link>
+      <pubDate>Mon, 03 Mar 2014 18:17:36 +0000</pubDate>
+      
+      <guid>https://rs.io/the-secretary-problem-explained-dating/</guid>
+      <description>I was, to put it mildly, something of a mess after my last relationship imploded.</description>
+    </item>
+    
+    <item>
+      <title>Worldbuilding, Worldbuilders, and Mathematics</title>
+      <link>https://rs.io/worldbuilding-worldbuilders-mathematics/</link>
+      <pubDate>Fri, 28 Feb 2014 17:53:07 +0000</pubDate>
+      
+      <guid>https://rs.io/worldbuilding-worldbuilders-mathematics/</guid>
+      <description>This week, I was introduced to the hobby of worldbuilding &amp;#8212; inventing imaginary places, making maps, elaborating histories.</description>
+    </item>
+    
+    <item>
+      <title>What Makes Something Interesting?</title>
+      <link>https://rs.io/what-makes-something-interesting/</link>
+      <pubDate>Sat, 22 Feb 2014 03:45:22 +0000</pubDate>
+      
+      <guid>https://rs.io/what-makes-something-interesting/</guid>
+      <description>Francis Galton, cousin of Charles Darwin and maybe best known for his work on intelligence, was a bit obsessed with the idea that people have certain innate traits.</description>
+    </item>
+    
+    <item>
+      <title>The Science of Problem Solving</title>
+      <link>https://rs.io/the-science-of-problem-solving/</link>
+      <pubDate>Fri, 21 Feb 2014 02:40:46 +0000</pubDate>
+      
+      <guid>https://rs.io/the-science-of-problem-solving/</guid>
+      <description>Mathematics is like the One Ring in the Lord of the Rings.</description>
+    </item>
+    
+    <item>
+      <title>Bill Thurston on Reading Hard Things</title>
+      <link>https://rs.io/bill-thurston-reading-hard-things/</link>
+      <pubDate>Wed, 25 Dec 2013 04:30:49 +0000</pubDate>
+      
+      <guid>https://rs.io/bill-thurston-reading-hard-things/</guid>
+      <description>I was really amazed by my first encounters with serious mathematics textbooks.</description>
+    </item>
+    
+    <item>
+      <title>Two Cultures of Number Theorists</title>
+      <link>https://rs.io/two-cultures-number-theorists/</link>
+      <pubDate>Mon, 23 Dec 2013 04:27:43 +0000</pubDate>
+      
+      <guid>https://rs.io/two-cultures-number-theorists/</guid>
+      <description>There is a famous distinction in prime number theory between the number theorists who like to multiply primes, and the number theorists who like to add primes.</description>
+    </item>
+    
+    <item>
+      <title>Scott Aaronson on Mathematics</title>
+      <link>https://rs.io/scott-aaronson-mathematics/</link>
+      <pubDate>Wed, 18 Dec 2013 04:03:09 +0000</pubDate>
+      
+      <guid>https://rs.io/scott-aaronson-mathematics/</guid>
+      <description>From Luke&amp;#8217;s recent interview of Scott Aaronson (theoretical compsci guy at MIT, who blogs here):</description>
+    </item>
+    
+    <item>
+      <title>Categories for the Working Philosopher</title>
+      <link>https://rs.io/categories-working-philosopher/</link>
+      <pubDate>Tue, 19 Nov 2013 03:26:52 +0000</pubDate>
+      
+      <guid>https://rs.io/categories-working-philosopher/</guid>
+      <description>Elaine Landry is working on putting together a book, Categories for the Working Philosopher.</description>
+    </item>
+    
+    <item>
+      <title>Epsilon-Delta Proof Intuition</title>
+      <link>https://rs.io/epsilon-delta-proof-intuition/</link>
+      <pubDate>Mon, 18 Nov 2013 03:24:59 +0000</pubDate>
+      
+      <guid>https://rs.io/epsilon-delta-proof-intuition/</guid>
+      <description>There&amp;#8217;s a nice question on MathOverflow about the mental experience of mathematics.</description>
+    </item>
+    
+    <item>
+      <title>Bad at math? Have you tried steroids?</title>
+      <link>https://rs.io/testosterone-and-math/</link>
+      <pubDate>Fri, 01 Nov 2013 02:39:54 +0000</pubDate>
+      
+      <guid>https://rs.io/testosterone-and-math/</guid>
+      <description>Men with lower T performed better than other groups on measures of spatial/mathematical ability, tasks at which men normally excel.</description>
+    </item>
+    
+    <item>
+      <title>Reading Math: Tips and Heuristics</title>
+      <link>https://rs.io/reading-math/</link>
+      <pubDate>Tue, 08 Oct 2013 04:26:47 +0000</pubDate>
+      
+      <guid>https://rs.io/reading-math/</guid>
+      <description>Reading math is tough. So tough that even Fields Medal winner Bill Thurston wrote about his near-constant confusion.</description>
+    </item>
+    
+    <item>
+      <title>Great Math Quotes</title>
+      <link>https://rs.io/great-math-quotes/</link>
+      <pubDate>Thu, 19 Sep 2013 19:07:50 +0000</pubDate>
+      
+      <guid>https://rs.io/great-math-quotes/</guid>
+      <description>I don&amp;#8217;t collect many things, who needs that junk? But I do have a collection of great math quotes that I&amp;#8217;d like to share with you.</description>
+    </item>
+    
+    <item>
+      <title>Math Art: Picasso as a Mathematician</title>
+      <link>https://rs.io/math-art/</link>
+      <pubDate>Wed, 28 Aug 2013 03:59:13 +0000</pubDate>
+      
+      <guid>https://rs.io/math-art/</guid>
+      <description>Math art.   I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life, to cut a broad swath and shave close, to drive life into a corner, and reduce it to its lowest terms.</description>
+    </item>
+    
+  </channel>
+</rss>

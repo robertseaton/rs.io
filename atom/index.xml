@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atoms on rs.io</title>
+    <link>https://rs.io/atom/</link>
+    <description>Recent content in Atoms on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Sep 2019 23:44:20 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/atom/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://rs.io/atom/civilized-mushies/</link>
+      <pubDate>Tue, 24 Sep 2019 23:44:20 -0500</pubDate>
+      
+      <guid>https://rs.io/atom/civilized-mushies/</guid>
+      <description>Psilocybin mushrooms occur in higher concentrations around human settlements than in &amp;ldquo;wild nature&amp;rdquo; (still today).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://rs.io/atom/crooked-red-cross/</link>
+      <pubDate>Tue, 24 Sep 2019 23:44:20 -0500</pubDate>
+      
+      <guid>https://rs.io/atom/crooked-red-cross/</guid>
+      <description>  There would never be a blood shortage in America again if the Red Cross et al. changed their policies. The reason they don&amp;rsquo;t is because they run a lucrative side business of &amp;ldquo;therapeutic phlebotomies&amp;rdquo; 
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://rs.io/atom/hedge-fund-truisms/</link>
+      <pubDate>Tue, 24 Sep 2019 23:44:20 -0500</pubDate>
+      
+      <guid>https://rs.io/atom/hedge-fund-truisms/</guid>
+      <description>  A truism at the commodities hedge fund I used to work at was the &amp;ldquo;the Saudis are always lying&amp;rdquo; along with &amp;ldquo;never be long a country&amp;rsquo;s currency if they have their own word for afternoon nap&amp;rdquo; 
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://rs.io/atom/infrared-brain-hack/</link>
+      <pubDate>Tue, 24 Sep 2019 23:44:20 -0500</pubDate>
+      
+      <guid>https://rs.io/atom/infrared-brain-hack/</guid>
+      <description>  I‘m using near infrared as a brain hack, by shining a cheap 850nm LED light on my forehead. This has, over the last 2 years, enabled me to code for weeks on end, for 12+ hours a day, with only minor cognitive decline. It’s not something I really want to do, but sometimes it’s useful. 
+ </description>
+    </item>
+    
+  </channel>
+</rss>

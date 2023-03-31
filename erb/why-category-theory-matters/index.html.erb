@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Why Category Theory Matters &middot; rs.io</title>
+
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12517909-4"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-12517909-4', { 'optimize_id': 'GTM-KG9BTZJ'});
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk', { action: 'subscribe' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/hyde.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="https://rs.io/why-category-theory-matters/" rel="canonical" type="text/html" title="rs.io" />
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="/guided-tour/"><h1>rs.io</h1></a>
+      <p class="lead">
+       like being punched in the brain 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li id="start-here"><a href="/guided-tour/">Start Here</a> </li>
+        <li><a href="/"> All Articles </a></li><li><a href="/contact/"> Contact </a></li><li><a href="/recommended-reading/"> Recommended Books </a></li>
+      </ul>
+    </nav>
+
+    <p></p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Why Category Theory Matters</h1>
+  <time datetime=2014-04-30T22:23:08Z class="post-date">Wed, Apr 30, 2014</time>
+  
+
+<blockquote>
+<p>I hope most mathematicians continue to fear and despise category theory, so I can continue to maintain a certain advantage over them.</p>
+
+<p><span id="quote-attribute">—John Baez</span></p>
+</blockquote>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/09/growth-of-category-theory.png"><img class="aligncenter size-full wp-image-480" src="https://rs.io/wp-content/uploads/2014/09/growth-of-category-theory.png" alt="growth-of-category-theory" width="618" height="387" srcset="https://rs.io/wp-content/uploads/2014/09/growth-of-category-theory.png 618w, https://rs.io/wp-content/uploads/2014/09/growth-of-category-theory-300x187.png 300w" sizes="(max-width: 618px) 100vw, 618px" /></a></p>
+
+<p>The above is a graph of the number of times the phrase &#8220;category theory&#8221; has been used in books, from about 1950 through the present. It speaks for itself.</p>
+
+<p>But why? What&#8217;s the big deal? Why does category theory matter? I&#8217;m about a quarter of the way through <em>Conceptual Mathematics: A First Introduction to Categories</em> and still not sure why I&#8217;m bothering with fleshing out all this theory. Is this just set theory for hipsters?</p>
+
+<h2 id="what-category-theory-is-about">What category theory is about</h2>
+
+<p>Category theory is, essentially, the study of mathematical structure. It&#8217;s the study of things and the mappings between those things, the translations of these objects. These are usually called objects and morphisms (or arrows, if you prefer). Objects can be thought of as sets and arrows as functions, though they are not limited to this interpretation.</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/09/category-theory.png"><img class="aligncenter size-full wp-image-479" src="https://rs.io/wp-content/uploads/2014/09/category-theory.png" alt="category-theory" width="879" height="289" srcset="https://rs.io/wp-content/uploads/2014/09/category-theory.png 879w, https://rs.io/wp-content/uploads/2014/09/category-theory-300x98.png 300w" sizes="(max-width: 879px) 100vw, 879px" /></a></p>
+
+<p>The subject&#8217;s major insight is, in order to understand something, focus on the structure preserving mappings of that something &#8212; the legal translations.</p>
+
+<h2 id="what-the-excitement-is-about">What the excitement is about</h2>
+
+<blockquote>
+<p>The vast applicability and expressiveness of category theory leads to the observation that most structures in mathematics are best understood from a category theoretic or higher category theoretic viewpoint.</p>
+
+<p><span id="quote-attribute">—<a href="http://ncatlab.org/nlab/show/category+theory">nLab</a></span></p>
+</blockquote>
+
+<p>Category theory is one of, if not the most, abstract fields of mathematics. It&#8217;s even been dubbed, as one might tease a younger sibling, &#8220;abstract nonsense.&#8221; After all, the field throws out all the specific properties of objects and instead focuses solely on their translations.</p>
+
+<p>This extreme generality of category theory means that it can say something about anything, but nothing too specific. In other words, part of the growth of category is probably because you can use it to talk about damn near anything. (See the applications below for examples.)</p>
+
+<p>In this respect, category theory is like set theory. The popularity of set theory is a result of the fact that, hey, it&#8217;s a pretty good language for talking about a lot of different types of mathematics. Most things can be formalized as a combination of sets and first order logic, and it&#8217;s not <em>that</em> unnatural to think in terms of sets so, bam, popularity.</p>
+
+<p>In <em>Categories for Software Engineering</em>, the authors put it this way: &#8220;The way we like to present category theory is as a toolbox similar to set theory: as a kind of mathematical lingua franca in the sense that it can be used for formalizing concepts that arise in our day-to-day activity.&#8221;</p>
+
+<p>This generality mirrors the difference between strong and weak methods in artificial intelligence. General methods, while widely applicable, don&#8217;t typically scale up to hard problems. Instead, specialized tools are necessary. In the same way, category theory is more of a tool for elucidating connections between mathematical structures than for solving problems &#8212; in contrast with something like linear algebra, or really any field of applied math.</p>
+
+<h3 id="benefits-of-category-theory-over-set-theory">Benefits of category theory over set theory</h3>
+
+<blockquote>
+<p>God made the integers, all the rest is the work of man.</p>
+
+<p><span id="quote-attribute">—Leopold Kronecker</span></p>
+</blockquote>
+
+<p>To be honest, I don&#8217;t like set theory. It&#8217;s artificial &#8212; the axioms aren&#8217;t obviously true, but rather the product of a search for a paradox-free foundation for mathematics. It&#8217;s sort of complicated, maybe not at the lowest levels, but definitely once you try to build up something like the real numbers. (A <a href="http://www.ams.org/notices/200811/tx081101370p.pdf">2008 issue</a> of the AMS reports, &#8220;&#8230;to expand the definition of the number 1 fully in terms of Bourbaki primitives requires over 4 trillion symbols.&#8221;)</p>
+
+<p>The whole enterprise is bizarre. As humans, we didn&#8217;t start out with sets and then build out mathematics. No, the Egyptians did arithmetic and some algebra. (<a href="https://en.wikipedia.org/wiki/History_of_mathematical_notation">The oldest extant mathematical records deal with the Pythagorean theorem.</a>) Animals have some notion of magnitude and many can even count. Set theory, rather than a natural extension of mathematical enterprise, seems more like something forced &#8212; the difference between English and Esperanto.</p>
+
+<p>As far as I can tell, the mathematical community agrees with me. Paul Cohen is the only person to ever win a Fields medal for work on foundations and today &#8220;foundations of mathematics&#8221; is code not for mathematics, but philosophy.</p>
+
+<p>So, immediately, category theory has an advantage over set theory in that it&#8217;s a less artificial construction, given that it stems directly from work in algebraic topology.</p>
+
+<p>But, beyond that, is their anything else exciting about category theory? The main draw is its ability to connect otherwise disparate fields, a sort of <a href="https://rs.io/developing-good-research-skills-compressing-knowledge/">skeleton to hang other knowledge on</a>. <a href="http://reperiendi.wordpress.com/">Mike Stay</a> and John Baez write about this in their <a href="http://arxiv.org/pdf/0903.0340.pdf">&#8220;Physics, topology, logic and computation: a Rosetta Stone&#8221;</a>, where they use category theoretic constructs to speak about the similarities between &#8212; you guessed it &#8212; physics, topology, logic, and computation.</p>
+
+<p>Jocelyn Ireson-Paine <a href="http://www.j-paine.org/make_category_theory_intuitive.html">puts it this way</a>, &#8220;category theory is a great source of unifying concepts and organizing principles.&#8221; This is the benefit of all the abstraction &#8212; by <a href="https://rs.io/math-art/">throwing away all the details</a>, an object&#8217;s structure reveals itself.</p>
+
+<p>As a concrete example, consider one of the most profound mathematical achievements, Descartes&#8217;s discovery of analytic geometry &#8212; the realization that geometry can be translated into cartesian coordinates and, thus, the power of algebra can be brought to bear on the subject.</p>
+
+<p>With category theory, this discovery can be expressed in what has to be one of the most satisfying formulas of all time:</p>
+
+<p>&#92;( P \xrightarrow{\quad f \quad} \mathbb{R}^{2} &#92;)</p>
+
+<h2 id="applications-of-category-theory">Applications of category theory</h2>
+
+<p>The above is nice and all, but it&#8217;s still just sort of hey-take-my-word-for-it, which is not so satisfying. Here are some actual examples:</p>
+
+<ul>
+<li>Category theory has been used to <a href="http://reyes-reyes.com/1999/06/01/count-nouns-mass-nouns-and-their-transformations-a-category-theoretic-unified-semantics/">study grammar and human language</a>.</li>
+<li><a href="http://arxiv.org/ftp/arxiv/papers/0803/0803.2027.pdf">In building a spreadsheet application.</a></li>
+<li>As a <a href="http://arxiv.org/PS_cache/math/pdf/0306/0306223v1.pdf">descriptive tool in neuroscience</a>.</li>
+<li>In the <a href="http://pdf.aminer.org/000/392/201/category_theory_applied_to_neural_modeling_and_graphical_representations.pdf">analysis and design of cognitive neural network architectures</a>.</li>
+<li>Many applications in <a href="http://ncatlab.org/nlab/show/applications+of+%28higher%29+category+theory#related_pages">graduate level mathematics</a> (i.e. stuff I don&#8217;t understand) and <a href="http://ncatlab.org/nlab/show/higher+category+theory+and+physics">physics</a>.</li>
+<li>In programming languages, <a href="https://en.wikibooks.org/wiki/Haskell/Category_theory">especially Haskell and most famously monads</a>, but also, for instance, a <a href="http://www.cs.cornell.edu/~ross/publications/italx/">typed assembly language</a> and work on the <a href="http://www.cs.nott.ac.uk/~txa/publ/lics01.pdf">typed lambda calculus</a>.</li>
+<li><a href="http://www.cs.cornell.edu/~ross/publications/proofgen/proofgen_tate_popl10.pdf">Generating program optimizations</a>.</li>
+<li><a href="http://www.amazon.co.uk/Space-Motion-Communicating-Agents/dp/0521738334/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1283624498&amp;sr=8-1">To model systems of interacting agents.</a></li>
+<li><a href="https://www.cs.ox.ac.uk/people/ralf.hinze/publications/WGP12.pdf">To generalize sorting algorithms.</a></li>
+<li>To understand <a href="http://bosker.wordpress.com/2012/05/10/on-editing-text/">collaborative text editing.</a></li>
+<li>To understand <a href="http://www.cs.bham.ac.uk/~mhe/papers/selection-escardo-oliva.pdf">optimal play in sequential games like chess</a>.</li>
+<li>To <a href="http://arxiv.org/pdf/math/0602053v3.pdf">formalize the notion of algorithm</a>.</li>
+<li>In <a href="http://link.springer.com/article/10.1023/A:1018963029743">the study of analogy</a>.</li>
+<li>As <a href="http://math.mit.edu/~dspivak/CT4S.pdf">&#8220;a language for experimental design patterns&#8221; and &#8220;a new vocabulary in which to think and communicate.&#8221;</a></li>
+<li>In definitions of <a href="http://www.nbi.dk/~emmeche/coPubl/97d.NABCE/ExplEmer.html">emergence</a> and discussions of <a href="http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html">biology</a>.</li>
+<li>Generally speaking, there seems to be <a href="http://golem.ph.utexas.edu/category/">a cabal of radical category theorists</a>, led by John Baez, who are reinterpreting anything interesting in category theoretic terms. (The trend reminds me of reinventing the wheel for the nth time in the nth newest programming language.)</li>
+</ul>
+
+<p>I will leave you with the following:</p>
+
+<blockquote>
+<p>&#91;Category theory&#93; does not itself solve hard problems in topology or algebra. It clears away tangled multitudes of individually trivial problems. It puts the hard problems in clear relief and makes their solution possible.</p>
+
+<p><span id="quote-attribute">—<a href="http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf">&#8220;The Last Mathematician from Hilbert’s Gottingen&#8221;</a></span></p>
+</blockquote>
+
+<h2 id="further-reading">Further Reading</h2>
+
+<ul>
+<li>If you enjoyed this, you might enjoy some of <a href="https://rs.io/articles">my other posts</a> on math, including one on <a href="https://rs.io/the-secretary-problem-explained-dating/">the secretary problem</a>, <a href="https://rs.io/stable-marriage-problem-explained/">the stable marriage problem</a>, <a href="https://rs.io/proofs-math-whats-point/">mathematical proof</a>, and <a href="https://rs.io/worldbuilding-worldbuilders-mathematics/">worldbuilding and mathematics</a>.</li>
+<li>There are several free online category theory texts, including <a href="http://katmat.math.uni-bremen.de/acc/acc.pdf"><em>Abstract and Concrete Categories &#8211; The Joy of Cats</em></a> and <a href="http://math.mit.edu/~dspivak/CT4S.pdf"><em>Category Theory for Scientists</em></a>.</li>
+<li>There&#8217;s often interesting category theoretic discussion at the <a href="http://golem.ph.utexas.edu/category/">n-Category Cafe</a>.</li>
+<li>The &#8220;Catsters&#8221; have a <a href="https://www.youtube.com/user/TheCatsters#p/u/68/xqLgGB7Hv7g">series of online videos about category theory</a>.</li>
+</ul>
+
+</div>
+
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-12517909-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

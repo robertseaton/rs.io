@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>howto on rs.io</title>
+    <link>https://rs.io/tags/howto/</link>
+    <description>Recent content in howto on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Oct 2019 15:57:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Install Pixelator on NixOS</title>
+      <link>https://rs.io/pixelator-nixos/</link>
+      <pubDate>Wed, 09 Oct 2019 15:57:00 -0500</pubDate>
+      
+      <guid>https://rs.io/pixelator-nixos/</guid>
+      <description>Download Pixelator. Clone my fork of nix-patchtools. Modify examples/pixelator.</description>
+    </item>
+    
+    <item>
+      <title>How to Look up a URL&#39;s PageRank with Ruby &#43; Open PageRank&#39;s API</title>
+      <link>https://rs.io/ruby-openpagerank-api-example/</link>
+      <pubDate>Thu, 03 Oct 2019 14:24:00 -0500</pubDate>
+      
+      <guid>https://rs.io/ruby-openpagerank-api-example/</guid>
+      <description>DomCom&amp;rsquo;s Open PageRank is a free alternative to Google&amp;rsquo;s PageRank and includes a public API.</description>
+    </item>
+    
+    <item>
+      <title>How to: Generate Rails-Compatible html.erb with Hugo</title>
+      <link>https://rs.io/rails-hugo/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/rails-hugo/</guid>
+      <description>Here&amp;rsquo;s how this site is currently generated:
+  This works really great but, thing is, I&amp;rsquo;ve been experimenting with Rails and I discovered a feature I gotta have: split, the hacker-friendly A/B framework.</description>
+    </item>
+    
+    <item>
+      <title>How to: GPU-Accelerated R/Keras on NixOS (via Docker)</title>
+      <link>https://rs.io/cuda-r-keras-nixos/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/cuda-r-keras-nixos/</guid>
+      <description>&lt;p&gt;I spent a weekend trying to get R, Keras, and CUDA to play nice together on
+NixOS. I suspect this&amp;rsquo;ll be the task I&amp;rsquo;m assigned on my first day in Hell.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

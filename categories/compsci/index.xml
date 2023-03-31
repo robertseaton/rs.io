@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>compsci on rs.io</title>
+    <link>https://rs.io/categories/compsci/</link>
+    <description>Recent content in compsci on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Apr 2014 21:24:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://rs.io/categories/compsci/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What Is The Purpose of Science? Algorithm Discovery</title>
+      <link>https://rs.io/what-is-the-purpose-of-science/</link>
+      <pubDate>Thu, 10 Apr 2014 21:24:22 +0000</pubDate>
+      
+      <guid>https://rs.io/what-is-the-purpose-of-science/</guid>
+      <description>Consider the trial of Amanda Knox. What&amp;#8217;s the purpose of the legal process here?</description>
+    </item>
+    
+    <item>
+      <title>Creativity, Fan Fiction, and Compression</title>
+      <link>https://rs.io/creativity-fan-fiction-compression/</link>
+      <pubDate>Fri, 04 Apr 2014 20:56:56 +0000</pubDate>
+      
+      <guid>https://rs.io/creativity-fan-fiction-compression/</guid>
+      <description>I&amp;#8217;ve written before about the relationship between creativity and compressibility.</description>
+    </item>
+    
+    <item>
+      <title>What Are Quantum Computers Used For?</title>
+      <link>https://rs.io/quantum-computers-used/</link>
+      <pubDate>Fri, 14 Mar 2014 22:26:32 +0000</pubDate>
+      
+      <guid>https://rs.io/quantum-computers-used/</guid>
+      <description>The literal answer to the question, &amp;#8220;What are quantum computers used for?</description>
+    </item>
+    
+    <item>
+      <title>The Ultimate Guide to Simulated Annealing</title>
+      <link>https://rs.io/ultimate-guide-simulated-annealing/</link>
+      <pubDate>Sun, 16 Feb 2014 23:31:35 +0000</pubDate>
+      
+      <guid>https://rs.io/ultimate-guide-simulated-annealing/</guid>
+      <description>&amp;nbsp;
+Imagine that you&amp;#8217;re approached by the Greek goddess of discord, Eris and, given that Eris is a cruel goddess, she places you into the mathematical space above.</description>
+    </item>
+    
+    <item>
+      <title>Relationship Between Incompleteness and The Halting Problem</title>
+      <link>https://rs.io/relationship-incompleteness-halting-problem/</link>
+      <pubDate>Tue, 10 Sep 2013 19:03:50 +0000</pubDate>
+      
+      <guid>https://rs.io/relationship-incompleteness-halting-problem/</guid>
+      <description>Yesterday, while googling around for information on hyperoperations, I came across Scott Aaronson&amp;#8217;s essay, &amp;#8220;Who can name the bigger number?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Ultimate Guide to Simulated Annealing &middot; rs.io</title>
+
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12517909-4"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-12517909-4', { 'optimize_id': 'GTM-KG9BTZJ'});
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk', { action: 'subscribe' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/hyde.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="https://rs.io/ultimate-guide-simulated-annealing/" rel="canonical" type="text/html" title="rs.io" />
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="/guided-tour/"><h1>rs.io</h1></a>
+      <p class="lead">
+       like being punched in the brain 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li id="start-here"><a href="/guided-tour/">Start Here</a> </li>
+        <li><a href="/"> All Articles </a></li><li><a href="/contact/"> Contact </a></li><li><a href="/recommended-reading/"> Recommended Books </a></li>
+      </ul>
+    </nav>
+
+    <p></p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>The Ultimate Guide to Simulated Annealing</h1>
+  <time datetime=2014-02-16T23:31:35Z class="post-date">Sun, Feb 16, 2014</time>
+  
+
+<p>&nbsp;</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/optimization-space.jpg"><img class="aligncenter size-full wp-image-286" src="https://rs.io/wp-content/uploads/2014/08/optimization-space.jpg" alt="optimization-space" width="516" height="438" srcset="https://rs.io/wp-content/uploads/2014/08/optimization-space.jpg 516w, https://rs.io/wp-content/uploads/2014/08/optimization-space-300x254.jpg 300w" sizes="(max-width: 516px) 100vw, 516px" /></a>Imagine that you&#8217;re approached by the Greek goddess of discord, Eris and, given that Eris is a cruel goddess, she places you into the mathematical space above. She promises, &#8220;If you climb to the highest point, I will release you.&#8221;</p>
+
+<p>This would not be too difficult except, like most encounters with Greek gods, there&#8217;s a catch. The goddess, in her wickedness, has blinded you. You can only tell whether or not a step will take you upwards or downwards. How might you find the highest peak? You think for a while and decide to climb upwards. From any position, you choose the direction that will increase your elevation.</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/hill-climb.jpg"><img class="aligncenter size-full wp-image-284" src="https://rs.io/wp-content/uploads/2014/08/hill-climb.jpg" alt="hill-climb" width="548" height="475" srcset="https://rs.io/wp-content/uploads/2014/08/hill-climb.jpg 548w, https://rs.io/wp-content/uploads/2014/08/hill-climb-300x260.jpg 300w" sizes="(max-width: 548px) 100vw, 548px" /></a></p>
+
+<p>So you climb and you get to the top of this hill. Nothing happens. What gives? You&#8217;ve climbed the top of <em>a</em> peak, but you haven&#8217;t made it to the top of the <em>highest</em> peak.</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/hill-climb-fail.jpg"><img class="aligncenter size-full wp-image-283" src="https://rs.io/wp-content/uploads/2014/08/hill-climb-fail.jpg" alt="hill-climb-fail" width="582" height="481" srcset="https://rs.io/wp-content/uploads/2014/08/hill-climb-fail.jpg 582w, https://rs.io/wp-content/uploads/2014/08/hill-climb-fail-300x247.jpg 300w" sizes="(max-width: 582px) 100vw, 582px" /></a></p>
+
+<p>You&#8217;re going to have to modify your strategy. There are a couple options. You might stumble around at random. You&#8217;d make it to the top eventually, but it would take an eternity, most of which would be wasted exploring areas that you&#8217;d seen before.</p>
+
+<p>Instead, you could adopt a systematic approach to exploring the landscape, which is much more efficient. With a memory better than mine, you could keep track of where you&#8217;ve visited before and focus on exploring those areas you haven&#8217;t. You&#8217;d start by checking out one mountain, and then the three surrounding, and then the nine surrounding those three, and so on until you&#8217;d found the highest point.</p>
+
+<p>This would work, unless Eris has placed you in an infinite space where the elevation increases forever. If you imagine the edges extending forever, such a space would look like this:</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/infinite-climb.jpg"><img class="aligncenter size-full wp-image-285" src="https://rs.io/wp-content/uploads/2014/08/infinite-climb.jpg" alt="infinite-climb" width="503" height="377" srcset="https://rs.io/wp-content/uploads/2014/08/infinite-climb.jpg 503w, https://rs.io/wp-content/uploads/2014/08/infinite-climb-300x224.jpg 300w" sizes="(max-width: 503px) 100vw, 503px" /></a></p>
+
+<p>In such a space, Eris is twisted indeed, as there is no way to reach the peak of an infinite climb. Let&#8217;s imagine that you toil away at this Sisyphean task for a few billion years until one of the gods, Clementia, takes pity on you. She offers you a new deal, telling you, &#8220;I will transport you to a new, finite space. If you can reach one of the highest peaks with sufficient haste, I will free you.&#8221; You accept the deal and are teleported here:</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/clementia-space.jpg"><img class="aligncenter size-full wp-image-282" src="https://rs.io/wp-content/uploads/2014/08/clementia-space.jpg" alt="clementia-space" width="527" height="394" srcset="https://rs.io/wp-content/uploads/2014/08/clementia-space.jpg 527w, https://rs.io/wp-content/uploads/2014/08/clementia-space-300x224.jpg 300w" sizes="(max-width: 527px) 100vw, 527px" /></a></p>
+
+<p>This space features a number of valleys filled with sub-optimal plateaus. If you use your original &#8220;upwards climb&#8221; strategy, you may find yourself stuck for eternity. Alternatively, you could try searching the entire space, but then you run the risk of violating Clementia&#8217;s &#8220;sufficient haste&#8221; clause.</p>
+
+<p>The trick is to modify the initial strategy to sometimes accept a downwards move, which will help prevent you from getting stuck at a sub-optimal plateau. Such a path might look like this:</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/broken-annealing.jpg"><img class="aligncenter size-full wp-image-281" src="https://rs.io/wp-content/uploads/2014/08/broken-annealing.jpg" alt="broken-annealing" width="480" height="355" srcset="https://rs.io/wp-content/uploads/2014/08/broken-annealing.jpg 480w, https://rs.io/wp-content/uploads/2014/08/broken-annealing-300x221.jpg 300w" sizes="(max-width: 480px) 100vw, 480px" /></a></p>
+
+<p>Still, this is not quite right, as you can see from the path above. The problem is that your strategy never terminates. You quickly reach a high point, but then are forced to accept sub-optimal moves as those are the only possible moves.</p>
+
+<p>To get around this, you need to modify your strategy such that you&#8217;re willing to accept a lot of bad moves early on, but fewer and fewer with time, until you eventually will accept no sub-optimal moves. This strategy will eventually reach a plateau.</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/simulated-annealing-path.jpg"><img class="aligncenter size-full wp-image-287" src="https://rs.io/wp-content/uploads/2014/08/simulated-annealing-path.jpg" alt="simulated-annealing-path" width="480" height="355" srcset="https://rs.io/wp-content/uploads/2014/08/simulated-annealing-path.jpg 480w, https://rs.io/wp-content/uploads/2014/08/simulated-annealing-path-300x221.jpg 300w" sizes="(max-width: 480px) 100vw, 480px" /></a></p>
+
+<p>That&#8217;s more like it. With this strategy, you begin to climb. Clementia frees you and you live happily ever after (or at least until Eris decides to visit you again.)</p>
+
+<p>Except for formalizing the details, this is the basic intuition behind simulated annealing, which <a href="http://en.wikipedia.org/wiki/Simulated_annealing">Wikipedia calls</a> a &#8220;generic probabilistic metaheuristic for the global optimization problem of locating a good approximation to the global optimum of a given function in a large search space.&#8221; I&#8217;m not convinced such a sentence was written with the realization that humans will have to read it. In English, <strong>simulated annealing is a method for finding an approximation of the highest (or lowest) point in a space,</strong> like the one above.</p>
+
+<h2 id="shaking-intuition">Shaking Intuition</h2>
+
+<p>Simulated annealing can be understood in terms of body language. It can be <a href="https://rs.io/reading-math/">felt as motion</a>. You can think of simulated annealing as shaking.</p>
+
+<p>Imagine that you&#8217;re holding onto one of the spaces above. (Masterfully illustrated below.) You place a ping pong ball into the space, with the goal of moving the ball to the lowest place possible. The ball will naturally roll downwards thanks to gravity, but sometimes it will get stuck. When it gets stuck, the natural response is to shake the space, dislodging the ping pong ball, allowing it to continue rolling downwards.</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/simulated-annealing-ping-pong.jpg"><img class="aligncenter size-full wp-image-288" src="https://rs.io/wp-content/uploads/2014/08/simulated-annealing-ping-pong.jpg" alt="simulated-annealing-ping-pong" width="480" height="358" srcset="https://rs.io/wp-content/uploads/2014/08/simulated-annealing-ping-pong.jpg 480w, https://rs.io/wp-content/uploads/2014/08/simulated-annealing-ping-pong-300x223.jpg 300w" sizes="(max-width: 480px) 100vw, 480px" /></a></p>
+
+<p>There you have it. That&#8217;s the core of simulated annealing. You could have invented it and, now, if you ever do come across Eris, you&#8217;ll be prepared. (On second thought, if you ever come across Eris and are teleported to a mathematical space, see a psychiatrist.)</p>
+
+<h2 id="further-reading">Further Reading</h2>
+
+<ul>
+<li>The early strategies mentioned are real search algorithms. The &#8220;just climb upwards&#8221; algorithm is aptly named <a href="http://en.wikipedia.org/wiki/Hill_climbing">hill-climbing</a>. The random exploration method is known as a <a href="http://en.wikipedia.org/wiki/Random_walk">random walk</a> and the &#8220;systematic exploration approach&#8221; described is <a href="http://en.wikipedia.org/wiki/Breadth-first_search">breadth-first search</a>. Its cousin, <a href="http://en.wikipedia.org/wiki/Depth-first_search">depth-first search</a>, would have worked equally well.</li>
+<li>For more on simulated annealing, try <a href="http://homes.ieu.edu.tr/~agokce/Courses/Chapter%208%20Theory%20and%20Practice%20of%20simulated%20Annealing.pdf">this paper</a>. For different interesting search algorithms, check out <a href="http://machinelearning.wustl.edu/mlpapers/paper_files/BoyanM00.pdf">STAGE</a> and <a href="http://en.wikipedia.org/wiki/Beam_search">beam search</a>.</li>
+<li>Simulated annealing is a heuristic search algorithm, meaning that it attempts to find a &#8220;close enough&#8221; solution. This makes it well suited for otherwise intractable problems, such as those in NP. There&#8217;s some discussion of applications <a href="http://stackoverflow.com/questions/2988857/simulated-annealing-applications">here</a>.</li>
+<li>Simulated annealing was inspired by the natural process of <a href="http://en.wikipedia.org/wiki/Annealing_%28metallurgy%29">annealing in metallurgy</a>. It&#8217;s one of a class of <a href="http://arxiv.org/abs/1307.4186">algorithms inspired by nature</a>. Scott Aaronson writes about the relationship between nature and complexity in <a href="http://www.scottaaronson.com/papers/npcomplete.pdf">this paper</a>.</li>
+<li>In <a href="http://amzn.to/2ibxzxN"><em>The Algorithm Design Manual</em></a> (recommended), the author writes (of heuristic search algorithms) , &#8220;I find &#91;simulated annealing&#93; to be the most reliable method to apply in practice.&#8221;</li>
+</ul>
+
+</div>
+
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-12517909-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

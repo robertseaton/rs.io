@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.58.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Secretary Problem Explained: Dating Mathematically &middot; rs.io</title>
+
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12517909-4"></script>
+<script src="https://unpkg.com/shufflejs@5.2.2/dist/shuffle.min.js"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-12517909-4', { 'optimize_id': 'GTM-KG9BTZJ'});
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk', { action: 'subscribe' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/hyde.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://rs.io/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="https://rs.io/favicon.png">
+
+  
+  <link href="https://rs.io/rails/the-secretary-problem-explained-dating/index.txt.erb" rel="alternate" type="text/plain" title="rs.io" />
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://rs.io/guided-tour/"><h1>rs.io</h1></a>
+      <p class="lead">
+       like being punched in the brain 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li id="start-here"><a href="https://rs.io/guided-tour/">Start Here</a> </li>
+        <li><a href="https://rs.io/"> All Articles </a></li><li><a href="https://rs.io/contact/"> Contact </a></li>
+      </ul>
+    </nav>
+
+    <p></p>
+  </div>
+</aside>
+
+    <main class="content container">
+      <div class="post">
+  <h1>The Secretary Problem Explained: Dating Mathematically</h1>
+  <time datetime=2014-03-03T18:17:36Z class="post-date">Mon, Mar 3, 2014</time>
+  
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/marriage-proposal.png"><img class="aligncenter size-full wp-image-357" src="https://rs.io/wp-content/uploads/2014/08/marriage-proposal.png" alt="marriage-proposal" width="590" height="393" srcset="https://rs.io/wp-content/uploads/2014/08/marriage-proposal.png 590w, https://rs.io/wp-content/uploads/2014/08/marriage-proposal-300x199.png 300w" sizes="(max-width: 590px) 100vw, 590px" /></a></p>
+
+<p>I was, to put it mildly, something of a mess after my last relationship imploded. I wrote poems and love letters and responded to all of her text messages with <em>two</em> messages and all sorts of other things that make me cringe now and <em>oh god what was I thinking.</em></p>
+
+<p>I learned a few things, though, like when you tell strangers that your long-term relationship has just been bulldozed as thoroughly as the Romans salted Carthage, they do this sorta Vulcan mind-meld and become super empathy machines. Even older folk, who usually treat me not exactly as a non-person but something sorta like it. At the time, I had this gruff, Russian psychiatrist I&#8217;d see once a month, and he was all like, &#8220;Been there, man. Have some Diazepam and relax.&#8221; &#8212; except, you know, he said it in Russian-accented doctorspeak.</p>
+
+<p>This was surprising to me then but isn&#8217;t now. Live long enough and you&#8217;ll have your heart thrashed about a fair bit, along with the rest of you. Mention heartbreak and everyone has their own private story &#8212; maybe more than one. It&#8217;s not Vietnam. They&#8217;ve been there and they understand.</p>
+
+<p>I sometimes wonder &#8212; if I could go back in time, what could I say to comfort my former self? What can you say to someone that will pull them out of the throes of hormone-induced suffering? Probably nothing. The remarkable thing about words is not that they sometimes move people, but that they so seldom do.</p>
+
+<p>Still, I think I&#8217;d say something like, &#8220;My boy, evolution is a motherfucker and you need a new woman in your life.&#8221; He would probably protest that women were the problem and that he&#8217;s pretty sure the last thing he needs is another one. Then, I would let out the most condescending sigh imaginable, the sort of sigh that says I-have-unimaginable-wisdom-born-of-experience-and-am-from-the-future, and say, &#8220;Not that sort of woman. You need the Queen. You need mathematics &#8211;&#8221;</p>
+
+<p>&#8220;Let me tell you about the secretary problem.&#8221;</p>
+
+<h2 id="the-secretary-problem">The Secretary Problem</h2>
+
+<p>Consider the plight of John. John&#8217;s 25. He lives in Utah and likes country music, hunting, and four wheelers. You probably see where I&#8217;m going with this. That&#8217;s right, ladies and gentlemen. John is gay.</p>
+
+<p>The recent supreme court decision overturning gay marriage in Utah has him thinking. He&#8217;d like to settle down one day &#8212; maybe adopt a child with the right man. He has a couple short-term relationships going on right now, but <em>married</em> to Bruce or Sidney? No way.</p>
+
+<p>How can he guarantee that he snags, if not Mr. Right, at least Mr. Close Enough? He figures he ought to date at least a few different men, and then&#8230; what?</p>
+
+<p>Imagine he meets this guy, Jim. They make out at a party, hang out a few times, and realize that they&#8217;re kinda already dating, and decide to label it by making it Facebook official. Things progress. John asks Jim to move in with him.</p>
+
+<p>Then there&#8217;s a snag. Valentine&#8217;s Day rolls around, and John finds himself, at the last minute, at Walmart, looking to pick up some chocolate and cheap Champagne, wondering, &#8220;Is this really what love feels like?&#8221;</p>
+
+<p>What should John do in such a situation? Should he next Jim and take his chances on the dating market? Or should he settle and settle down?</p>
+
+<p>John&#8217;s predicament is an example of <strong>the secretary problem</strong> &#8212; so named because we can imagine the same situation, except instead of a man searching for a husband, it&#8217;s a man interviewing potential secretaries. When is the candidate good enough? What&#8217;s the stopping criteria?</p>
+
+<h2 id="formalizing-the-secretary-problem">Formalizing the Secretary Problem</h2>
+
+<p>We can abstract away the specifics of John&#8217;s plight and formalize the problem. Let&#8217;s consider each man that John dates as an integer &#8212; the integer representing his &#8220;husbandness factor.&#8221; Thus, a sequence of lovers like &#92;((Sidney, Bruce, Jim, Todd, Keith, Bruno, Terrence, Cecil, Nigel)&#92;) would translate to the integer sequence &#92;((1, 3, 7, 5, 8, 3, 1, 9, 4)&#92;).</p>
+
+<p>This problem would be trivial &#8212; just pick the max element &#8212; if it weren&#8217;t for two properties.</p>
+
+<ol>
+<li>There&#8217;s no look-ahead. When I&#8217;m dating any one person, I&#8217;m unable to look forward into the future and consider who I&#8217;ll date in the future. I have no crystal ball.</li>
+<li>There&#8217;s no undo. If I date a great girl for a while, but leave her in a misguided attempt to find someone better, there&#8217;s a good chance she&#8217;ll be unavailable in the future, married to some douche named Trevor who played lacrosse in high school.</li>
+</ol>
+
+<p>We can think of it visually as a machine which is fed a tape of integers. It has two actions: it can either stop or it can consider the next integer. The machine&#8217;s objective is to stop on the highest integer.</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/tape.png"><img class="aligncenter size-full wp-image-359" src="https://rs.io/wp-content/uploads/2014/08/tape.png" alt="tape" width="550" height="130" srcset="https://rs.io/wp-content/uploads/2014/08/tape.png 550w, https://rs.io/wp-content/uploads/2014/08/tape-300x70.png 300w" sizes="(max-width: 550px) 100vw, 550px" /></a></p>
+
+<h2 id="real-world-examples-of-the-secretary-problem">Real World Examples of the Secretary Problem</h2>
+
+<p>At the heart of the secretary problem is conflict. Do I reject the current possibility in hopes of landing something better if I keep looking, or do I stick with what I have?</p>
+
+<p>Examples of the secretary problem:</p>
+
+<ul>
+<li>This is the case with <strong>dating</strong>. I could commit to the woman I&#8217;m with right now or I could start texting her best friend.</li>
+<li>It applies to <strong>hiring not just secretaries, but anyone</strong>. Is the current candidate the right person for the job or should I hold out for someone better? What if no one comes along?</li>
+<li>When <strong>buying a house</strong> &#8212; should I put an offer on some house, or should I hope that something better comes along in the future? How many houses ought I look at before deciding?</li>
+<li>The opposite side of the interviewing problem: <strong>should I accept this job offer</strong> or should I keep looking?</li>
+<li><strong>Alligator hunting</strong>, at least in Louisiana. Each year, you&#8217;re allotted a set number of tags based on the size of your property &#8212; that&#8217;s the amount of alligators you&#8217;re allowed to &#8220;harvest&#8221; under the law. When you stumble across an alligator, you&#8217;re forced to decide: should I kill this one or save my tag and hope a bigger one comes along?</li>
+<li>When <strong>selling a house or a car or, well, any big ticket item</strong>. When presented with an offer, you&#8217;re forced to decide: should I accept this offer or hope something better comes along?</li>
+<li><strong>Deciding whether or not to buy something at the supermarket.</strong> Is this bread cheap enough or should I hope for a sale next week? The same goes for clothing and, well, anything.</li>
+</ul>
+
+<h2 id="solving-the-secretary-problem">Solving the Secretary Problem</h2>
+
+<p><em>The following contains the formal details for solving the secretary problem analytically. It can safely be skimmed.</em></p>
+
+<p>As a general problem solving strategy, I often find it useful to first come up with a horrible solution to a problem and then iterate from there. I call this <a href="https://rs.io/how-to-get-started-with-anything/">the dumbest-thing-that-could-work heuristic</a>.</p>
+
+<p>In the case of the secretary problem, our horrible solution can be <strong>the lucky number seven rule</strong>: In an integer sequence, always choose the 7th item.</p>
+
+<p>If we follow this rule, we&#8217;re essentially picking an integer at random. The probability, then, of picking the best element from an integer sequence of length &#92;(N&#92;) with this rule is &#92;(\frac{1}{N}&#92;).</p>
+
+<p>To beat this, let&#8217;s consider how people go about solving secretary problems in the real world. I don&#8217;t know anyone who&#8217;s dating strategy is, &#8220;I&#8217;m going to date seven women and pick the seventh one &#8212; no matter what.&#8221; One would have to be a staunch nihilist to adopt such a strategy.</p>
+
+<p>Instead, the strategy most adults adopt &#8212; insofar as they consciously adopt a strategy &#8212; is to date around for a while, gain some experience, figure out one&#8217;s options, and then choose the next best thing that comes around.</p>
+
+<p>In terms of the secretary problem, such a strategy would be: Scan through the first &#92;( r &#92;) integers and then choose the first option that is greater than any of the integers in &#92;( &#91;1,r&#93; &#92;).</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/number-line-for-secretary-problem.png"><img class="aligncenter size-full wp-image-358" src="https://rs.io/wp-content/uploads/2014/08/number-line-for-secretary-problem.png" alt="number-line-for-secretary-problem" width="560" height="69" srcset="https://rs.io/wp-content/uploads/2014/08/number-line-for-secretary-problem.png 560w, https://rs.io/wp-content/uploads/2014/08/number-line-for-secretary-problem-300x36.png 300w" sizes="(max-width: 560px) 100vw, 560px" /></a></p>
+
+<p>How does this new strategy compare to our old one? The above image is a prop to help understand the discussion that follows. Assume that &#92;(i&#92;), the greatest integer, occurs at &#92;(n + 1&#92;).</p>
+
+<p>In order for this strategy to return the maximum integer, two conditions must hold:</p>
+
+<ol>
+<li><p>The maximum integer cannot be contained in &#92;(&#91;1,r&#93;&#92;). Our strategy is to scan through &#92;(&#91;1,r&#93;&#92;), so if the solution is in &#92;(&#91;1,r&#93;&#92;), we necessarily</p>
+
+<p>lose. This can also be stated as &#92;(n \geq r&#92;).</p></li>
+
+<li><p>Our strategy is going to select the first integer, &#92;( i &#92;),  in &#92;(&#91;r,N&#93;&#92;) that&#8217;s greater than &#92;(max(&#91;1,r&#93;)&#92;). Given this, there cannot be any integers greater than &#92;(i&#92;) that come after &#92;(i&#92;), otherwise the strategy will lose. Alternatively put, the condition &#92;(max(&#91;1,r&#93;) == max(&#91;1,n&#93;)&#92;) must be true.</p></li>
+</ol>
+
+<p>Thus, to calculate the effectiveness of our strategy, we need to know the</p>
+
+<p>probability that both of these will hold. For <em>some</em> given &#92;(n&#92;), this is:</p>
+
+<p>$$ \frac{r}{n}\frac{1}{N} $$</p>
+
+<p>&#92;(\frac{1}{N}&#92;) is the probability that &#92;(i&#92;) occurs at &#92;(n + 1&#92;) (remember, this is the probability for <em>some</em> n, not <em>the</em> n), while &#92;(\frac{r}{n}&#92;) is a consequence of the second condition &#8212; the probability that the condition &#92;(max(&#91;1,r&#93;) == max(&#91;1,n&#93;)&#92;) is true.</p>
+
+<p>To calculate the probability for some &#92;(r&#92;), &#92;(P&reg;&#92;), not for arbitrary &#92;(n&#92;), but for everything, we need to sum over &#92;(n \geq r&#92;):</p>
+
+<p>$$ P&reg; = \frac{1}{N}(\frac{r}{r}+\frac{r}{r+1}+\frac{r}{r+2}+&#8230;+\frac{r}{N-1}&#41; = \frac{r}{N}\sum_{n=r}^{N-1}\frac{1}{n} $$</p>
+
+<p>This is a Riemann approximation of an integral so we can rewrite it. By letting &#92;(\lim_{N \rightarrow \infty}\frac{r}{N} = x&#92;) and &#92;(\lim_{N \rightarrow \infty}\frac{n}{N} = t&#92;), we get:</p>
+
+<p>$$ P&reg; = \lim_{N \rightarrow \infty}\frac{r}{N}\sum_{n=r}^{N-1}\frac{N}{n}\frac{1}{N}=x\int_{x}^{1}\frac{1}{t}dt=-x \ln x $$</p>
+
+<p>Now, we can find the optimal &#92;(r&#92;) by solving for &#92;(P&rsquo;&reg; = 0&#92;). By plugging &#92;(r_{optimal}&#92;) back into &#92;(P&reg;&#92;), we will find the probability of success.</p>
+
+<p>$$ P&rsquo;&reg; = -\ln x &#8211; 1 = 0 \Rightarrow x = \frac{1}{e} $$</p>
+
+<p>$$ P(\frac{1}{e}) = \frac{1}{e} \approx .37 $$</p>
+
+<h2 id="what-the-math-says">What The Math Says</h2>
+
+<p>How can this math help John? Well, the optimal solution is for him to estimate how many people he believes he might reasonably date in the future, say &#92;(20&#92;). We plug this into the equation &#92;(\frac{N}{e}&#92;), where &#92;(N=20&#92;), &#92;(\frac{20}{e} \approx 7&#92;).</p>
+
+<p>This result says that, if John wants to maximize his probability of ending up with the best possible man, he should date 7 men and, then, marry the next man who is better than all of those men.</p>
+
+<p><em>However</em>, we have sneaked some probably untenable assumptions into our analysis. <strong>The typical secretary problem maximizes the chances of landing the <em>best</em> man, and considers all other outcomes equally bad.</strong> Most on the dating market are not thinking this way &#8212; they want to maximize the probability that they end up with a pretty good spouse. It&#8217;s not all or nothing.</p>
+
+<h2 id="maximizing-the-probability-of-a-good-outcome">Maximizing the Probability of a Good Outcome</h2>
+
+<p>Fear not, there&#8217;s a modification of the secretary problem that maximizes the probability of finding a high-value husband or wife. I&#8217;m not going to cover the derivation for this flavor of the secretary problem in this post. (For technical details, see <a href="http://www.sie.arizona.edu/MURI/papers/pdfs/thrust%20A/Bearden%20Skip%20the%20Sq%20Rt%20of%20n%20Thrusts%20A%20and%20C.pdf">Bearden 2005</a>), but suffice it to say, the strategy is the same except we use a cutoff of &#92;(\sqrt{N}&#92;) rather than &#92;(\frac{N}{e}&#92;).</p>
+
+<p>Consider dating for the average American. Assuming one wants to settle down by the age of 35, one has the opportunity for somewhere between 7 and 30 sorta serious relationships. Taking the geometric mean, we get about 14. Johannes Kepler famously considered 11 women for his second wife, so this is, at the very least, not absurd.</p>
+
+<p>The square root of 14 is about 4. Thus, <strong>according to the math, one should have four kinda serious relationships and then marry the next person that comes along who is better than all of those four.</strong></p>
+
+<h2 id="how-human-behavior-compares-to-the-mathematics">How Human Behavior Compares to the Mathematics</h2>
+
+<p>The median number of premarital sexual partners is unclear, with <a href="http://answers.google.com/answers/threadview/id/557010.html">different sources reporting markedly different numbers</a>. I&#8217;m inclined to place the number between 1 and 4. Using this number as a rough proxy for the number of kinda serious relationships before marriage, <strong>reality conflicts with the results of the secretary problem.</strong></p>
+
+<p>Most people aren&#8217;t dating even four other people before marriage. What gives?</p>
+
+<p>At its core, the conflict implies that either the solution to the secretary problem does not apply or that humans are not gathering enough information before getting married.</p>
+
+<p>A number of experimental studies (<a href="http://repository.ust.hk/dspace/handle/1783.1/888">here</a>, <a href="http://www.sciencedirect.com/science/article/pii/S0749597897926832">here</a>, <a href="http://pubsonline.informs.org/doi/abs/10.1287/mnsc.1060.0535">here</a>, and <a href="http://www.sciencedirect.com/science/article/pii/S0022249605000726">here</a>) support the second view. When undergraduates are asked to participate in a secretary problem in its pure form &#8212; that is, like the tape discussed in the beginning &#8212; they almost always stop searching too early.</p>
+
+<p>One might argue that evolution ought to know what it&#8217;s doing &#8212; especially when it comes to human mating &#8212; and that we should have a strong prior that dating is, in some sense, optimal. Such a view ignores that we&#8217;re no longer in small tribes of 50 to 200. Humans did not evolve to deal with modern society and the horror that is dating today. A preference for sugar was adaptive 50,000 years ago, but we have since invented the Twinkie.</p>
+
+<p>Indeed, probably pre-civilized human life didn&#8217;t look a whole lot like a secretary problem. Back then, one might have had to choose from a half dozen possible mates &#8212; mates one had already known for many years. This looks more like a game of pick the maximal element from a set than a bona fide secretary problem.</p>
+
+<h2 id="what-sort-of-optimal">What Sort of Optimal?</h2>
+
+<p>If I use the results of the secretary problem to find a wife, I will almost certainly end up worse off than a strictly rational agent who pursues the same goal, but probably better than those who have no strategy at all. At the end of the day, the secretary problem is a mathematical abstraction and fails to take into account much of complexity of, you know, <em>reality</em>.</p>
+
+<p>The secretary problem assumes, for instance, that our only means of finding out about the distribution of potential mates and our preferences for them is via dating. This isn&#8217;t remotely true. We can observe the actions of others, introspect, read about human mate preferences, discuss our experiences with friends, and otherwise share information.</p>
+
+<p>It&#8217;s also not the case that we&#8217;re dating men or women at random. There are a huge number of filters that go into deciding whether or not someone is marriage material. Are we of similar ages and interests? Do we speak the same language? Do I feel any attraction for this person?</p>
+
+<p>A theory of optimal dating would need to take this and much more into account. There are a near unlimited number of paths to strategically choosing who to spend the rest of your life with, and a lot of that strategy consists of things other than <em>choosing.</em> You might try getting fit, earning more money, adopting interesting hobbies, honing social skills, meeting lots of the opposite sex, taking voice acting or improv classes, and so on. An optimal theory of dating would, I have no doubt, emphasize some subset of these skills.</p>
+
+<h2 id="all-together-now">All Together Now</h2>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/08/marriage-proposal.png"><img class="aligncenter size-full wp-image-357" src="https://rs.io/wp-content/uploads/2014/08/marriage-proposal.png" alt="marriage-proposal" width="590" height="393" srcset="https://rs.io/wp-content/uploads/2014/08/marriage-proposal.png 590w, https://rs.io/wp-content/uploads/2014/08/marriage-proposal-300x199.png 300w" sizes="(max-width: 590px) 100vw, 590px" /></a></p>
+
+<ul>
+<li>The secretary problem is the problem of deciding whether or not one should stick with what they have or take their chances on something new.</li>
+<li>Examples of secretary problems include finding a husband or wife, hiring a secretary, and alligator hunting.</li>
+<li>The solution to the secretary problem suggests that the optimal dating strategy is to estimate the maximum number of people you&#8217;re willing to date, &#92;(N&#92;), and then date &#92;(\sqrt{N}&#92;) people and marry the next person who is better than all of those.</li>
+<li>In laboratory experiments, people often stop searching too soon when solving secretary problems. This suggests that the average person doesn&#8217;t date enough people prior to marriage.</li>
+<li>At the end of the day, the secretary problem is a mathematical abstraction and there is more to finding the &#8220;right&#8221; person than dating a certain number of people.</li>
+</ul>
+
+<h2 id="further-reading">Further Reading</h2>
+
+<ul>
+<li>Wikipedia has a page on <a href="http://en.wikipedia.org/wiki/Secretary_problem">the secretary problem</a>.</li>
+<li>For some history of the secretary problem, see the paper, <a href="http://www.math.upenn.edu/~ted/210F10/References/Secretary.pdf">&#8220;Who solved the secretary problem?&#8221;</a></li>
+<li>For more details on the problem and its variants, see the paper <a href="http://isites.harvard.edu/fs/docs/icb.topic1250332.files/freeman%201983%20the%20secretary%20problem.pdf">&#8220;The Secretary Problem and Its Extensions: A Review.&#8221;</a></li>
+<li>For resources on how to solve the secretary problem, there&#8217;s <a href="http://thebryanhernandezgame.files.wordpress.com/2010/05/secretary-problem.pdf">this paper</a> and <a href="http://www.math.uah.edu/stat/urn/Secretary.html">this introduction</a>.</li>
+<li>On making the leap from the lucky number seven rule to the optimal solution, there&#8217;s <a href="http://math.stackexchange.com/questions/45266/secretary-problem-why-is-the-optimal-solution-optimal">some discussion on the math StackExchange</a>.</li>
+<li>This article was inspired by a recent blog post by a mathematician on <a href="http://davidwees.com/content/how-i-used-mathematics-choose-my-next-apartment">using the secretary problem to find a house</a>. Discussion <a href="http://www.reddit.com/r/math/comments/1z72if/a_mathematician_finds_a_house_the_secretary/">here</a>.</li>
+</ul>
+
+</div>
+
+
+      <div class="simple-subscription-form">
+  <form action="http://mercury.rs.io:3000/subscribers" method="post">
+    <h2 style="color:white;">You've read this far⁠—want more?</h2>
+    <p>Subscribe and I'll e-mail you updates along with the ideas that I don't
+    share anywhere else.</p>
+    <div class="form-row" style="margin-bottom:20px;">
+      <div class="col-8">
+	<input name="subscriber[email]" id="email" class="form-control"
+	       placeholder="E-mail Address" required>
+
+      </div>
+      <div class="col-4 subscribe">
+	<button class="btn btn-dark form-control"
+	style="font-weight:700;">Go</button>
+      </div>
+      <input type="hidden" name="recaptcha_token" id="recaptchaResponse">
+    </div>
+    
+    
+				    </form>
+            <div class="recaptcha-disclaimer"><p><em>This site is protected by reCAPTCHA and the Google
+    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+    <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p></em></div>
+</div>
+
+
+    </main>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-12517909-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

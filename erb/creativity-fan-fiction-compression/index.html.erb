@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Creativity, Fan Fiction, and Compression &middot; rs.io</title>
+
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12517909-4"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-12517909-4', { 'optimize_id': 'GTM-KG9BTZJ'});
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LesaLoUAAAAALPXoo08lCE1YXfZ1uTzgh-4qVQk', { action: 'subscribe' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://rs.io/css/hyde.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="https://rs.io/creativity-fan-fiction-compression/" rel="canonical" type="text/html" title="rs.io" />
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="/guided-tour/"><h1>rs.io</h1></a>
+      <p class="lead">
+       like being punched in the brain 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li id="start-here"><a href="/guided-tour/">Start Here</a> </li>
+        <li><a href="/"> All Articles </a></li><li><a href="/contact/"> Contact </a></li><li><a href="/recommended-reading/"> Recommended Books </a></li>
+      </ul>
+    </nav>
+
+    <p></p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Creativity, Fan Fiction, and Compression</h1>
+  <time datetime=2014-04-04T20:56:56Z class="post-date">Fri, Apr 4, 2014</time>
+  
+
+<p>I&#8217;ve written <a href="https://rs.io/creativity-literature-compression/">before</a> about <a href="https://rs.io/what-makes-something-interesting/">the relationship between creativity and compressibility</a>. To recap, a creative work is one that violates expectations, while a compressible statement is one that&#8217;s expected.</p>
+
+<p>For instance, consider two sentences:</p>
+
+<ul>
+<li>Where there&#8217;s a will, there&#8217;s a way.</li>
+<li>Where there&#8217;s a will, there&#8217;s a family fighting over it.</li>
+</ul>
+
+<p>I suspect you find the second more creative.</p>
+
+<p>Three more examples of creative sentences:</p>
+
+<ul>
+<li>When I was a kid, my parents moved a lot. But I always found them.</li>
+<li>Dad always said laughter is the best medicine, which is why several of us died of tuberculosis.</li>
+<li>A girl phoned me the other day and said, &#8220;Come on over, there&#8217;s nobody home.&#8221; I went over. Nobody was home.</li>
+</ul>
+
+<p>Given that less predictable sentences are more creative, and less predictable sentences are less compressible, creative works ought to be less compressible than non-creative ones. And, indeed, I found some evidence for this in <a href="https://rs.io/creativity-literature-compression/">a previous experiment</a>.</p>
+
+<p>But that was not too compelling as it compared technical, repetitive works to novels. This time, I decided to compare very creative writing to normal creative writing.</p>
+
+<h2 id="methods">Methods</h2>
+
+<p><strong>The idea then is to compare the compressibility of amateur creative writing with that of experts.</strong> To accomplish this, I took 95 of the <a href="http://www.gutenberg.org/browse/scores/top">top 100 most downloaded</a> works from Project Gutenberg. I figure that these count as very creative works given that they&#8217;re still popular now, ~100 years later. For amateur writing, I downloaded <a href="https://www.fanfiction.net/community/Extraordinary-Fanfiction-Novels/85665/">107 fanfiction novels listed as &#8220;extraordinary&#8221;</a> from fanfiction.net.</p>
+
+<p>I then selected the strongest open source text compression algorithm, as ranked by <a href="http://mattmahoney.net/dc/text.html">Matt Mahoney&#8217;s compression benchmark</a> &#8212; <a href="https://github.com/robertseaton/paq8pxd">paq8pxd</a>. I ran each work through the strongest level of compression, and then compared the ratio of compressed to uncompressed space for each work.</p>
+
+<h2 id="analysis-and-results">Analysis and Results</h2>
+
+<p>I plotted the data and examined the outliers, which turned out to be compressed files that my script incorrectly grabbed from Project Gutenberg. I removed these from the analysis, and produced this:</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/09/fanfic-graph1.png"><img class="aligncenter size-full wp-image-425" src="https://rs.io/wp-content/uploads/2014/09/fanfic-graph1.png" alt="fanfic-graph1" width="527" height="439" srcset="https://rs.io/wp-content/uploads/2014/09/fanfic-graph1.png 527w, https://rs.io/wp-content/uploads/2014/09/fanfic-graph1-300x249.png 300w" sizes="(max-width: 527px) 100vw, 527px" /></a></p>
+
+<p>Here the red dots are fanfiction novels, while the blue-ish ones are classic works of literature. <strong>If the hypothesis were true, we&#8217;d expect them to fall into distinct clusters. They don&#8217;t.</strong></p>
+
+<p>Comparing compressibility alone produces this:</p>
+
+<p><a href="https://rs.io/wp-content/uploads/2014/09/fanfic-graph2.png"><img class="aligncenter size-full wp-image-424" src="https://rs.io/wp-content/uploads/2014/09/fanfic-graph2.png" alt="fanfic-graph2" width="485" height="369" srcset="https://rs.io/wp-content/uploads/2014/09/fanfic-graph2.png 485w, https://rs.io/wp-content/uploads/2014/09/fanfic-graph2-300x228.png 300w" sizes="(max-width: 485px) 100vw, 485px" /></a></p>
+
+<p>Again, no clear grouping.</p>
+
+<p>Finally, I applied a <a href="http://en.wikipedia.org/wiki/Student%27s_t-test">Student&#8217;s t test</a> to the data, which should tell us if the two data sets are distinguishable mathematically. Based on the graphs, intuition says it won&#8217;t, and indeed it doesn&#8217;t:</p>
+
+<pre class="lang:r decode:true ">Welch Two Sample t-test
+
+data:  dat$RATIO by dat$CLASS
+t = -1.3614, df = 144.26, p-value = 0.1755
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.009924785  0.001828882
+sample estimates:
+    mean in group  FANFIC mean in group  LITERATURE 
+                0.2230189                 0.2270668</pre>
+
+<p><strong>The p-value here is 0.1755, which is not statistical significance.</strong> The code and data necessary to reproduce this are available <a href="https://github.com/robertseaton/fanfic-analysis">on GitHub</a>.</p>
+
+<h2 id="discussion">Discussion</h2>
+
+<p>I must admit a certain amount of disappointment that we weren&#8217;t able to distinguish between literature and fanfiction by compressiblity. That would have been pretty neat.</p>
+
+<p><strong>So, what does this failure mean? There at least six hypothesis that get a boost based on this evidence:</strong></p>
+
+<ul>
+<li>Creativity and compression are unrelated.</li>
+<li>A view of humans as compressors is wrong.</li>
+<li>Human compression algorithms (the mind) and machine compression algorithms are distinct to the point where one cannot act as a proxy for the other.</li>
+<li>Compression algorithms are still too crude to detect subtle differences.</li>
+<li>Fanfiction is as creative as literature.</li>
+</ul>
+
+<p>And so on and, of course, it&#8217;s possible that I messed up the analysis somewhere.</p>
+
+<p>Of all of these, my preferred explanation is that compression technology (and hardware) are not yet good enough. Consider, again, the difference between a creative and a not-creative sentence:</p>
+
+<ul>
+<li>Honesty is the best policy.</li>
+
+<li><p>I want to die peacefully in my sleep, like my grandfather&#8230; not screaming and</p>
+
+<p>yelling like the passengers in his car.</p></li>
+</ul>
+
+<p>The first is boring, right? Why? Because we&#8217;ve heard it before. It&#8217;s compressible &#8212; but how&#8217;s a compression algorithm supposed to know that? Well, maybe if we trained it on a corpus of the English language, gave it the sort of experience that <em>we</em> have, then it might be able to identify a cliche.</p>
+
+<p>But that&#8217;s not how compression works <em>right now</em>. I mean, sure, some have certain models of language, but nothing approaching the memory that a human has, which is where &#8220;human as computer compression algorithm&#8221; breaks down. Even with the right algorithm &#8212; maybe we already know it &#8212; the hardware isn&#8217;t there.</p>
+
+<p>Scientific American <a href="http://www.scientificamerican.com/article/what-is-the-memory-capacity/?page=1">estimates</a> that the brain has a storage capacity of about 2.5 petabytes, which is sort of hand-wavy and I&#8217;d bet on the high side, but every estimate I&#8217;ve seen puts the brain at more than 4 gigabytes, by at least a couple orders of magnitude. I don&#8217;t know of any compressors that use memory anywhere near that, and certainly none that use anything like 2.5 petabytes. At the very least, we&#8217;re limited by hardware here.</p>
+
+<p>But don&#8217;t just listen to me. Make up your own mind.</p>
+
+<h2 id="further-reading">Further Reading</h2>
+
+<ul>
+<li>The idea that kicked off this whole line of inquiry is Jürgen Schmidhuber&#8217;s theory of creativity, which<a href="https://rs.io/what-makes-something-interesting/">I&#8217;ve written up</a>. If you prefer, <a href="http://vimeo.com/7441291">here&#8217;s the man himself</a> giving a talk on the subject.</li>
+<li>To reproduce what I&#8217;ve done here, <a href="https://github.com/robertseaton/fanfic-analysis">everything is on GitHub</a>. That repository is also a good place to download the top 100 Gutenberg novels in text form, as rate-limiting makes scraping them a multi-day affair.</li>
+<li>I similarly compared technical writing and creative writing in <a href="https://rs.io/creativity-literature-compression/">this post</a> and <em>did</em> find that technical writing was more compressible.</li>
+<li>For an introduction to data compression algorithms, try <a href="http://www.infoq.com/presentations/zip-code">this video</a>.</li>
+<li>Check out the <a href="http://www.hutter1.net/prize/hfaq.htm">Hutter Prize</a>, which emphasizes the connection between progress in compression and artificial intelligence.</li>
+<li>For a ranking of compressors, try Matt Mahoney&#8217;s <a href="http://mattmahoney.net/dc/text.html">large text compression benchmark</a>. He&#8217;s also written a <a href="http://mattmahoney.net/dc/dce.html">data compression tutorial</a>.</li>
+</ul>
+
+</div>
+
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-12517909-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

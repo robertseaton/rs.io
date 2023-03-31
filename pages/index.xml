@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on rs.io</title>
+    <link>https://rs.io/pages/</link>
+    <description>Recent content in Pages on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Sep 2019 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://rs.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>https://rs.io/contact/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/contact/</guid>
+      <description>I used to be hesitant about contacting people on the web.</description>
+    </item>
+    
+    <item>
+      <title>Recommended Reading</title>
+      <link>https://rs.io/recommended-reading/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/recommended-reading/</guid>
+      <description>I have always imagined that Paradise will be a kind of library.</description>
+    </item>
+    
+    <item>
+      <title>Start Here</title>
+      <link>https://rs.io/guided-tour/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://rs.io/guided-tour/</guid>
+      <description>Look on my works, ye Mighty, and e-mail them to your entire contacts list.</description>
+    </item>
+    
+  </channel>
+</rss>

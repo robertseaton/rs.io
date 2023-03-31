@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quotes on rs.io</title>
+    <link>https://rs.io/tags/quotes/</link>
+    <description>Recent content in quotes on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Sep 2013 19:07:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://rs.io/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Great Math Quotes</title>
+      <link>https://rs.io/great-math-quotes/</link>
+      <pubDate>Thu, 19 Sep 2013 19:07:50 +0000</pubDate>
+      
+      <guid>https://rs.io/great-math-quotes/</guid>
+      <description>I don&amp;#8217;t collect many things, who needs that junk? But I do have a collection of great math quotes that I&amp;#8217;d like to share with you.</description>
+    </item>
+    
+    <item>
+      <title>Omar on Reading</title>
+      <link>https://rs.io/omar-reading/</link>
+      <pubDate>Sun, 15 Sep 2013 19:05:58 +0000</pubDate>
+      
+      <guid>https://rs.io/omar-reading/</guid>
+      <description>Either the books contain what is in the Koran, in which case we don&amp;#8217;t have to read them, or they contain the opposite of what is in the Koran, in which case we must not read them.</description>
+    </item>
+    
+  </channel>
+</rss>

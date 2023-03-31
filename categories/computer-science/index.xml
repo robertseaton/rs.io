@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Science on rs.io</title>
+    <link>https://rs.io/categories/computer-science/</link>
+    <description>Recent content in Computer Science on rs.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Apr 2014 21:24:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://rs.io/categories/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What Is The Purpose of Science? Algorithm Discovery</title>
+      <link>https://rs.io/what-is-the-purpose-of-science/</link>
+      <pubDate>Thu, 10 Apr 2014 21:24:22 +0000</pubDate>
+      
+      <guid>https://rs.io/what-is-the-purpose-of-science/</guid>
+      <description>Consider the trial of Amanda Knox. What&amp;#8217;s the purpose of the legal process here?
+Well, let&amp;#8217;s think about. Here&amp;#8217;s how a trial works (at least on television): the prosecution and the defense get up in front of the jury. They present evidence &amp;#8212; it could be DNA, surveillance videos, witness testimony, or even a tic-tac-toe playing chicken. Closing arguments follow. Then the jury deliberates and returns a verdict.
+Now, the purpose of all this evidence is ostensibly to get at the truth.</description>
+    </item>
+    
+    <item>
+      <title>Creativity, Fan Fiction, and Compression</title>
+      <link>https://rs.io/creativity-fan-fiction-compression/</link>
+      <pubDate>Fri, 04 Apr 2014 20:56:56 +0000</pubDate>
+      
+      <guid>https://rs.io/creativity-fan-fiction-compression/</guid>
+      <description>I&amp;#8217;ve written before about the relationship between creativity and compressibility. To recap, a creative work is one that violates expectations, while a compressible statement is one that&amp;#8217;s expected.
+For instance, consider two sentences:
+ Where there&amp;#8217;s a will, there&amp;#8217;s a way. Where there&amp;#8217;s a will, there&amp;#8217;s a family fighting over it.  I suspect you find the second more creative.
+Three more examples of creative sentences:
+ When I was a kid, my parents moved a lot.</description>
+    </item>
+    
+    <item>
+      <title>What Are Quantum Computers Used For?</title>
+      <link>https://rs.io/quantum-computers-used/</link>
+      <pubDate>Fri, 14 Mar 2014 22:26:32 +0000</pubDate>
+      
+      <guid>https://rs.io/quantum-computers-used/</guid>
+      <description>The literal answer to the question, &amp;#8220;What are quantum computers used for?&amp;#8221; is well, nothing, since we can&amp;#8217;t build them yet &amp;#8212; but maybe you want to know the answer to the question, &amp;#8220;What will quantum computers be used for?&amp;#8221;
+That I can answer.
+There is a lot of magical thinking around quantum computers. That they&amp;#8217;re the next big thing in computing, that they&amp;#8217;ll replace classical computers, that they&amp;#8217;ll be impossibly fast and small.</description>
+    </item>
+    
+    <item>
+      <title>The Ultimate Guide to Simulated Annealing</title>
+      <link>https://rs.io/ultimate-guide-simulated-annealing/</link>
+      <pubDate>Sun, 16 Feb 2014 23:31:35 +0000</pubDate>
+      
+      <guid>https://rs.io/ultimate-guide-simulated-annealing/</guid>
+      <description>&amp;nbsp;
+Imagine that you&amp;#8217;re approached by the Greek goddess of discord, Eris and, given that Eris is a cruel goddess, she places you into the mathematical space above. She promises, &amp;#8220;If you climb to the highest point, I will release you.&amp;#8221;
+This would not be too difficult except, like most encounters with Greek gods, there&amp;#8217;s a catch. The goddess, in her wickedness, has blinded you. You can only tell whether or not a step will take you upwards or downwards.</description>
+    </item>
+    
+    <item>
+      <title>Relationship Between Incompleteness and The Halting Problem</title>
+      <link>https://rs.io/relationship-incompleteness-halting-problem/</link>
+      <pubDate>Tue, 10 Sep 2013 19:03:50 +0000</pubDate>
+      
+      <guid>https://rs.io/relationship-incompleteness-halting-problem/</guid>
+      <description>Yesterday, while googling around for information on hyperoperations, I came across Scott Aaronson&amp;#8217;s essay, &amp;#8220;Who can name the bigger number?&amp;#8221; You should go read it. I&amp;#8217;ll wait.
+On the halting problem:
+ The proof is a beautiful example of self-reference. It formalizes an old argument about why you can never have perfect introspection: because if you could, then you could determine what you were going to do ten seconds from now, and then do something else.</description>
+    </item>
+    
+  </channel>
+</rss>
